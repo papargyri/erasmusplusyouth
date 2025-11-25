@@ -280,7 +280,7 @@
             grid-template-columns: 1fr 1fr;
             gap: 30px;
             margin-bottom: 40px;
-            align-items: start;
+            align-items: stretch;
         }
 
         .contact-form-card {
@@ -290,6 +290,7 @@
             border: 1px solid rgba(255,255,255,0.1);
             display: flex;
             flex-direction: column;
+            height: 100%;
         }
         .contact-form-card form {
             flex: 1;
@@ -340,7 +341,7 @@
         }
         .form-group textarea {
             resize: vertical;
-            min-height: 120px;
+            min-height: 400px;
         }
         .send-btn {
             width: 100%;
@@ -368,6 +369,7 @@
             display: flex;
             flex-direction: column;
             gap: 18px;
+            height: 100%;
         }
         .info-card {
             background: var(--card-bg);
