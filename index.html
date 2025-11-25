@@ -86,6 +86,7 @@
         .view-section { display: none; padding: 80px 20px; max-width: 1200px; margin: 0 auto; animation: fadeIn 0.6s ease; }
         .view-section.active-view { display: block; }
         @keyframes fadeIn { from { opacity: 0; transform: translateY(20px); } to { opacity: 1; transform: translateY(0); } }
+        @keyframes zoomIn { from { opacity: 0; transform: scale(0.9); } to { opacity: 1; transform: scale(1); } }
 
         .page-header { text-align: center; margin-bottom: 60px; }
         .page-header h1 { font-size: 3rem; margin-bottom: 10px; color: var(--accent-green); text-shadow: 0 0 20px rgba(192, 215, 47, 0.2); }
@@ -168,19 +169,34 @@
             position: relative;
             width: 100%;
             padding-top: 56.25%; /* 16:9 Aspect Ratio */
-            /* Dark Satellite Map Background */
-            background: url('https://upload.wikimedia.org/wikipedia/commons/e/ec/World_map_blank_without_borders.svg') no-repeat center center;
-            background-size: cover;
-            filter: invert(90%) hue-rotate(180deg) brightness(0.4) contrast(1.2); 
             border-radius: 15px;
             border: 1px solid rgba(255,255,255,0.1);
             box-shadow: inset 0 0 50px #000, 0 0 20px rgba(192, 215, 47, 0.1);
             margin-top: 20px;
+            overflow: hidden;
+            background-color: #1a252f;
         }
-        
+
+        .map-wrapper::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: url('https://upload.wikimedia.org/wikipedia/commons/e/ec/World_map_blank_without_borders.svg') no-repeat center center;
+            background-size: cover;
+            filter: invert(90%) hue-rotate(180deg) brightness(0.4) contrast(1.2);
+            z-index: 1;
+        }
+
         .map-overlay {
-            position: absolute; top: 0; left: 0; width: 100%; height: 100%;
-            filter: none; 
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: 2;
         }
 
         /* The "Painted" Neon Beacon */
@@ -254,16 +270,24 @@
         .modal-close { position: absolute; top: 20px; right: 20px; font-size: 2rem; color: var(--text-white); cursor: pointer; background: rgba(0,0,0,0.5); width: 40px; height: 40px; border-radius: 50%; display: flex; align-items: center; justify-content: center; z-index: 10; }
         .modal-img { width: 100%; height: 400px; object-fit: cover; display: block; }
         .modal-body { padding: 40px; }
+        .modal-gallery { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 15px; margin-top: 30px; }
+        .modal-gallery img { width: 100%; height: 200px; object-fit: cover; border-radius: 8px; cursor: pointer; transition: var(--transition); border: 1px solid rgba(255,255,255,0.1); }
+        .modal-gallery img:hover { transform: scale(1.05); border-color: var(--accent-green); box-shadow: 0 5px 15px rgba(192, 215, 47, 0.3); }
         
         /* --- 9. CONTACT --- */
-        .contact-container { display: grid; grid-template-columns: 1fr 1fr; gap: 40px; margin-bottom: 40px; }
+        .contact-container {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 30px;
+            margin-bottom: 40px;
+            align-items: start;
+        }
 
         .contact-form-card {
             background: var(--card-bg);
-            padding: 40px;
+            padding: 35px;
             border-radius: 15px;
             border: 1px solid rgba(255,255,255,0.1);
-            height: 100%;
             display: flex;
             flex-direction: column;
         }
@@ -280,7 +304,7 @@
             align-items: center;
             gap: 12px;
             font-size: 1.5rem;
-            margin-bottom: 30px;
+            margin-bottom: 25px;
             color: var(--text-white);
         }
         .contact-form-card h3 i {
@@ -288,7 +312,7 @@
             font-size: 1.3rem;
         }
         .form-group {
-            margin-bottom: 20px;
+            margin-bottom: 18px;
         }
         .form-group label {
             display: block;
@@ -333,7 +357,7 @@
             align-items: center;
             justify-content: center;
             gap: 10px;
-            margin-top: 10px;
+            margin-top: 15px;
         }
         .send-btn:hover {
             transform: translateY(-2px);
@@ -343,9 +367,7 @@
         .contact-info-section {
             display: flex;
             flex-direction: column;
-            gap: 20px;
-            height: 100%;
-            justify-content: space-between;
+            gap: 18px;
         }
         .info-card {
             background: var(--card-bg);
@@ -381,11 +403,11 @@
 
         .map-frame {
             width: 100%;
-            height: 350px;
+            height: 300px;
             border-radius: 15px;
             overflow: hidden;
             border: 1px solid rgba(255,255,255,0.1);
-            margin-top: 20px;
+            background: var(--card-bg);
         }
         .map-frame iframe {
             width: 100%;
@@ -408,15 +430,88 @@
         .tw:hover { background: var(--tw); box-shadow: 0 0 20px var(--tw); }
         .copyright { font-size: 0.9rem; color: #607d8b; border-top: 1px solid rgba(255,255,255,0.05); padding-top: 20px; width: 80%; margin: 0 auto; }
 
+        /* --- NEON REGISTER BUTTON --- */
+        .email-btn {
+            display: inline-block;
+            padding: 18px 50px;
+            background: rgba(192, 215, 47, 0.1);
+            color: var(--accent-green);
+            font-size: 1.2rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            border: 2px solid var(--accent-green);
+            border-radius: 8px;
+            transition: var(--transition);
+            position: relative;
+            overflow: hidden;
+            box-shadow: 0 0 20px rgba(192, 215, 47, 0.3),
+                        inset 0 0 20px rgba(192, 215, 47, 0.1);
+        }
+        .email-btn::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(90deg, transparent, rgba(192, 215, 47, 0.3), transparent);
+            transition: left 0.5s;
+        }
+        .email-btn:hover {
+            background: rgba(192, 215, 47, 0.2);
+            box-shadow: 0 0 30px rgba(192, 215, 47, 0.6),
+                        inset 0 0 30px rgba(192, 215, 47, 0.2);
+            transform: translateY(-3px);
+        }
+        .email-btn:hover::before {
+            left: 100%;
+        }
+
         /* --- RESPONSIVE --- */
-        @media (max-width: 1024px) { .masonry-grid { column-count: 3; } }
-        @media (max-width: 768px) { 
+        @media (max-width: 1024px) {
+            .masonry-grid { column-count: 3; }
+            .page-header h1 { font-size: 2.5rem; }
+        }
+        @media (max-width: 768px) {
             .masonry-grid { column-count: 2; }
-            .nav-menu { position: fixed; left: -100%; top: 70px; flex-direction: column; background-color: var(--bg-header); width: 100%; height: calc(100vh - 70px); align-items: center; justify-content: center; transition: 0.3s; }
+            .nav-menu {
+                position: fixed;
+                left: -100%;
+                top: 70px;
+                flex-direction: column;
+                background-color: var(--bg-header);
+                width: 100%;
+                height: calc(100vh - 70px);
+                align-items: center;
+                justify-content: center;
+                transition: 0.3s;
+            }
             .nav-menu.active { left: 0; }
-            .main-title { font-size: 2rem; } 
-            .contact-container, .network-content-grid { grid-template-columns: 1fr; }
-            .stats-container { flex-direction: column; gap: 20px; }
+            .main-title { font-size: 2rem; }
+            .sub-title { font-size: 1.5rem; }
+            .page-header h1 { font-size: 2rem; }
+            .page-header p { font-size: 1rem; }
+            .contact-container,
+            .network-content-grid {
+                grid-template-columns: 1fr;
+            }
+            .stats-container {
+                flex-direction: column;
+                gap: 20px;
+            }
+            .map-frame {
+                height: 250px;
+            }
+            .email-btn {
+                padding: 15px 35px;
+                font-size: 1rem;
+            }
+        }
+        @media (max-width: 480px) {
+            .masonry-grid { column-count: 1; }
+            .page-header h1 { font-size: 1.8rem; }
+            .card-content h3 { font-size: 1.2rem; }
         }
     </style>
 </head>
@@ -466,19 +561,8 @@
                 <h1>Impact Stories</h1>
                 <p>Real experiences from our participants across Europe.</p>
             </div>
-            <div class="grid-3">
-                <div class="card" onclick="openStory(1)">
-                    <div class="card-img"><img src="https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&fit=crop&w=800&q=80"></div>
-                    <div class="card-content"><span class="card-tag">Experience</span><h3>My First Erasmus</h3><p>"I never thought I could travel alone until I joined this project in Spain..."</p><a class="btn-read">Read Full Story <i class="fas fa-arrow-right"></i></a></div>
-                </div>
-                <div class="card" onclick="openStory(2)">
-                    <div class="card-img"><img src="https://images.unsplash.com/photo-1531482615713-2afd69097998?auto=format&fit=crop&w=800&q=80"></div>
-                    <div class="card-content"><span class="card-tag">Training</span><h3>Digital Skills</h3><p>How we learned to code and design in just 7 days during the youth exchange.</p><a class="btn-read">Read Full Story <i class="fas fa-arrow-right"></i></a></div>
-                </div>
-                <div class="card" onclick="openStory(3)">
-                    <div class="card-img"><img src="https://images.unsplash.com/photo-1517486808906-6ca8b3f04846?auto=format&fit=crop&w=800&q=80"></div>
-                    <div class="card-content"><span class="card-tag">Inclusion</span><h3>Breaking Barriers</h3><p>A heartwarming story about overcoming language barriers and making friends.</p><a class="btn-read">Read Full Story <i class="fas fa-arrow-right"></i></a></div>
-                </div>
+            <div class="grid-3" id="stories-grid">
+                <!-- Stories will be dynamically loaded here -->
             </div>
         </section>
 
@@ -610,12 +694,12 @@
                             <p>Monday - Friday: 10:00 - 17:00</p>
                         </div>
                     </div>
-                </div>
-            </div>
 
-            <!-- Map -->
-            <div class="map-frame">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10406088.961439278!2d10.451525999999999!3d50.8465573!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46ed8886cfadda85%3A0x72ef99e6b3fcf079!2sEurope!5e0!3m2!1sen!2s!4v1709470000000!5m2!1sen!2s" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <!-- Map -->
+                    <div class="map-frame">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3009.4757869767434!2d21.78798!3d40.30245!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1357a2c8e5e5e5e5%3A0x5e5e5e5e5e5e5e5e!2sAvlioti%2017%2C%20Kozani%20501%2000%2C%20Greece!5e0!3m2!1sen!2sgr!4v1732477000000!5m2!1sen!2sgr" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
             </div>
         </section>
     </main>
@@ -625,7 +709,12 @@
         <div class="modal-container">
             <div class="modal-close" onclick="closeStory()">&times;</div>
             <img id="modal-img" src="" class="modal-img">
-            <div class="modal-body"><div id="modal-tag"></div><h2 id="modal-title"></h2><div id="modal-text"></div></div>
+            <div class="modal-body">
+                <div id="modal-tag"></div>
+                <h2 id="modal-title"></h2>
+                <div id="modal-text"></div>
+                <div id="modal-gallery" class="modal-gallery"></div>
+            </div>
         </div>
     </div>
 
@@ -670,9 +759,10 @@
 
                 // --- SPECIAL FIRST LOGO (HELLAS) ---
                 const hellasLink = document.createElement('a');
-                hellasLink.href = "#"; hellasLink.className = "masonry-item"; hellasLink.target = "_blank";
-                // Direct Link from Prompt
-                hellasLink.innerHTML = `<img src="https://lh3.googleusercontent.com/pw/AP1GczM88-Q3YyBNCNu-g3M7GzYQZ8-K8Z8Z8Z8Z8Z8Z8Z8Z8Z8Z8Z8Z8Z8Z8Z8Z8Z8Z8Z8Z8Z8Z8Z8Z8Z8Z8Z8=w600-h600-p-k" alt="Hellas For Us" class="partner-logo">`;
+                hellasLink.href = "https://www.hellasforus.com"; // Hellas for Us website
+                hellasLink.className = "masonry-item";
+                hellasLink.target = "_blank";
+                hellasLink.innerHTML = `<img src="images/Logo Hellas.png" alt="Hellas For Us" class="partner-logo" onerror="this.style.display='none'">`;
                 grid.appendChild(hellasLink);
 
                 // --- PARTNER LOGOS FROM IMAGES FOLDER ---
@@ -794,20 +884,63 @@
                 });
             }
 
-            // 3. NEON MAP DOTS (Full list of active countries)
-            // Coordinates approx % X/Y relative to the specific map projection used
+            // 3. NEON MAP DOTS (Capital Cities)
+            // Coordinates in % X/Y relative to the map projection
+            // X = longitude percentage, Y = latitude percentage (top to bottom)
             const countries = [
-                {n:"Turkey", x:56, y:36}, {n:"Malta", x:51, y:40}, {n:"Netherlands", x:49, y:26},
-                {n:"Egypt", x:56, y:45}, {n:"Poland", x:53, y:27}, {n:"North Macedonia", x:53, y:35},
-                {n:"Cyprus", x:57, y:40}, {n:"Romania", x:55, y:32}, {n:"Germany", x:50, y:28},
-                {n:"Slovakia", x:53, y:30}, {n:"Serbia", x:53, y:33}, {n:"Azerbaijan", x:63, y:35},
-                {n:"Croatia", x:52, y:33}, {n:"Ukraine", x:57, y:28}, {n:"Albania", x:53, y:36},
-                {n:"Portugal", x:44, y:35}, {n:"Bulgaria", x:55, y:35}, {n:"Italy", x:51, y:35},
-                {n:"Spain", x:45, y:35}, {n:"Greece", x:54, y:38}, {n:"Armenia", x:62, y:36},
-                {n:"Moldova", x:56, y:30}, {n:"Lithuania", x:55, y:24}, {n:"Czech Republic", x:51, y:29},
-                {n:"Slovenia", x:51, y:32}, {n:"Hungary", x:53, y:31}, {n:"Ecuador", x:24, y:60},
-                {n:"France", x:48, y:31}, {n:"Belgium", x:48, y:27}, {n:"Jordan", x:58, y:42},
-                {n:"Latvia", x:55, y:23}, {n:"Uganda", x:58, y:60}, {n:"Nigeria", x:50, y:55}
+                // Western Europe (Capitals)
+                {n:"Portugal", x:45, y:37},      // Lisbon
+                {n:"Spain", x:46, y:38},         // Madrid
+                {n:"France", x:48, y:32},        // Paris
+                {n:"Belgium", x:49, y:28},       // Brussels
+                {n:"Netherlands", x:49, y:27},   // Amsterdam
+                {n:"Germany", x:51, y:28},       // Berlin
+
+                // Northern Europe - Nordic & Baltic (Capitals)
+                {n:"Iceland", x:42, y:18},       // Reykjavik
+                {n:"Norway", x:50, y:21},        // Oslo
+                {n:"Sweden", x:52, y:22},        // Stockholm
+                {n:"Finland", x:55, y:21},       // Helsinki
+                {n:"Denmark", x:51, y:26},       // Copenhagen
+                {n:"Estonia", x:55, y:22},       // Tallinn
+                {n:"Latvia", x:55, y:24},        // Riga
+                {n:"Lithuania", x:55, y:26},     // Vilnius
+
+                // Central Europe (Capitals)
+                {n:"Poland", x:53, y:27},        // Warsaw
+                {n:"Czech Republic", x:51, y:29}, // Prague
+                {n:"Slovakia", x:53, y:30},      // Bratislava
+                {n:"Austria", x:51, y:31},       // Vienna
+                {n:"Hungary", x:53, y:31},       // Budapest
+                {n:"Slovenia", x:51, y:32},      // Ljubljana
+                {n:"Croatia", x:52, y:33},       // Zagreb
+                {n:"Italy", x:51, y:36},         // Rome
+                {n:"Malta", x:51, y:41},         // Valletta
+
+                // Eastern Europe (Capitals)
+                {n:"Ukraine", x:57, y:28},       // Kyiv
+                {n:"Moldova", x:56, y:31},       // Chisinau
+                {n:"Romania", x:55, y:33},       // Bucharest
+                {n:"Bulgaria", x:54, y:35},      // Sofia
+                {n:"Serbia", x:53, y:34},        // Belgrade
+
+                // Southeastern Europe (Capitals)
+                {n:"Albania", x:53, y:37},       // Tirana
+                {n:"North Macedonia", x:53, y:36}, // Skopje
+                {n:"Greece", x:54, y:39},        // Athens
+                {n:"Turkey", x:57, y:38},        // Ankara
+                {n:"Cyprus", x:57, y:40},        // Nicosia
+
+                // Caucasus & Middle East (Capitals)
+                {n:"Armenia", x:63, y:38},       // Yerevan
+                {n:"Azerbaijan", x:64, y:38},    // Baku
+                {n:"Jordan", x:59, y:43},        // Amman
+                {n:"Egypt", x:57, y:43},         // Cairo
+
+                // Latin America & Africa (Capitals)
+                {n:"Ecuador", x:23, y:62},       // Quito
+                {n:"Uganda", x:57, y:63},        // Kampala
+                {n:"Nigeria", x:49, y:58}        // Abuja
             ];
 
             function renderMap() {
@@ -833,18 +966,169 @@
                 });
             }
 
-            // 4. Modal Logic (Static Images)
+            // 4. Modal Logic & Story Data
+            // ==========================================
+            // STORY LOADING PATTERN - READ THIS FIRST
+            // ==========================================
+            //
+            // HOW TO ADD NEW STORIES FROM THE "Stories" FOLDER:
+            //
+            // 1. FOLDER STRUCTURE:
+            //    Stories/
+            //    ├── [Story Title]/
+            //    │   ├── [Story Title].docx  (Word document with story content)
+            //    │   └── (optional) other images
+            //    └── image.jpg or image.HEIC  (Main story image - can be in folder or root)
+            //
+            // 2. EXTRACT CONTENT:
+            //    - Title: Use the Word document filename (without .docx)
+            //    - Text: Extract full text from the Word document
+            //    - Main Image: Look for image named with "primary" in filename (convert HEIC to JPG if needed)
+            //    - Additional Images: All other images in the folder (for gallery display in modal)
+            //
+            // 3. ADD TO STORIES OBJECT:
+            //    Each story needs:
+            //    - title: String - from the Word document filename (e.g., "Play Me Your Feelings")
+            //    - tag: String - category tag like "Experience", "Training", "Inclusion", etc.
+            //    - excerpt: String - short preview (1-2 sentences for the card)
+            //    - text: String - full story content from Word doc (use \n\n for paragraphs)
+            //    - img: String - relative path to main image (e.g., "Stories/image.jpg")
+            //    - images: Array - paths to additional images for gallery (optional)
+            //
+            // 4. IMAGE HANDLING:
+            //    - Name the main card image with "primary" in the filename (e.g., "primary.jpg" or "IMG_primary.jpg")
+            //    - Convert HEIC to JPG: sips -s format jpeg input.HEIC --out output.jpg
+            //    - Crop if needed for card display (optional)
+            //    - Use relative paths from the root directory
+            //    - All other images will appear in the story modal as a gallery
+            //
+            // 5. EXAMPLE:
+            //    Stories/
+            //    └── Play me your feelings/
+            //        └── Play me your feelings.docx
+            //    └── IMG_2536.HEIC  → Convert to IMG_2536.jpg
+            //
+            //    Then add to stories object:
+            //    {
+            //        title: "Play Me Your Feelings",
+            //        tag: "Experience",
+            //        excerpt: "A journey exploring...",
+            //        text: "Full content from docx...",
+            //        img: "Stories/IMG_2536.jpg",
+            //        images: ["Stories/IMG_2536.jpg"]
+            //    }
+            //
+            // ==========================================
+
             const stories = {
-                1: { title: "My First Erasmus", text: "Spain changed my life...", img: "https://images.unsplash.com/photo-1546587348-d12660c30c50?auto=format&fit=crop&w=800&q=80" },
-                2: { title: "Digital Skills", text: "Coding in Tallinn...", img: "https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=800&q=80" },
-                3: { title: "Breaking Barriers", text: "Inclusion matters...", img: "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?auto=format&fit=crop&w=800&q=80" }
+                1: {
+                    title: "Play Me Your Feelings",
+                    tag: "Experience",
+                    excerpt: "A journey exploring how sound, movement, and innovation become tools for emotional expression and empowerment.",
+                    text: `From 3–7 November, Play Me Your Feelings brought together passionate and creative individuals to explore how sound, movement, and innovation can become tools for emotional expression, empowerment, and inclusion. Over five immersive days, participants experimented with innovative music-therapy tools, co-created new methods of communication through sound, shared experiences in a warm peer-to-peer setting, and connected with local culture through sustainable and community-based activities.
+
+And while the project was designed to blend music, innovation, and human connection — what truly brought it to life were the experiences lived inside the room.
+
+At first, many of us were unsure how the joystick or Touch Me device could be used in music therapy. But with Nicola's guidance, we quickly realized we were pioneers, invited to explore and push the boundaries of this new technology. The sessions took place in a cozy, welcoming space filled with big pillows, soft textures, and musical instruments — an environment that made creativity feel natural.
+
+As the days passed, confusion turned into curiosity, and curiosity turned into joy. Hours flew by while we played, moved, created sounds, and connected deeply with each other.
+
+Beyond the sessions, we bonded during a hike in Stifone and during our visit to the Vascigliano facility of La Speranza, where we explored the farm and learned more about the community behind the project.
+
+It was, for many, one of the most unique and heartwarming experiences they had ever taken part in — a week of fun, discovery, friendship, and emotional expression. A project that made everyone feel welcomed, inspired, and empowered, proving once more that music can speak where words fall short.`,
+                    img: "Stories/Play me your feelings/primary.jpeg", // Primary/featured image for card
+                    images: [
+                        "Stories/Play me your feelings/IMG_2536.jpg",
+                        "Stories/Play me your feelings/IMG_2548.jpeg",
+                        "Stories/Play me your feelings/6c217cea-7602-433a-bb71-5d88a84d8ee2.jpg"
+                    ] // Additional images for gallery
+                },
+                2: {
+                    title: "My First Erasmus",
+                    tag: "Training",
+                    excerpt: "I never thought I could travel alone until I joined this project in Spain...",
+                    text: "Spain changed my life. The connections I made, the skills I learned, and the confidence I gained transformed me completely. From navigating a new city to presenting our project results, every moment was a step towards becoming more independent and capable.",
+                    img: "https://images.unsplash.com/photo-1546587348-d12660c30c50?auto=format&fit=crop&w=800&q=80",
+                    images: []
+                },
+                3: {
+                    title: "Digital Skills",
+                    tag: "Training",
+                    excerpt: "How we learned to code and design in just 7 days during the youth exchange.",
+                    text: "Coding in Tallinn was an incredible adventure. In just one week, we went from knowing nothing about programming to creating our own web applications. The intensive training, supportive mentors, and collaborative environment made learning fun and accessible.",
+                    img: "https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=800&q=80",
+                    images: []
+                },
+                4: {
+                    title: "Breaking Barriers",
+                    tag: "Inclusion",
+                    excerpt: "A heartwarming story about overcoming language barriers and making friends.",
+                    text: "Inclusion matters. During this project, I learned that connection transcends language. Through body language, music, art, and shared experiences, we built friendships that will last a lifetime. The most powerful moments came when we realized we didn't need perfect words to understand each other perfectly.",
+                    img: "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?auto=format&fit=crop&w=800&q=80",
+                    images: []
+                }
             };
+
+            // Function to render stories dynamically
+            function renderStories() {
+                const grid = document.getElementById('stories-grid');
+                if (!grid) return;
+
+                grid.innerHTML = '';
+
+                Object.keys(stories).forEach(id => {
+                    const story = stories[id];
+                    const card = document.createElement('div');
+                    card.className = 'card';
+                    card.onclick = () => openStory(id);
+
+                    card.innerHTML = `
+                        <div class="card-img">
+                            <img src="${story.img}" alt="${story.title}" onerror="this.src='https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&fit=crop&w=800&q=80'">
+                        </div>
+                        <div class="card-content">
+                            <span class="card-tag">${story.tag}</span>
+                            <h3>${story.title}</h3>
+                            <p>${story.excerpt}</p>
+                            <a class="btn-read">Read Full Story <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    `;
+
+                    grid.appendChild(card);
+                });
+            }
+
+            // Call renderStories on page load
+            renderStories();
             window.openStory = function(id) {
                 const data = stories[id];
                 if(data) {
                     document.getElementById('modal-img').src = data.img;
                     document.getElementById('modal-title').innerText = data.title;
-                    document.getElementById('modal-text').innerText = data.text;
+
+                    // Format the text with proper paragraphs
+                    const modalText = document.getElementById('modal-text');
+                    const paragraphs = data.text.split('\n\n');
+                    modalText.innerHTML = paragraphs.map(p => `<p style="margin-bottom: 20px; line-height: 1.8;">${p}</p>`).join('');
+
+                    // Add tag if available
+                    const modalTag = document.getElementById('modal-tag');
+                    if (data.tag) {
+                        modalTag.innerHTML = `<span class="card-tag">${data.tag}</span>`;
+                    }
+
+                    // Populate image gallery if there are additional images
+                    const modalGallery = document.getElementById('modal-gallery');
+                    if (data.images && data.images.length > 0) {
+                        modalGallery.innerHTML = data.images.map(imgSrc =>
+                            `<img src="${imgSrc}" alt="${data.title}" loading="lazy" onerror="this.style.display='none'">`
+                        ).join('');
+                        modalGallery.style.display = 'grid';
+                    } else {
+                        modalGallery.innerHTML = '';
+                        modalGallery.style.display = 'none';
+                    }
+
                     document.getElementById('story-modal').style.display = 'flex';
                 }
             };
@@ -868,7 +1152,7 @@
 
             function runCounters() {
                 animateValue(document.getElementById('counter-members'), 0, 114, 2000);
-                animateValue(document.getElementById('counter-countries'), 0, 32, 2000);
+                animateValue(document.getElementById('counter-countries'), 0, 40, 2000);
             }
             function animateValue(obj, start, end, duration) {
                 if(obj.innerHTML != "0") return;
@@ -932,8 +1216,6 @@
                 });
             }
         });
-
-        function openEmail() { window.location.href = "mailto:info@hellasforus.com"; }
     </script>
 </body>
 </html>
