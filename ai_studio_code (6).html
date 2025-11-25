@@ -484,7 +484,7 @@
             const grid = document.getElementById('partner-grid');
             if(grid) {
                 grid.innerHTML = '';
-                
+
                 // --- SPECIAL FIRST LOGO (HELLAS) ---
                 const hellasLink = document.createElement('a');
                 hellasLink.href = "#"; hellasLink.className = "masonry-item"; hellasLink.target = "_blank";
@@ -492,33 +492,123 @@
                 hellasLink.innerHTML = `<img src="https://lh3.googleusercontent.com/pw/AP1GczM88-Q3YyBNCNu-g3M7GzYQZ8-K8Z8Z8Z8Z8Z8Z8Z8Z8Z8Z8Z8Z8Z8Z8Z8Z8Z8Z8Z8Z8Z8Z8Z8Z8Z8Z8Z8=w600-h600-p-k" alt="Hellas For Us" class="partner-logo">`;
                 grid.appendChild(hellasLink);
 
-                // --- PARTNERS 2 TO 58 ---
-                for (let i = 2; i <= 58; i++) {
+                // --- PARTNER LOGOS FROM IMAGES FOLDER ---
+                const partnerLogos = [
+                    "meb-logo - Zky Bkr.png",
+                    "AcrossLimits logo - Senfer Usman.png",
+                    "bLACK LOGO - Anke Besseling(1).png",
+                    "FB_IMG_1685647150637 - Mostafa Badr Egypt.jpg",
+                    "IAIS logo with website - Eilleen Attard Bason Esteban.jpg",
+                    "RRDA_logo - Aga Nędza.png",
+                    "BKPLUS_LOGO-01 - Konstantinos Grigoriadis.png",
+                    "LOGO1-1-removebg-preview - Berkan Demiral.png",
+                    "logo_CP2U - Cristina Lemnaru.jpg",
+                    "dopetransp (1) - Federico Giordano Mederos.png",
+                    "logo ADEL jpg - Lenka.jpg",
+                    "Logo LAG PRESPA orginal - lag prespa Resen.png",
+                    "CS-6.k.logolar-01 - Mert Ates.jpg",
+                    "TBG LOGO - Зорана Матićевић.png",
+                    "GPP LOGO - Зорана Матићевић.png",
+                    "IMG-6753 (1) - Alishir Boyukhanli.PNG",
+                    "logo - Gulfem Boz.png",
+                    "ROMA TEAM LOGO - Oancea Mihai.jpeg",
+                    "images - Mehmet Göçmen.jpeg",
+                    "logo black - Tetiana Kalko.png",
+                    "IMG-20230730-WA0000 - Murat ŞERAS.jpg",
+                    "ACT-LOGO-PNG - Act Center.png",
+                    "RURAL MOVE - LOGO - Mariana Costa.png",
+                    "OEV logo - sizif sizif.png",
+                    "Logo-removebg-preview - VICTOR NYABUTI.png",
+                    "unnamed - Ismail hakkı YAVUZYİĞİT.png",
+                    "EMBAIXADA (1) - Embaixada da Juventude.png",
+                    "dideas - Lizandra Carvajal.png",
+                    "Screenshot 2023-08-12 161512.png",
+                    "Screenshot 2023-08-12 161727.png",
+                    "Screenshot 2023-08-12 161944.png",
+                    "VERDE LOGO transparent - strengthen project.png",
+                    "LOGO - Vlad Rusu.png",
+                    "logo_walktogether - Association Walktogether.png",
+                    "8.2 - Feyza S..png",
+                    "logotyp msk_2022 - Joanna Szczecinska.png",
+                    "ABCD Logo - Vahe Darbinyan.jpg",
+                    "2017-Montanhas-de-Investigação-Cor-EN - Alberto Teixeira.png",
+                    "PI_LOGO_ORIZ_RGB_WEB (2) - Laura Bianconi.jpg",
+                    "LOGO ARTICOOOO - Loran Zmuncila.png",
+                    "1617046040133 - Arda Kırayoğlu.jpeg",
+                    "LogoAIT - Rînja Grigore.png",
+                    "LOGO SOCIAL MEDIA - Goran Nikolov.jpg",
+                    "Logo 2 - Radina Dimitrov.png",
+                    "logo fb ig (1) - Donatas Verseckas.png",
+                    "Logo Psychocenter - Joanna Szczecinska.jpeg",
+                    "underdevelopmentlogo - Thomas Savvakis.jpg",
+                    "Logo CPS - Michela Vottari.png",
+                    "Glafka_rgb-01 - GLAFKA.png",
+                    "bLACK LOGO - Anke Besseling.png",
+                    "Logo_EI - Rui Baltazar.jpg",
+                    "GoINNO Institute_png - Teja Bajt.png",
+                    "LOGO ACT - Nevi Mazreku.jpg",
+                    "Logo Trevessu - Viola Fonnesu.png",
+                    "SuperlikeDima - Дмитрий Журавель.png",
+                    "Etsy Cover Photo - Nunzia Amirante.png",
+                    "logo_hd - EMC SERVICES.png",
+                    "Logo - Robert Stefan.jpg",
+                    "LOGO_ROMA_TEAM - Oancea Mihai.jpg",
+                    "20 - Square of Youth Association.png",
+                    "LOGO_ROMA_TEAM - ROMA TEAM.jpg",
+                    "BKPLUS_LOGO-01 - Konstantinos Grigoriadis.jpg",
+                    "Udruga-srednjoškolaca-Hrvatske - Leo Fel.png",
+                    "lag-vallis-colapis-logo - Petra Cule.png",
+                    "logonew - Damla Keleş.png",
+                    "logo g5 - Las Mesas La Brújula - El Compás.jpg",
+                    "SESAT_LOGO_05MAR2020-1 - Pantelis Makris.png",
+                    "logo - Yasemin Özden.jpg",
+                    "Cai_vermelho_Bola-05 - CAI - ONG.jpg",
+                    "Logo_RCNE - Yoanna Ivanova.jpg",
+                    "logo-activhandi (1) - Florian Vallet.png",
+                    "Logo EuropoleWeb - Elena Milli.jpg",
+                    "GLAFKA_rgb_Web_Online - GLAFKA.png",
+                    "Pic - Georgi Michev(1).jpg",
+                    "Pic - Georgi Michev.jpg",
+                    "loesje-logo-png-transparent - Marina Trajkovska.png",
+                    "logo - Yağmur Süzer.png",
+                    "logo - Burcu Bilgic.jpg",
+                    "LOGO ONDAMIND con scritta - Ondamind.jpg",
+                    "bosev-logo-arkabeyazkare, - Ercan KÜÇÜKARSLAN.png",
+                    "Logo vettoriale - Federica Mazzanti.png",
+                    "624_bursa_buyuksehir_belediyesi_logo - Murat Bakan.jpg",
+                    "IMG_8132 - Mehmet Mağat.JPG",
+                    "logo_jpg - Nicola GIOIA.jpg",
+                    "WhatsApp Image 2024-02-11 at 23.26.20 - onur gultekin.jpeg",
+                    "Logo Daring Hub - Suha Ayyash.jpg",
+                    "Tmelnik - Oana Buzera.jpg",
+                    "LOGO bez burtiem - Diana K Krasnova.jpeg",
+                    "Logo - Outreach Armenia.jpg",
+                    "Logo za drustvene mreze-03 - Andrej Jankovic.jpg",
+                    "SUMA - logo - Leo Fel.jpg",
+                    "Innoved Lietuva black - Žilvinas Speteliūnas.png",
+                    "ggd_logo2 - Mahmut Talha Serenli.jpg",
+                    "indir - özlem.jpg"
+                ];
+
+                partnerLogos.forEach((filename, index) => {
                     const a = document.createElement('a');
                     a.href = "#";
                     a.target = "_blank";
                     a.className = "masonry-item";
                     const img = document.createElement('img');
                     img.className = "partner-logo";
-                    img.alt = "Partner " + i;
-                    
-                    // Try PNG, if fails try JPG, if fails show text
+                    img.alt = filename.split(' - ')[1] ? filename.split(' - ')[1].split('.')[0] : "Partner " + (index + 2);
                     img.onerror = function() {
-                        if (this.src.endsWith('.png')) {
-                            this.src = `images/${i}.jpg`;
-                        } else {
-                            this.style.display = 'none';
-                            const fallback = document.createElement('div');
-                            fallback.className = "logo-fallback";
-                            fallback.innerText = "Partner " + i;
-                            a.appendChild(fallback);
-                        }
+                        this.style.display = 'none';
+                        const fallback = document.createElement('div');
+                        fallback.className = "logo-fallback";
+                        fallback.innerText = img.alt;
+                        a.appendChild(fallback);
                     };
-                    img.src = `images/${i}.png`;
-                    
+                    img.src = `images/${filename}`;
                     a.appendChild(img);
                     grid.appendChild(a);
-                }
+                });
             }
 
             // 3. NEON MAP DOTS (Full list of active countries)
