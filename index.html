@@ -296,9 +296,10 @@
             flex: 1;
             display: flex;
             flex-direction: column;
+            height: 100%;
         }
         .contact-form-card form .send-btn {
-            margin-top: auto;
+            margin-top: 20px;
         }
         .contact-form-card h3 {
             display: flex;
@@ -341,7 +342,7 @@
         }
         .form-group textarea {
             resize: vertical;
-            min-height: 400px;
+            flex: 1;
         }
         .send-btn {
             width: 100%;
@@ -418,12 +419,12 @@
         }
 
         /* --- 10. FOOTER --- */
-        footer { position: relative; background-color: #0d1319; padding-top: 100px; padding-bottom: 20px; text-align: center; margin-top: auto; overflow: hidden; }
+        footer { position: relative; background-color: #0d1319; padding-top: 50px; padding-bottom: 20px; text-align: center; margin-top: auto; overflow: hidden; }
         .footer-wave { position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1440 320'%3E%3Cpath fill='%23c0d72f' fill-opacity='0.05' d='M0,224L48,213.3C96,203,192,181,288,181.3C384,181,480,203,576,224C672,245,768,267,864,261.3C960,256,1056,224,1152,197.3C1248,171,1344,149,1392,138.7L1440,128L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z'%3E%3C/path%3E%3C/svg%3E"); background-size: cover; background-position: bottom; z-index: 1; pointer-events: none; }
         .footer-aurora { width: 100%; height: 6px; background: linear-gradient(90deg, transparent, var(--accent-green), transparent); box-shadow: 0 -10px 40px var(--accent-green); margin-top: 40px; position: relative; z-index: 3; }
         .footer-content { position: relative; z-index: 2; max-width: 1200px; margin: 0 auto; }
         .social-header h3 { font-size: 1.5rem; font-weight: 500; margin-bottom: 10px; }
-        .hashtag { font-size: 1.3rem; color: var(--accent-green); font-family: monospace; font-weight: bold; text-shadow: 0 0 10px rgba(192, 215, 47, 0.3); }
+        .hashtag { font-size: 1.3rem; color: var(--accent-green); font-family: monospace; font-weight: bold; text-shadow: 0 0 10px rgba(192, 215, 47, 0.3); margin-bottom: 25px; }
         .social-icons { display: flex; justify-content: center; gap: 20px; margin-bottom: 40px; flex-wrap: wrap; }
         .social-btn { width: 50px; height: 50px; background: rgba(255,255,255,0.05); border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 1.3rem; transition: var(--transition); border: 1px solid rgba(255,255,255,0.1); color: #fff; }
         .social-btn:hover { transform: translateY(-5px) scale(1.1); color: white; border: none; }
@@ -584,7 +585,10 @@
         <section id="network" class="view-section">
             <div class="page-header">
                 <h1>European Collaborative Alliance</h1>
-                <p style="max-width: 70%; margin: 0 auto;">The European Collaborative Alliance is a growing network of organizations committed to innovation, partnership, and shared project development. By joining, members gain access to expert support, funding insights, networking opportunities, and exclusive collaboration tools. Together, we build stronger connections and create impactful international projects.</p>
+            </div>
+
+            <div style="max-width: 1200px; margin: 0 auto; padding: 0 20px; margin-bottom: 40px;">
+                <p style="text-align: center; font-size: 1.2rem; color: var(--text-gray); line-height: 1.8;">The European Collaborative Alliance is a growing network of organizations committed to innovation, partnership, and shared project development. By joining, members gain access to expert support, funding insights, networking opportunities, and exclusive collaboration tools. Together, we build stronger connections and create impactful international projects.</p>
             </div>
 
             <div class="stats-container">
@@ -842,8 +846,6 @@
                     "logo-activhandi (1) - Florian Vallet.png",
                     "Logo EuropoleWeb - Elena Milli.jpg",
                     "GLAFKA_rgb_Web_Online - GLAFKA.png",
-                    "Pic - Georgi Michev(1).jpg",
-                    "Pic - Georgi Michev.jpg",
                     "loesje-logo-png-transparent - Marina Trajkovska.png",
                     "logo - Yağmur Süzer.png",
                     "logo - Burcu Bilgic.jpg",
@@ -1153,8 +1155,8 @@ It was, for many, one of the most unique and heartwarming experiences they had e
             type();
 
             function runCounters() {
-                animateValue(document.getElementById('counter-members'), 0, 114, 2000);
-                animateValue(document.getElementById('counter-countries'), 0, 40, 2000);
+                animateValue(document.getElementById('counter-members'), 0, 115, 2000);
+                animateValue(document.getElementById('counter-countries'), 0, 32, 2000);
             }
             function animateValue(obj, start, end, duration) {
                 if(obj.innerHTML != "0") return;
