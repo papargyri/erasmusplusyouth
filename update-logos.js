@@ -29,6 +29,7 @@ function getLogoFiles(directory, prefix = '') {
 
     const files = fs.readdirSync(directory);
     const logos = [];
+    const seenBaseNames = new Set();
 
     for (const file of files) {
         const fullPath = path.join(directory, file);
@@ -42,6 +43,16 @@ function getLogoFiles(directory, prefix = '') {
         // Check if it's an image file
         const ext = path.extname(file);
         if (IMAGE_EXTENSIONS.includes(ext)) {
+            // Remove extension to check for duplicates (same name, different extension)
+            const baseName = file.replace(/\.(jpg|jpeg|png|JPG|PNG|JPEG|gif)$/i, '');
+
+            // Skip if we already have a logo with this base name
+            if (seenBaseNames.has(baseName)) {
+                console.log(`⚠️  Skipping duplicate: ${file} (already have this logo with different extension)`);
+                continue;
+            }
+
+            seenBaseNames.add(baseName);
             logos.push(prefix + file);
         }
     }
