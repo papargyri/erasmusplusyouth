@@ -810,19 +810,124 @@
             };
 
             // 2. MASONRY PARTNER LOGOS (Hellas Logo FIRST)
-            let logoDataMap = {};
-
-            // Load logo data from JSON
-            fetch('logo-data.json')
-                .then(response => response.json())
-                .then(data => {
-                    logoDataMap = data;
-                    renderPartnerLogos();
-                })
-                .catch(error => {
-                    console.warn('Could not load logo-data.json, rendering logos without overlay data');
-                    renderPartnerLogos();
-                });
+            // Logo data embedded directly to work without web server
+            const logoDataMap = {
+                "AcrossLimits logo - Senfer Usman.png": {
+                    "name": "AcrossLimits",
+                    "country": "Malta",
+                    "website": null
+                },
+                "BKPLUS_LOGO-01 - Konstantinos Grigoriadis.jpg": {
+                    "name": "BK Plus Europe",
+                    "country": "Cyprus",
+                    "website": "www.bkplus.eu"
+                },
+                "Ethnikos.jpg": {
+                    "name": "Ethnikos Kozanis",
+                    "country": "Greece",
+                    "website": "-"
+                },
+                "GoINNO Institute_png - Teja Bajt.png": {
+                    "name": "GoINNO Institute",
+                    "country": "Slovenia",
+                    "website": "www.goinno.si"
+                },
+                "Logo Daring Hub - Suha Ayyash.jpg": {
+                    "name": "The Daring Hub for Training and Development",
+                    "country": "Jordan",
+                    "website": "https://www.i-dare.org/daring-hub"
+                },
+                "Logo za drustvene mreze-03 - Andrej Jankovic.jpg": {
+                    "name": "Platform for Culture and Innovation IMPULSE CONNECT",
+                    "country": "North Macedonia",
+                    "website": "https://www.instagram.com/impulse.connect/"
+                },
+                "OEV logo - sizif sizif.png": {
+                    "name": "OEV Youth Center",
+                    "country": "North Macedonia",
+                    "website": "https://www.facebook.com/oevyouthcenterskopje"
+                },
+                "RRDA_logo - Aga Nędza.png": {
+                    "name": "Regional Rural Development Association Prespa - Resen",
+                    "country": "North Macedonia",
+                    "website": "http://www.rrdapresparesen.org.mk/"
+                },
+                "SuperlikeDima - Дмитрий Журавель.png": {
+                    "name": "Outreach Armenia",
+                    "country": "Armenia",
+                    "website": "https://outreacharmenia.am"
+                },
+                "TBG LOGO - Зорана Матићевић.png": {
+                    "name": "The Balkan Gate",
+                    "country": "Serbia",
+                    "website": "https://thebalkangate.org/"
+                },
+                "Verde Logo.png": {
+                    "name": "VERDE",
+                    "country": "Italy",
+                    "website": "https://www.associazioneverde.it/"
+                },
+                "dideas - Lizandra Carvajal.png": {
+                    "name": "D-Ideas Cultural Association",
+                    "country": "Spain",
+                    "website": "https://d-ideas.net/"
+                },
+                "logo - Gulfem Boz.png": {
+                    "name": "Vizyon Insani Yardim Dernegi",
+                    "country": "Turkey",
+                    "website": null
+                },
+                "new logos/IG_IGNET_noEU - InformaGiovani IGNet.png": {
+                    "name": "InformaGiovani - IGNet",
+                    "country": "Italy",
+                    "website": "www.informa-giovani.net"
+                },
+                "new logos/LOGO1 - Karolina Jedziniak.png": {
+                    "name": "Cluster Spotkania Kultur",
+                    "country": "Poland",
+                    "website": "http://www.spotkanikultur.com"
+                },
+                "new logos/LOGO_EUROBOX_Logo Eurobox sfondo blu - Mariangela Eurobox.jpg": {
+                    "name": "EUROBOX  SRL",
+                    "country": "Italy",
+                    "website": "https://www.eurobox.it/"
+                },
+                "new logos/Logo - Milan Jankuloski.jpg": {
+                    "name": "ATLAS INOVATION CENTER",
+                    "country": "North Macedonia",
+                    "website": null
+                },
+                "new logos/Logo_Caravel - Gallery Caravel.png": {
+                    "name": "Gallery Caravel",
+                    "country": "Malta",
+                    "website": "https://www.facebook.com/gallerycaravel/"
+                },
+                "new logos/ScoutSocietyLogo - Ciprian Sfirlogea.jpg": {
+                    "name": "Scout Society",
+                    "country": "Romania",
+                    "website": "www.scoutsociety.org"
+                },
+                "new logos/UNTSPB_2025_logo - Taty Dina.png": {
+                    "name": "Union of Neuroscience and Technology of Saint Petersburg",
+                    "country": "Russia",
+                    "website": "https://vk.com/untspb"
+                },
+                "new logos/klaster_Czarny - Karolina Jedziniak.png": {
+                    "name": "Cluster Spotkania Kultur",
+                    "country": "Poland",
+                    "website": "http://www.spotkanikultur.com"
+                },
+                "new logos/logo - Associação Poiomar.png": {
+                    "name": "Associação Poiomar",
+                    "country": "Portugal",
+                    "website": "https://poiomar.pt"
+                },
+                "new logos/logoartem (1) - ARTE.M Association.png": {
+                    "name": "ARTE.M Association",
+                    "country": "Romania",
+                    "website": "https://www.instagram.com/arte.m.association/"
+                }
+            };
 
             function renderPartnerLogos() {
                 const grid = document.getElementById('partner-grid');
@@ -1017,6 +1122,9 @@
                     grid.appendChild(a);
                 });
             }
+
+            // Call renderPartnerLogos to populate the grid
+            renderPartnerLogos();
 
             // 3. NEON MAP DOTS (Capital Cities)
             // Coordinates in % X/Y relative to the map projection
