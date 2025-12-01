@@ -17,39 +17,87 @@ const allLogos = [...mainLogos, ...newLogos.map(f => 'new logos/' + f)];
 // Create mapping object
 const logoData = {};
 
-// Parse Excel data (skip header row)
+// Create a map from filename to organization data for easier lookup
+// Format: filename -> { name, country, website }
+const filenameParts = {};
+
+// First pass: create a lookup by extracting organization info
 for (let i = 1; i < data.length; i++) {
     const row = data[i];
     if (!row || row.length === 0) continue;
 
-    const name = row[0] || '';
-    const country = row[1] || '';
-    const website = row[2] || '';
-    const logoUrl = row[3] || '';
+    const name = (row[0] || '').trim();
+    const country = (row[1] || '').trim();
+    const website = row[2] ? row[2].trim() : null;
 
-    // Try to find matching logo file
-    // Look for logo files that contain parts of the organization name
-    const nameParts = name.toLowerCase().replace(/[^a-z0-9\s]/g, '').split(/\s+/).filter(p => p.length > 2);
+    if (!name || !country) continue;
 
-    let matchedLogo = null;
-    for (const logo of allLogos) {
-        const logoLower = logo.toLowerCase();
-        // Check if any significant word from the name appears in the logo filename
-        for (const part of nameParts) {
-            if (logoLower.includes(part)) {
-                matchedLogo = logo;
-                break;
+    // Store by normalized organization name for lookup
+    const normalizedName = name.toLowerCase().replace(/[^a-z0-9]/g, '');
+    filenameParts[normalizedName] = { name, country, website };
+}
+
+// Second pass: match logo files to organizations
+for (const logo of allLogos) {
+    // Extract organization name parts from filename
+    // Format is usually: "LogoName - SubmitterName.ext" or just "LogoName.ext"
+    const baseName = logo.replace(/\.(jpg|jpeg|png|JPG|PNG|gif)$/i, '');
+    const parts = baseName.split(' - ');
+    const logoNamePart = parts[0].trim();
+
+    // Try exact match first (normalize both)
+    const normalizedLogo = logoNamePart.toLowerCase().replace(/[^a-z0-9]/g, '');
+
+    // Check for matches
+    let bestMatch = null;
+    let bestMatchScore = 0;
+
+    for (const [normalizedOrg, orgData] of Object.entries(filenameParts)) {
+        // Calculate similarity score
+        let score = 0;
+
+        // Exact match
+        if (normalizedLogo === normalizedOrg) {
+            score = 1000;
+        }
+        // Contains full organization name
+        else if (normalizedLogo.includes(normalizedOrg) && normalizedOrg.length > 3) {
+            score = 500 + normalizedOrg.length;
+        }
+        // Organization name contains logo name
+        else if (normalizedOrg.includes(normalizedLogo) && normalizedLogo.length > 3) {
+            score = 400 + normalizedLogo.length;
+        }
+        // Partial word matches
+        else {
+            const logoWords = logoNamePart.toLowerCase().split(/\s+/);
+            const orgWords = orgData.name.toLowerCase().split(/\s+/);
+            let matchedWords = 0;
+
+            for (const logoWord of logoWords) {
+                if (logoWord.length > 2) {
+                    for (const orgWord of orgWords) {
+                        if (orgWord.includes(logoWord) || logoWord.includes(orgWord)) {
+                            matchedWords++;
+                        }
+                    }
+                }
+            }
+
+            if (matchedWords > 0) {
+                score = matchedWords * 50;
             }
         }
-        if (matchedLogo) break;
+
+        if (score > bestMatchScore) {
+            bestMatchScore = score;
+            bestMatch = orgData;
+        }
     }
 
-    if (matchedLogo) {
-        logoData[matchedLogo] = {
-            name: name.trim(),
-            country: country.trim(),
-            website: website ? website.trim() : null
-        };
+    // Only add if confidence is high enough
+    if (bestMatchScore >= 100) {
+        logoData[logo] = bestMatch;
     }
 }
 
