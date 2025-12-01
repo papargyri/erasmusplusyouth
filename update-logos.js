@@ -60,8 +60,20 @@ function updateIndexHtml() {
     const newLogos = getLogoFiles(NEW_LOGOS_DIR, 'new logos/');
     console.log(`✓ Found ${newLogos.length} logos in new logos folder`);
 
-    const allLogos = [...mainLogos, ...newLogos];
-    console.log(`\n📊 Total logos: ${allLogos.length}\n`);
+    // Remove duplicates from main logos
+    const uniqueMainLogos = [...new Set(mainLogos)];
+    const uniqueNewLogos = [...new Set(newLogos)];
+
+    if (mainLogos.length !== uniqueMainLogos.length) {
+        console.log(`⚠️  Removed ${mainLogos.length - uniqueMainLogos.length} duplicate(s) from main folder`);
+    }
+    if (newLogos.length !== uniqueNewLogos.length) {
+        console.log(`⚠️  Removed ${newLogos.length - uniqueNewLogos.length} duplicate(s) from new logos folder`);
+    }
+
+    // IMPORTANT: Main logos first, then new logos at the END
+    const allLogos = [...uniqueMainLogos, ...uniqueNewLogos];
+    console.log(`\n📊 Total unique logos: ${allLogos.length}\n`);
 
     // Read the current index.html
     let html = fs.readFileSync(INDEX_HTML, 'utf8');
