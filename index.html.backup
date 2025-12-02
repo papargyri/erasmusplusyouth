@@ -816,402 +816,605 @@
             // 2. MASONRY PARTNER LOGOS (Hellas Logo FIRST)
             // Logo data embedded directly to work without web server
             const logoDataMap = {
-                "624_bursa_buyuksehir_belediyesi_logo - Murat Bakan.jpg": {
-                    "name": "Bursa Metropolitan Municipality",
-                    "country": "Turkey"
-                    ,"website": "https://www.bursa.bel.tr/"
-                },
-                "AcrossLimits logo - Senfer Usman.png": {
-                    "name": "AcrossLimits",
-                    "country": "Malta"
-                },
-                "Atlas Horizontal logo.png": {
-                    "name": "Atlas International",
-                    "country": "France"
-                    ,"website": "atlasinternational.fr"
-                },
-                "BKPLUS_LOGO-01 - Konstantinos Grigoriadis.jpg": {
+                "1617046040133 - Arda Kırayoğlu.jpeg": {
                     "name": "BK Plus Europe",
-                    "country": "Cyprus"
-                    ,"website": "www.bkplus.eu"
-                },
-                "EMBAIXADA (1) - Embaixada da Juventude.png": {
-                    "name": "Embaixada da Juventude",
-                    "country": "Spain"
-                },
-                "Ethnikos.jpg": {
-                    "name": "Ethnikos Kozanis",
-                    "country": "Greece"
-                },
-                "GLAFKA_rgb_Web_Online - GLAFKA.png": {
-                    "name": "GLAFKA s.r.o.",
-                    "country": "Czech Republic"
-                    ,"website": "www.glafka.cz"
-                },
-                "GoINNO Institute_png - Teja Bajt.png": {
-                    "name": "GoINNO Institute",
-                    "country": "Slovenia"
-                    ,"website": "www.goinno.si"
-                },
-                "IAIS logo with website - Eilleen Attard Bason Esteban.jpg": {
-                    "name": "International Alliance for Integration & Sustainability",
-                    "country": "Malta"
-                },
-                "LOGO ONDAMIND con scritta - Ondamind.jpg": {
-                    "name": "Ondamind aps",
-                    "country": "Italy"
-                    ,"website": "www.ondamind.eu"
-                },
-                "Logo Daring Hub - Suha Ayyash.jpg": {
-                    "name": "The Daring Hub for Training and Development",
-                    "country": "Jordan"
-                    ,"website": "https://www.i-dare.org/daring-hub"
-                },
-                "Logo za drustvene mreze-03 - Andrej Jankovic.jpg": {
-                    "name": "Platform for Culture and Innovation IMPULSE CONNECT",
-                    "country": "North Macedonia"
-                    ,"website": "https://www.instagram.com/impulse.connect/"
-                },
-                "bLACK LOGO - Anke Besseling.png": {
-                    "name": "E-Unity",
-                    "country": "Netherlands"
-                },
-                "logo ADEL jpg - Lenka.jpg": {
-                    "name": "ADEL Slovakia",
-                    "country": "Slovakia"
-                },
-                "new logos/IG_IGNET_noEU - InformaGiovani IGNet.png": {
-                    "name": "InformaGiovani - IGNet",
-                    "country": "Italy"
-                    ,"website": "www.informa-giovani.net"
-                },
-                "new logos/PHOTO-2025-11-26-11-20-08 - Youth Rights & Citizenship Initiative.jpg": {
-                    "name": "Youth Rights & Citizenship Initiative",
-                    "country": "Albania"
-                    ,"website": "https://yrcialbania.com/"
+                    "country": "Cyprus",
+                    "website": null
                 },
                 "20 - Square of Youth Association.png": {
                     "name": "Square of Youth Association",
-                    "country": "Hungary"
-                    ,"website": "squareofyouth.eu"
+                    "country": "Albania",
+                    "website": null
                 },
-                "logo_walktogether - Association Walktogether.png": {
-                    "name": "Association WalkTogether",
-                    "country": "Bulgaria"
-                    ,"website": "https://www.facebook.com/pages/WalkTogether/1546632572269496?fref=ts"
+                "2017-Montanhas-de-Investigação-Cor-EN - Alberto Teixeira.png": {
+                    "name": "Montanhas de Investigação",
+                    "country": "Portugal",
+                    "website": null
+                },
+                "624_bursa_buyuksehir_belediyesi_logo - Murat Bakan.jpg": {
+                    "name": "Bursa Metropolitan Municipality",
+                    "country": "Turkey",
+                    "website": "https://www.bursa.bel.tr/"
                 },
                 "8.2 - Feyza S..png": {
                     "name": "Feyza Ataturk Secondary School",
-                    "country": "Turkey"
+                    "country": "Turkey",
+                    "website": null
                 },
                 "ABCD Logo - Vahe Darbinyan.jpg": {
                     "name": "ABCD NGO",
-                    "country": "Armenia"
+                    "country": "Armenia",
+                    "website": null
                 },
                 "ACT-LOGO-PNG - Act Center.png": {
                     "name": "ACT Center",
-                    "country": "Albania"
+                    "country": "Albania",
+                    "website": null
+                },
+                "AcrossLimits logo - Senfer Usman.png": {
+                    "name": "AcrossLimits",
+                    "country": "Malta",
+                    "website": null
+                },
+                "Atlas Horizontal logo.png": {
+                    "name": "Atlas International",
+                    "country": "France",
+                    "website": "atlasinternational.fr"
+                },
+                "BKPLUS_LOGO-01 - Konstantinos Grigoriadis.jpg": {
+                    "name": "BK Plus Europe",
+                    "country": "Cyprus",
+                    "website": "www.bkplus.eu"
                 },
                 "CS-6.k.logolar-01 - Mert Ates.jpg": {
                     "name": "Creative Support Association",
-                    "country": "Turkey"
+                    "country": "Turkey",
+                    "website": null
                 },
                 "Cai_vermelho_Bola-05 - CAI - ONG.jpg": {
                     "name": "CAI - Centro de Apoio ao Imigrante",
-                    "country": "Portugal"
+                    "country": "Portugal",
+                    "website": null
+                },
+                "EMBAIXADA (1) - Embaixada da Juventude.png": {
+                    "name": "Embaixada da Juventude",
+                    "country": "Spain",
+                    "website": null
+                },
+                "Ethnikos.jpg": {
+                    "name": "Ethnikos Kozanis",
+                    "country": "Greece",
+                    "website": null
                 },
                 "Etsy Cover Photo - Nunzia Amirante.png": {
                     "name": "Nunzia Amirante Organization",
-                    "country": "Italy"
+                    "country": "Italy",
+                    "website": null
                 },
                 "FB_IMG_1685647150637 - Mostafa Badr Egypt.jpg": {
                     "name": "Leaders Foundation",
-                    "country": "Egypt"
+                    "country": "Egypt",
+                    "website": null
+                },
+                "GLAFKA_rgb_Web_Online - GLAFKA.png": {
+                    "name": "GLAFKA s.r.o.",
+                    "country": "Czech Republic",
+                    "website": "www.glafka.cz"
+                },
+                "Glafka_rgb-01 - GLAFKA.png": {
+                    "name": "GLAFKA s.r.o.",
+                    "country": "Czech Republic",
+                    "website": "www.glafka.cz"
+                },
+                "GoINNO Institute_png - Teja Bajt.png": {
+                    "name": "GoINNO Institute",
+                    "country": "Slovenia",
+                    "website": "www.goinno.si"
                 },
                 "GPP LOGO - Зорана Матићевић.png": {
                     "name": "Grassroots People to People",
-                    "country": "Serbia"
+                    "country": "Serbia",
+                    "website": null
+                },
+                "IAIS logo with website - Eilleen Attard Bason Esteban.jpg": {
+                    "name": "International Alliance for Integration & Sustainability",
+                    "country": "Malta",
+                    "website": null
+                },
+                "IMG-20230730-WA0000 - Murat ŞERAS.jpg": {
+                    "name": "Murat ŞERAS Organization",
+                    "country": "Turkey",
+                    "website": null
                 },
                 "IMG-6753 (1) - Alishir Boyukhanli.PNG": {
                     "name": "Azerbaijan Youth Organization",
-                    "country": "Azerbaijan"
+                    "country": "Azerbaijan",
+                    "website": null
                 },
                 "IMG_6231 - Simone Borsci.jpeg": {
                     "name": "Italian Youth Organization",
-                    "country": "Italy"
+                    "country": "Italy",
+                    "website": null
+                },
+                "IMG_8132 - Mehmet Mağat.JPG": {
+                    "name": "Turkish Youth Association",
+                    "country": "Turkey",
+                    "website": null
+                },
+                "Innoved Lietuva black - Žilvinas Speteliūnas.png": {
+                    "name": "Innoved Lietuva",
+                    "country": "Lithuania",
+                    "website": "https://www.instagram.com/innovedlietuva/"
                 },
                 "LOGO - Vlad Rusu.png": {
                     "name": "Vlad Rusu Organization",
-                    "country": "Moldova"
+                    "country": "Moldova",
+                    "website": null
                 },
                 "LOGO ACT - Nevi Mazreku.jpg": {
                     "name": "ACT Kosovo",
-                    "country": "Kosovo"
+                    "country": "Kosovo",
+                    "website": null
                 },
                 "LOGO ARTICOOOO - Loran Zmuncila.png": {
                     "name": "ARTICO",
-                    "country": "Moldova"
-                    ,"website": "https://www.facebook.com/ArticoErasmus"
+                    "country": "Moldova",
+                    "website": "https://www.facebook.com/ArticoErasmus"
+                },
+                "LOGO ONDAMIND con scritta - Ondamind.jpg": {
+                    "name": "Ondamind aps",
+                    "country": "Italy",
+                    "website": "www.ondamind.eu"
                 },
                 "LOGO SOCIAL MEDIA - Goran Nikolov.jpg": {
                     "name": "Social Media Organization",
-                    "country": "North Macedonia"
+                    "country": "North Macedonia",
+                    "website": null
                 },
                 "LOGO bez burtiem - Diana K Krasnova.jpeg": {
                     "name": "Diana K Krasnova Foundation",
-                    "country": "Latvia"
+                    "country": "Latvia",
+                    "website": null
                 },
                 "LOGO1-1-removebg-preview - Berkan Demiral.png": {
                     "name": "Berkan Demiral Association",
-                    "country": "Turkey"
+                    "country": "Turkey",
+                    "website": null
                 },
                 "LOGO_ROMA_TEAM - Oancea Mihai.jpg": {
                     "name": "Roma Team",
-                    "country": "Romania"
+                    "country": "Romania",
+                    "website": null
+                },
+                "LOGO_ROMA_TEAM - ROMA TEAM.jpg": {
+                    "name": "Roma Team",
+                    "country": "Romania",
+                    "website": null
                 },
                 "Logo - Outreach Armenia.jpg": {
                     "name": "Outreach Armenia",
-                    "country": "Armenia"
-                    ,"website": "https://outreacharmenia.am"
+                    "country": "Armenia",
+                    "website": "https://outreacharmenia.am"
                 },
                 "Logo - Robert Stefan.jpg": {
                     "name": "Robert Stefan Foundation",
-                    "country": "Romania"
+                    "country": "Romania",
+                    "website": null
                 },
                 "Logo 2 - Radina Dimitrov.png": {
                     "name": "Bulgarian Youth Association",
-                    "country": "Bulgaria"
+                    "country": "Bulgaria",
+                    "website": null
                 },
                 "Logo CPS - Michela Vottari.png": {
                     "name": "CPS - Community Psychological Services",
-                    "country": "Italy"
+                    "country": "Italy",
+                    "website": null
+                },
+                "Logo Daring Hub - Suha Ayyash.jpg": {
+                    "name": "The Daring Hub for Training and Development",
+                    "country": "Jordan",
+                    "website": "https://www.i-dare.org/daring-hub"
+                },
+                "Logo Dernek (1) - Vizyoner Kadınlar Derneği.png": {
+                    "name": "Vizyoner Kadınlar Derneği",
+                    "country": "Turkey",
+                    "website": null
                 },
                 "Logo EuropoleWeb - Elena Milli.jpg": {
                     "name": "Europole Web",
-                    "country": "Italy"
+                    "country": "Italy",
+                    "website": null
                 },
                 "Logo LAG PRESPA orginal - lag prespa Resen.png": {
                     "name": "LAG PRESPA Resen",
-                    "country": "North Macedonia"
+                    "country": "North Macedonia",
+                    "website": null
                 },
                 "Logo Psychocenter - Joanna Szczecinska.jpeg": {
                     "name": "Psychocenter Foundation",
-                    "country": "Poland"
+                    "country": "Poland",
+                    "website": null
                 },
                 "Logo Trevessu - Viola Fonnesu.png": {
                     "name": "Trevessu Association",
-                    "country": "Italy"
+                    "country": "Italy",
+                    "website": null
                 },
                 "Logo vettoriale - Federica Mazzanti.png": {
                     "name": "Italian Youth Federation",
-                    "country": "Italy"
+                    "country": "Italy",
+                    "website": null
+                },
+                "Logo za drustvene mreze-03 - Andrej Jankovic.jpg": {
+                    "name": "Platform for Culture and Innovation IMPULSE CONNECT",
+                    "country": "North Macedonia",
+                    "website": "https://www.instagram.com/impulse.connect/"
                 },
                 "Logo-removebg-preview - VICTOR NYABUTI.png": {
                     "name": "VICTOR NYABUTI Foundation",
-                    "country": "Kenya"
+                    "country": "Kenya",
+                    "website": null
+                },
+                "LogoAIT - Rînja Grigore.png": {
+                    "name": "AIT - Association for Innovation and Technology",
+                    "country": "Romania",
+                    "website": null
                 },
                 "Logo_EI - Rui Baltazar.jpg": {
                     "name": "EI - Educational Initiative",
-                    "country": "Portugal"
+                    "country": "Portugal",
+                    "website": null
                 },
                 "Logo_RCNE - Yoanna Ivanova.jpg": {
                     "name": "RCNE - Romanian Center for New Education",
-                    "country": "Bulgaria"
+                    "country": "Bulgaria",
+                    "website": null
                 },
                 "OEV logo - sizif sizif.png": {
                     "name": "OEV Youth Center",
-                    "country": "North Macedonia"
-                    ,"website": "https://www.facebook.com/oevyouthcenterskopje"
+                    "country": "North Macedonia",
+                    "website": "https://www.facebook.com/oevyouthcenterskopje"
                 },
                 "PI_LOGO_ORIZ_RGB_WEB (2) - Laura Bianconi.jpg": {
                     "name": "PI - Project Initiative",
-                    "country": "Italy"
+                    "country": "Italy",
+                    "website": null
+                },
+                "ROMA TEAM LOGO - Oancea Mihai.jpeg": {
+                    "name": "Roma Team",
+                    "country": "Romania",
+                    "website": null
+                },
+                "RRDA_logo - Aga Nędza.png": {
+                    "name": "Regional Rural Development Association",
+                    "country": "Poland",
+                    "website": null
                 },
                 "RURAL MOVE - LOGO - Mariana Costa.png": {
                     "name": "Rural Move",
-                    "country": "Portugal"
+                    "country": "Portugal",
+                    "website": null
                 },
                 "SESAT_LOGO_05MAR2020-1 - Pantelis Makris.png": {
                     "name": "SESAT",
-                    "country": "Greece"
+                    "country": "Greece",
+                    "website": null
                 },
                 "SUMA - logo - Leo Fel.jpg": {
                     "name": "SUMA",
-                    "country": "Croatia"
+                    "country": "Croatia",
+                    "website": null
                 },
                 "Screenshot 2023-08-12 161512.png": {
                     "name": "Youth Organization",
-                    "country": "International"
+                    "country": "International",
+                    "website": null
                 },
                 "Screenshot 2023-08-12 161727.png": {
                     "name": "Youth Organization",
-                    "country": "International"
+                    "country": "International",
+                    "website": null
                 },
                 "Screenshot 2023-08-12 161944.png": {
                     "name": "Youth Organization",
-                    "country": "International"
+                    "country": "International",
+                    "website": null
+                },
+                "SuperlikeDima - Дмитрий Журавель.png": {
+                    "name": "Superlike Dima",
+                    "country": "Russia",
+                    "website": null
                 },
                 "TBG LOGO - Зорана Матићевић.png": {
                     "name": "The Balkan Gate",
-                    "country": "Serbia"
-                    ,"website": "https://thebalkangate.org/"
+                    "country": "Serbia",
+                    "website": "https://thebalkangate.org/"
                 },
                 "Tmelnik - Oana Buzera.jpg": {
                     "name": "Tmelnik Association",
-                    "country": "Romania"
+                    "country": "Romania",
+                    "website": null
+                },
+                "Udruga-srednjoškolaca-Hrvatske - Leo Fel.png": {
+                    "name": "Association of Croatian High School Students",
+                    "country": "Croatia",
+                    "website": null
                 },
                 "Verde Logo.png": {
                     "name": "VERDE",
-                    "country": "Italy"
-                    ,"website": "https://www.associazioneverde.it/"
+                    "country": "Italy",
+                    "website": "https://www.associazioneverde.it/"
                 },
                 "WhatsApp Image 2024-02-11 at 23.26.20 - onur gultekin.jpeg": {
                     "name": "Onur Gultekin Foundation",
-                    "country": "Turkey"
+                    "country": "Turkey",
+                    "website": null
+                },
+                "bLACK LOGO - Anke Besseling(1).png": {
+                    "name": "E-Unity",
+                    "country": "Netherlands",
+                    "website": null
+                },
+                "bLACK LOGO - Anke Besseling.png": {
+                    "name": "E-Unity",
+                    "country": "Netherlands",
+                    "website": null
+                },
+                "bosev-logo-arkabeyazkare, - Ercan KÜÇÜKARSLAN.png": {
+                    "name": "BOSEV",
+                    "country": "Turkey",
+                    "website": null
                 },
                 "dideas - Lizandra Carvajal.png": {
                     "name": "D-Ideas Cultural Association",
-                    "country": "Spain"
-                    ,"website": "https://d-ideas.net/"
+                    "country": "Spain",
+                    "website": "https://d-ideas.net/"
                 },
                 "dopetransp (1) - Federico Giordano Mederos.png": {
                     "name": "Dope Association",
-                    "country": "Italy"
+                    "country": "Italy",
+                    "website": null
                 },
                 "ggd_logo2 - Mahmut Talha Serenli.jpg": {
                     "name": "GGD Youth",
-                    "country": "Turkey"
+                    "country": "Turkey",
+                    "website": null
+                },
+                "images - Mehmet Göçmen.jpeg": {
+                    "name": "Turkish Youth Foundation",
+                    "country": "Turkey",
+                    "website": null
+                },
+                "indir - özlem.jpg": {
+                    "name": "Özlem Foundation",
+                    "country": "Turkey",
+                    "website": null
                 },
                 "lag-vallis-colapis-logo - Petra Cule.png": {
                     "name": "LAG Vallis Colapis",
-                    "country": "Croatia"
+                    "country": "Croatia",
+                    "website": null
                 },
                 "loesje-logo-png-transparent - Marina Trajkovska.png": {
                     "name": "Loesje International",
-                    "country": "North Macedonia"
+                    "country": "North Macedonia",
+                    "website": null
                 },
                 "logo - Burcu Bilgic.jpg": {
                     "name": "Burcu Bilgic Association",
-                    "country": "Turkey"
+                    "country": "Turkey",
+                    "website": null
+                },
+                "logo - Esra Yalçın.jpg": {
+                    "name": "Esra Yalçın Foundation",
+                    "country": "Turkey",
+                    "website": null
                 },
                 "logo - Gulfem Boz.png": {
                     "name": "Vizyon Insani Yardim Dernegi",
-                    "country": "Turkey"
+                    "country": "Turkey",
+                    "website": null
+                },
+                "logo - Yağmur Süzer.png": {
+                    "name": "Yağmur Süzer Organization",
+                    "country": "Turkey",
+                    "website": null
+                },
+                "logo - Yasemin Özden.jpg": {
+                    "name": "Yasemin Özden Foundation",
+                    "country": "Turkey",
+                    "website": null
+                },
+                "logo ADEL jpg - Lenka.jpg": {
+                    "name": "ADEL Slovakia",
+                    "country": "Slovakia",
+                    "website": null
                 },
                 "logo black - Tetiana Kalko.png": {
                     "name": "Tetiana Kalko Foundation",
-                    "country": "Ukraine"
+                    "country": "Ukraine",
+                    "website": null
                 },
                 "logo fb ig (1) - Donatas Verseckas.png": {
                     "name": "Lithuanian Youth Organization",
-                    "country": "Lithuania"
+                    "country": "Lithuania",
+                    "website": null
+                },
+                "logo g5 - Las Mesas La Brújula - El Compás.jpg": {
+                    "name": "Las Mesas La Brújula",
+                    "country": "Spain",
+                    "website": null
                 },
                 "logo muwada_page-0001 - project muwada.jpg": {
                     "name": "Project Muwada",
-                    "country": "Palestine"
+                    "country": "Palestine",
+                    "website": null
                 },
                 "logo-GoEasy - GoEasy Info.jpg": {
                     "name": "GoEasy",
-                    "country": "North Macedonia"
+                    "country": "North Macedonia",
+                    "website": null
                 },
                 "logo-activhandi (1) - Florian Vallet.png": {
                     "name": "Activhandi",
-                    "country": "France"
+                    "country": "France",
+                    "website": null
                 },
                 "logo_CP2U - Cristina Lemnaru.jpg": {
                     "name": "CP2U",
-                    "country": "Romania"
+                    "country": "Romania",
+                    "website": null
                 },
                 "logo_ema-300x94 - EMA Project Support.gif": {
                     "name": "EMA Project Support",
-                    "country": "Greece"
+                    "country": "Greece",
+                    "website": null
                 },
                 "logo_hd - EMC SERVICES.png": {
                     "name": "EMC Services",
-                    "country": "Romania"
+                    "country": "Romania",
+                    "website": null
                 },
                 "logo_jpg - Nicola GIOIA.jpg": {
                     "name": "Nicola GIOIA Association",
-                    "country": "Italy"
+                    "country": "Italy",
+                    "website": null
+                },
+                "logo_walktogether - Association Walktogether.png": {
+                    "name": "Association Walktogether",
+                    "country": "France",
+                    "website": null
+                },
+                "logonew - Ayşe K..png": {
+                    "name": "Ayşe K. Foundation",
+                    "country": "Turkey",
+                    "website": null
+                },
+                "logonew - Damla Keleş.png": {
+                    "name": "Damla Keleş Organization",
+                    "country": "Turkey",
+                    "website": null
                 },
                 "logotyp msk_2022 - Joanna Szczecinska.png": {
                     "name": "MSK Foundation",
-                    "country": "Poland"
+                    "country": "Poland",
+                    "website": null
                 },
                 "meb-logo - Zky Bkr.png": {
                     "name": "MEB Turkey",
-                    "country": "Turkey"
+                    "country": "Turkey",
+                    "website": null
                 },
                 "underdevelopmentlogo - Thomas Savvakis.jpg": {
                     "name": "Under Development",
-                    "country": "Greece"
+                    "country": "Greece",
+                    "website": null
+                },
+                "unnamed - Ismail hakkı YAVUZYİĞİT.png": {
+                    "name": "Ismail Hakkı Foundation",
+                    "country": "Turkey",
+                    "website": null
                 },
                 "new logos/485112844_1144645754126569_1090105995087966129_n - Giuseppe Leotta.jpg": {
                     "name": "Giuseppe Leotta Foundation",
-                    "country": "Italy"
+                    "country": "Italy",
+                    "website": null
+                },
+                "new logos/IG_IGNET_noEU - InformaGiovani IGNet.png": {
+                    "name": "InformaGiovani - IGNet",
+                    "country": "Italy",
+                    "website": "www.informa-giovani.net"
                 },
                 "new logos/IMG-20251124-WA0006 - Albert Ndeze.jpg": {
                     "name": "Albert Ndeze Organization",
-                    "country": "Cameroon"
+                    "country": "Cameroon",
+                    "website": null
                 },
                 "new logos/LOGO ASS A-SAFAA-09 - Ahmed MOUHIB.png": {
                     "name": "Association A-SAFAA",
-                    "country": "Morocco"
+                    "country": "Morocco",
+                    "website": null
                 },
                 "new logos/LOGO1 - Karolina Jedziniak.png": {
                     "name": "Cluster Spotkania Kultur",
-                    "country": "Poland"
-                    ,"website": "http://www.spotkanikultur.com"
+                    "country": "Poland",
+                    "website": "http://www.spotkanikultur.com"
                 },
                 "new logos/LOGO_EUROBOX_Logo Eurobox sfondo blu - Mariangela Eurobox.jpg": {
                     "name": "EUROBOX SRL",
-                    "country": "Italy"
-                    ,"website": "https://www.eurobox.it/"
+                    "country": "Italy",
+                    "website": "https://www.eurobox.it/"
+                },
+                "new logos/Logo - Cemile ABDULGANİOĞLU.JPG": {
+                    "name": "Cemile Abdulganioglu Foundation",
+                    "country": "Turkey",
+                    "website": null
                 },
                 "new logos/Logo - Milan Jankuloski.jpg": {
                     "name": "ATLAS Innovation Center",
-                    "country": "North Macedonia"
+                    "country": "North Macedonia",
+                    "website": null
                 },
                 "new logos/Logo_Caravel - Gallery Caravel.png": {
                     "name": "Gallery Caravel",
-                    "country": "Malta"
-                    ,"website": "https://www.facebook.com/gallerycaravel/"
+                    "country": "Malta",
+                    "website": "https://www.facebook.com/gallerycaravel/"
+                },
+                "new logos/PHOTO-2025-11-26-11-20-08 - Youth Rights & Citizenship Initiative.jpg": {
+                    "name": "Youth Rights & Citizenship Initiative",
+                    "country": "Albania",
+                    "website": "https://yrcialbania.com/"
                 },
                 "new logos/Purple on White - AY Institute.png": {
                     "name": "AY Institute",
-                    "country": "Turkey"
+                    "country": "Turkey",
+                    "website": null
                 },
                 "new logos/ROOTS LOGO - yunus Denizli.jpg": {
                     "name": "ROOTS Youth",
-                    "country": "Turkey"
+                    "country": "Turkey",
+                    "website": null
                 },
                 "new logos/ScoutSocietyLogo - Ciprian Sfirlogea.jpg": {
                     "name": "Scout Society",
-                    "country": "Romania"
-                    ,"website": "www.scoutsociety.org"
+                    "country": "Romania",
+                    "website": "www.scoutsociety.org"
                 },
                 "new logos/UNTSPB_2025_logo - Taty Dina.png": {
                     "name": "Union of Neuroscience and Technology of Saint Petersburg",
-                    "country": "Russia"
-                    ,"website": "https://vk.com/untspb"
+                    "country": "Russia",
+                    "website": "https://vk.com/untspb"
+                },
+                "new logos/WhatsApp Image 2025-11-27 at 14.44.48 - Onur Açıkgöz.jpeg": {
+                    "name": "Onur Açıkgöz Foundation",
+                    "country": "Turkey",
+                    "website": null
                 },
                 "new logos/Zenith Logo - Ciprian Sfirlogea.png": {
                     "name": "Zenith Organization",
-                    "country": "Romania"
+                    "country": "Romania",
+                    "website": null
                 },
                 "new logos/klaster_Czarny - Karolina Jedziniak.png": {
                     "name": "Cluster Spotkania Kultur",
-                    "country": "Poland"
-                    ,"website": "http://www.spotkanikultur.com"
+                    "country": "Poland",
+                    "website": "http://www.spotkanikultur.com"
+                },
+                "new logos/logo - Associação Poiomar.png": {
+                    "name": "Associação Poiomar",
+                    "country": "Portugal",
+                    "website": "https://poiomar.pt"
                 },
                 "new logos/logo - project muwada.png": {
                     "name": "Project Muwada",
-                    "country": "Palestine"
+                    "country": "Palestine",
+                    "website": null
                 },
                 "new logos/logoartem (1) - ARTE.M Association.png": {
                     "name": "ARTE.M Association",
-                    "country": "Romania"
-                    ,"website": "https://www.instagram.com/arte.m.association/"
+                    "country": "Romania",
+                    "website": "https://www.instagram.com/arte.m.association/"
                 }
                         };
 

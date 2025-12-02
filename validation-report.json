@@ -1,295 +1,21 @@
 {
   "summary": {
-    "totalMappings": 120,
+    "totalMappings": 93,
     "totalFiles": 116,
-    "correct": 16,
-    "corrected": 2,
-    "filesNotFound": 27,
+    "correct": 18,
+    "corrected": 0,
+    "filesNotFound": 0,
     "notInExcel": 75,
     "unmappedFiles": 23
   },
-  "corrections": [
-    {
-      "filename": "20 - Square of Youth Association.png",
-      "name": "Square of Youth Association",
-      "corrections": {
-        "country": {
-          "current": "Albania",
-          "correct": "Hungary"
-        },
-        "website": {
-          "current": null,
-          "correct": "squareofyouth.eu"
-        }
-      }
-    },
-    {
-      "filename": "logo_walktogether - Association Walktogether.png",
-      "name": "Association Walktogether",
-      "corrections": {
-        "country": {
-          "current": "France",
-          "correct": "Bulgaria"
-        },
-        "website": {
-          "current": null,
-          "correct": "https://www.facebook.com/pages/WalkTogether/1546632572269496?fref=ts"
-        }
-      }
-    }
-  ],
-  "filesToRemove": [
-    {
-      "filename": "1617046040133 - Arda Kırayoğlu.jpeg",
-      "mapping": {
-        "name": "BK Plus Europe",
-        "country": "Cyprus",
-        "website": null
-      },
-      "issue": "File does not exist on disk"
-    },
-    {
-      "filename": "2017-Montanhas-de-Investigação-Cor-EN - Alberto Teixeira.png",
-      "mapping": {
-        "name": "Montanhas de Investigação",
-        "country": "Portugal",
-        "website": null
-      },
-      "issue": "File does not exist on disk"
-    },
-    {
-      "filename": "Glafka_rgb-01 - GLAFKA.png",
-      "mapping": {
-        "name": "GLAFKA s.r.o.",
-        "country": "Czech Republic",
-        "website": "www.glafka.cz"
-      },
-      "issue": "File does not exist on disk"
-    },
-    {
-      "filename": "IMG-20230730-WA0000 - Murat ŞERAS.jpg",
-      "mapping": {
-        "name": "Murat ŞERAS Organization",
-        "country": "Turkey",
-        "website": null
-      },
-      "issue": "File does not exist on disk"
-    },
-    {
-      "filename": "IMG_8132 - Mehmet Mağat.JPG",
-      "mapping": {
-        "name": "Turkish Youth Association",
-        "country": "Turkey",
-        "website": null
-      },
-      "issue": "File does not exist on disk"
-    },
-    {
-      "filename": "Innoved Lietuva black - Žilvinas Speteliūnas.png",
-      "mapping": {
-        "name": "Innoved Lietuva",
-        "country": "Lithuania",
-        "website": "https://www.instagram.com/innovedlietuva/"
-      },
-      "issue": "File does not exist on disk"
-    },
-    {
-      "filename": "LOGO_ROMA_TEAM - ROMA TEAM.jpg",
-      "mapping": {
-        "name": "Roma Team",
-        "country": "Romania",
-        "website": null
-      },
-      "issue": "File does not exist on disk"
-    },
-    {
-      "filename": "Logo Dernek (1) - Vizyoner Kadınlar Derneği.png",
-      "mapping": {
-        "name": "Vizyoner Kadınlar Derneği",
-        "country": "Turkey",
-        "website": null
-      },
-      "issue": "File does not exist on disk"
-    },
-    {
-      "filename": "LogoAIT - Rînja Grigore.png",
-      "mapping": {
-        "name": "AIT - Association for Innovation and Technology",
-        "country": "Romania",
-        "website": null
-      },
-      "issue": "File does not exist on disk"
-    },
-    {
-      "filename": "ROMA TEAM LOGO - Oancea Mihai.jpeg",
-      "mapping": {
-        "name": "Roma Team",
-        "country": "Romania",
-        "website": null
-      },
-      "issue": "File does not exist on disk"
-    },
-    {
-      "filename": "RRDA_logo - Aga Nędza.png",
-      "mapping": {
-        "name": "Regional Rural Development Association",
-        "country": "Poland",
-        "website": null
-      },
-      "issue": "File does not exist on disk"
-    },
-    {
-      "filename": "SuperlikeDima - Дмитрий Журавель.png",
-      "mapping": {
-        "name": "Superlike Dima",
-        "country": "Russia",
-        "website": null
-      },
-      "issue": "File does not exist on disk"
-    },
-    {
-      "filename": "Udruga-srednjoškolaca-Hrvatske - Leo Fel.png",
-      "mapping": {
-        "name": "Association of Croatian High School Students",
-        "country": "Croatia",
-        "website": null
-      },
-      "issue": "File does not exist on disk"
-    },
-    {
-      "filename": "bLACK LOGO - Anke Besseling(1).png",
-      "mapping": {
-        "name": "E-Unity",
-        "country": "Netherlands",
-        "website": null
-      },
-      "issue": "File does not exist on disk"
-    },
-    {
-      "filename": "bosev-logo-arkabeyazkare, - Ercan KÜÇÜKARSLAN.png",
-      "mapping": {
-        "name": "BOSEV",
-        "country": "Turkey",
-        "website": null
-      },
-      "issue": "File does not exist on disk"
-    },
-    {
-      "filename": "images - Mehmet Göçmen.jpeg",
-      "mapping": {
-        "name": "Turkish Youth Foundation",
-        "country": "Turkey",
-        "website": null
-      },
-      "issue": "File does not exist on disk"
-    },
-    {
-      "filename": "indir - özlem.jpg",
-      "mapping": {
-        "name": "Özlem Foundation",
-        "country": "Turkey",
-        "website": null
-      },
-      "issue": "File does not exist on disk"
-    },
-    {
-      "filename": "logo - Esra Yalçın.jpg",
-      "mapping": {
-        "name": "Esra Yalçın Foundation",
-        "country": "Turkey",
-        "website": null
-      },
-      "issue": "File does not exist on disk"
-    },
-    {
-      "filename": "logo - Yağmur Süzer.png",
-      "mapping": {
-        "name": "Yağmur Süzer Organization",
-        "country": "Turkey",
-        "website": null
-      },
-      "issue": "File does not exist on disk"
-    },
-    {
-      "filename": "logo - Yasemin Özden.jpg",
-      "mapping": {
-        "name": "Yasemin Özden Foundation",
-        "country": "Turkey",
-        "website": null
-      },
-      "issue": "File does not exist on disk"
-    },
-    {
-      "filename": "logo g5 - Las Mesas La Brújula - El Compás.jpg",
-      "mapping": {
-        "name": "Las Mesas La Brújula",
-        "country": "Spain",
-        "website": null
-      },
-      "issue": "File does not exist on disk"
-    },
-    {
-      "filename": "logonew - Ayşe K..png",
-      "mapping": {
-        "name": "Ayşe K. Foundation",
-        "country": "Turkey",
-        "website": null
-      },
-      "issue": "File does not exist on disk"
-    },
-    {
-      "filename": "logonew - Damla Keleş.png",
-      "mapping": {
-        "name": "Damla Keleş Organization",
-        "country": "Turkey",
-        "website": null
-      },
-      "issue": "File does not exist on disk"
-    },
-    {
-      "filename": "unnamed - Ismail hakkı YAVUZYİĞİT.png",
-      "mapping": {
-        "name": "Ismail Hakkı Foundation",
-        "country": "Turkey",
-        "website": null
-      },
-      "issue": "File does not exist on disk"
-    },
-    {
-      "filename": "new logos/Logo - Cemile ABDULGANİOĞLU.JPG",
-      "mapping": {
-        "name": "Cemile Abdulganioglu Foundation",
-        "country": "Turkey",
-        "website": null
-      },
-      "issue": "File does not exist on disk"
-    },
-    {
-      "filename": "new logos/WhatsApp Image 2025-11-27 at 14.44.48 - Onur Açıkgöz.jpeg",
-      "mapping": {
-        "name": "Onur Açıkgöz Foundation",
-        "country": "Turkey",
-        "website": null
-      },
-      "issue": "File does not exist on disk"
-    },
-    {
-      "filename": "new logos/logo - Associação Poiomar.png",
-      "mapping": {
-        "name": "Associação Poiomar",
-        "country": "Portugal",
-        "website": "https://poiomar.pt"
-      },
-      "issue": "File does not exist on disk"
-    }
-  ],
+  "corrections": [],
+  "filesToRemove": [],
   "manualVerificationNeeded": [
     {
       "filename": "8.2 - Feyza S..png",
       "mapping": {
         "name": "Feyza Ataturk Secondary School",
-        "country": "Turkey",
-        "website": null
+        "country": "Turkey"
       },
       "issue": "Organization not found in Excel data"
     },
@@ -297,8 +23,7 @@
       "filename": "ABCD Logo - Vahe Darbinyan.jpg",
       "mapping": {
         "name": "ABCD NGO",
-        "country": "Armenia",
-        "website": null
+        "country": "Armenia"
       },
       "issue": "Organization not found in Excel data"
     },
@@ -306,8 +31,7 @@
       "filename": "ACT-LOGO-PNG - Act Center.png",
       "mapping": {
         "name": "ACT Center",
-        "country": "Albania",
-        "website": null
+        "country": "Albania"
       },
       "issue": "Organization not found in Excel data"
     },
@@ -315,8 +39,7 @@
       "filename": "CS-6.k.logolar-01 - Mert Ates.jpg",
       "mapping": {
         "name": "Creative Support Association",
-        "country": "Turkey",
-        "website": null
+        "country": "Turkey"
       },
       "issue": "Organization not found in Excel data"
     },
@@ -324,8 +47,7 @@
       "filename": "Cai_vermelho_Bola-05 - CAI - ONG.jpg",
       "mapping": {
         "name": "CAI - Centro de Apoio ao Imigrante",
-        "country": "Portugal",
-        "website": null
+        "country": "Portugal"
       },
       "issue": "Organization not found in Excel data"
     },
@@ -333,8 +55,7 @@
       "filename": "Etsy Cover Photo - Nunzia Amirante.png",
       "mapping": {
         "name": "Nunzia Amirante Organization",
-        "country": "Italy",
-        "website": null
+        "country": "Italy"
       },
       "issue": "Organization not found in Excel data"
     },
@@ -342,8 +63,7 @@
       "filename": "FB_IMG_1685647150637 - Mostafa Badr Egypt.jpg",
       "mapping": {
         "name": "Leaders Foundation",
-        "country": "Egypt",
-        "website": null
+        "country": "Egypt"
       },
       "issue": "Organization not found in Excel data"
     },
@@ -351,8 +71,7 @@
       "filename": "GPP LOGO - Зорана Матићевић.png",
       "mapping": {
         "name": "Grassroots People to People",
-        "country": "Serbia",
-        "website": null
+        "country": "Serbia"
       },
       "issue": "Organization not found in Excel data"
     },
@@ -360,8 +79,7 @@
       "filename": "IMG-6753 (1) - Alishir Boyukhanli.PNG",
       "mapping": {
         "name": "Azerbaijan Youth Organization",
-        "country": "Azerbaijan",
-        "website": null
+        "country": "Azerbaijan"
       },
       "issue": "Organization not found in Excel data"
     },
@@ -369,8 +87,7 @@
       "filename": "IMG_6231 - Simone Borsci.jpeg",
       "mapping": {
         "name": "Italian Youth Organization",
-        "country": "Italy",
-        "website": null
+        "country": "Italy"
       },
       "issue": "Organization not found in Excel data"
     },
@@ -378,8 +95,7 @@
       "filename": "LOGO - Vlad Rusu.png",
       "mapping": {
         "name": "Vlad Rusu Organization",
-        "country": "Moldova",
-        "website": null
+        "country": "Moldova"
       },
       "issue": "Organization not found in Excel data"
     },
@@ -387,8 +103,7 @@
       "filename": "LOGO ACT - Nevi Mazreku.jpg",
       "mapping": {
         "name": "ACT Kosovo",
-        "country": "Kosovo",
-        "website": null
+        "country": "Kosovo"
       },
       "issue": "Organization not found in Excel data"
     },
@@ -405,8 +120,7 @@
       "filename": "LOGO SOCIAL MEDIA - Goran Nikolov.jpg",
       "mapping": {
         "name": "Social Media Organization",
-        "country": "North Macedonia",
-        "website": null
+        "country": "North Macedonia"
       },
       "issue": "Organization not found in Excel data"
     },
@@ -414,8 +128,7 @@
       "filename": "LOGO bez burtiem - Diana K Krasnova.jpeg",
       "mapping": {
         "name": "Diana K Krasnova Foundation",
-        "country": "Latvia",
-        "website": null
+        "country": "Latvia"
       },
       "issue": "Organization not found in Excel data"
     },
@@ -423,8 +136,7 @@
       "filename": "LOGO1-1-removebg-preview - Berkan Demiral.png",
       "mapping": {
         "name": "Berkan Demiral Association",
-        "country": "Turkey",
-        "website": null
+        "country": "Turkey"
       },
       "issue": "Organization not found in Excel data"
     },
@@ -432,8 +144,7 @@
       "filename": "LOGO_ROMA_TEAM - Oancea Mihai.jpg",
       "mapping": {
         "name": "Roma Team",
-        "country": "Romania",
-        "website": null
+        "country": "Romania"
       },
       "issue": "Organization not found in Excel data"
     },
@@ -450,8 +161,7 @@
       "filename": "Logo - Robert Stefan.jpg",
       "mapping": {
         "name": "Robert Stefan Foundation",
-        "country": "Romania",
-        "website": null
+        "country": "Romania"
       },
       "issue": "Organization not found in Excel data"
     },
@@ -459,8 +169,7 @@
       "filename": "Logo 2 - Radina Dimitrov.png",
       "mapping": {
         "name": "Bulgarian Youth Association",
-        "country": "Bulgaria",
-        "website": null
+        "country": "Bulgaria"
       },
       "issue": "Organization not found in Excel data"
     },
@@ -468,8 +177,7 @@
       "filename": "Logo CPS - Michela Vottari.png",
       "mapping": {
         "name": "CPS - Community Psychological Services",
-        "country": "Italy",
-        "website": null
+        "country": "Italy"
       },
       "issue": "Organization not found in Excel data"
     },
@@ -477,8 +185,7 @@
       "filename": "Logo EuropoleWeb - Elena Milli.jpg",
       "mapping": {
         "name": "Europole Web",
-        "country": "Italy",
-        "website": null
+        "country": "Italy"
       },
       "issue": "Organization not found in Excel data"
     },
@@ -486,8 +193,7 @@
       "filename": "Logo LAG PRESPA orginal - lag prespa Resen.png",
       "mapping": {
         "name": "LAG PRESPA Resen",
-        "country": "North Macedonia",
-        "website": null
+        "country": "North Macedonia"
       },
       "issue": "Organization not found in Excel data"
     },
@@ -495,8 +201,7 @@
       "filename": "Logo Psychocenter - Joanna Szczecinska.jpeg",
       "mapping": {
         "name": "Psychocenter Foundation",
-        "country": "Poland",
-        "website": null
+        "country": "Poland"
       },
       "issue": "Organization not found in Excel data"
     },
@@ -504,8 +209,7 @@
       "filename": "Logo Trevessu - Viola Fonnesu.png",
       "mapping": {
         "name": "Trevessu Association",
-        "country": "Italy",
-        "website": null
+        "country": "Italy"
       },
       "issue": "Organization not found in Excel data"
     },
@@ -513,8 +217,7 @@
       "filename": "Logo vettoriale - Federica Mazzanti.png",
       "mapping": {
         "name": "Italian Youth Federation",
-        "country": "Italy",
-        "website": null
+        "country": "Italy"
       },
       "issue": "Organization not found in Excel data"
     },
@@ -522,8 +225,7 @@
       "filename": "Logo-removebg-preview - VICTOR NYABUTI.png",
       "mapping": {
         "name": "VICTOR NYABUTI Foundation",
-        "country": "Kenya",
-        "website": null
+        "country": "Kenya"
       },
       "issue": "Organization not found in Excel data"
     },
@@ -531,8 +233,7 @@
       "filename": "Logo_EI - Rui Baltazar.jpg",
       "mapping": {
         "name": "EI - Educational Initiative",
-        "country": "Portugal",
-        "website": null
+        "country": "Portugal"
       },
       "issue": "Organization not found in Excel data"
     },
@@ -540,8 +241,7 @@
       "filename": "Logo_RCNE - Yoanna Ivanova.jpg",
       "mapping": {
         "name": "RCNE - Romanian Center for New Education",
-        "country": "Bulgaria",
-        "website": null
+        "country": "Bulgaria"
       },
       "issue": "Organization not found in Excel data"
     },
@@ -558,8 +258,7 @@
       "filename": "PI_LOGO_ORIZ_RGB_WEB (2) - Laura Bianconi.jpg",
       "mapping": {
         "name": "PI - Project Initiative",
-        "country": "Italy",
-        "website": null
+        "country": "Italy"
       },
       "issue": "Organization not found in Excel data"
     },
@@ -567,8 +266,7 @@
       "filename": "RURAL MOVE - LOGO - Mariana Costa.png",
       "mapping": {
         "name": "Rural Move",
-        "country": "Portugal",
-        "website": null
+        "country": "Portugal"
       },
       "issue": "Organization not found in Excel data"
     },
@@ -576,8 +274,7 @@
       "filename": "SESAT_LOGO_05MAR2020-1 - Pantelis Makris.png",
       "mapping": {
         "name": "SESAT",
-        "country": "Greece",
-        "website": null
+        "country": "Greece"
       },
       "issue": "Organization not found in Excel data"
     },
@@ -585,8 +282,7 @@
       "filename": "SUMA - logo - Leo Fel.jpg",
       "mapping": {
         "name": "SUMA",
-        "country": "Croatia",
-        "website": null
+        "country": "Croatia"
       },
       "issue": "Organization not found in Excel data"
     },
@@ -594,8 +290,7 @@
       "filename": "Screenshot 2023-08-12 161512.png",
       "mapping": {
         "name": "Youth Organization",
-        "country": "International",
-        "website": null
+        "country": "International"
       },
       "issue": "Organization not found in Excel data"
     },
@@ -603,8 +298,7 @@
       "filename": "Screenshot 2023-08-12 161727.png",
       "mapping": {
         "name": "Youth Organization",
-        "country": "International",
-        "website": null
+        "country": "International"
       },
       "issue": "Organization not found in Excel data"
     },
@@ -612,8 +306,7 @@
       "filename": "Screenshot 2023-08-12 161944.png",
       "mapping": {
         "name": "Youth Organization",
-        "country": "International",
-        "website": null
+        "country": "International"
       },
       "issue": "Organization not found in Excel data"
     },
@@ -630,8 +323,7 @@
       "filename": "Tmelnik - Oana Buzera.jpg",
       "mapping": {
         "name": "Tmelnik Association",
-        "country": "Romania",
-        "website": null
+        "country": "Romania"
       },
       "issue": "Organization not found in Excel data"
     },
@@ -648,8 +340,7 @@
       "filename": "WhatsApp Image 2024-02-11 at 23.26.20 - onur gultekin.jpeg",
       "mapping": {
         "name": "Onur Gultekin Foundation",
-        "country": "Turkey",
-        "website": null
+        "country": "Turkey"
       },
       "issue": "Organization not found in Excel data"
     },
@@ -666,8 +357,7 @@
       "filename": "dopetransp (1) - Federico Giordano Mederos.png",
       "mapping": {
         "name": "Dope Association",
-        "country": "Italy",
-        "website": null
+        "country": "Italy"
       },
       "issue": "Organization not found in Excel data"
     },
@@ -675,8 +365,7 @@
       "filename": "ggd_logo2 - Mahmut Talha Serenli.jpg",
       "mapping": {
         "name": "GGD Youth",
-        "country": "Turkey",
-        "website": null
+        "country": "Turkey"
       },
       "issue": "Organization not found in Excel data"
     },
@@ -684,8 +373,7 @@
       "filename": "lag-vallis-colapis-logo - Petra Cule.png",
       "mapping": {
         "name": "LAG Vallis Colapis",
-        "country": "Croatia",
-        "website": null
+        "country": "Croatia"
       },
       "issue": "Organization not found in Excel data"
     },
@@ -693,8 +381,7 @@
       "filename": "loesje-logo-png-transparent - Marina Trajkovska.png",
       "mapping": {
         "name": "Loesje International",
-        "country": "North Macedonia",
-        "website": null
+        "country": "North Macedonia"
       },
       "issue": "Organization not found in Excel data"
     },
@@ -702,8 +389,7 @@
       "filename": "logo - Burcu Bilgic.jpg",
       "mapping": {
         "name": "Burcu Bilgic Association",
-        "country": "Turkey",
-        "website": null
+        "country": "Turkey"
       },
       "issue": "Organization not found in Excel data"
     },
@@ -711,8 +397,7 @@
       "filename": "logo - Gulfem Boz.png",
       "mapping": {
         "name": "Vizyon Insani Yardim Dernegi",
-        "country": "Turkey",
-        "website": null
+        "country": "Turkey"
       },
       "issue": "Organization not found in Excel data"
     },
@@ -720,8 +405,7 @@
       "filename": "logo black - Tetiana Kalko.png",
       "mapping": {
         "name": "Tetiana Kalko Foundation",
-        "country": "Ukraine",
-        "website": null
+        "country": "Ukraine"
       },
       "issue": "Organization not found in Excel data"
     },
@@ -729,8 +413,7 @@
       "filename": "logo fb ig (1) - Donatas Verseckas.png",
       "mapping": {
         "name": "Lithuanian Youth Organization",
-        "country": "Lithuania",
-        "website": null
+        "country": "Lithuania"
       },
       "issue": "Organization not found in Excel data"
     },
@@ -738,8 +421,7 @@
       "filename": "logo muwada_page-0001 - project muwada.jpg",
       "mapping": {
         "name": "Project Muwada",
-        "country": "Palestine",
-        "website": null
+        "country": "Palestine"
       },
       "issue": "Organization not found in Excel data"
     },
@@ -747,8 +429,7 @@
       "filename": "logo-GoEasy - GoEasy Info.jpg",
       "mapping": {
         "name": "GoEasy",
-        "country": "North Macedonia",
-        "website": null
+        "country": "North Macedonia"
       },
       "issue": "Organization not found in Excel data"
     },
@@ -756,8 +437,7 @@
       "filename": "logo-activhandi (1) - Florian Vallet.png",
       "mapping": {
         "name": "Activhandi",
-        "country": "France",
-        "website": null
+        "country": "France"
       },
       "issue": "Organization not found in Excel data"
     },
@@ -765,8 +445,7 @@
       "filename": "logo_CP2U - Cristina Lemnaru.jpg",
       "mapping": {
         "name": "CP2U",
-        "country": "Romania",
-        "website": null
+        "country": "Romania"
       },
       "issue": "Organization not found in Excel data"
     },
@@ -774,8 +453,7 @@
       "filename": "logo_ema-300x94 - EMA Project Support.gif",
       "mapping": {
         "name": "EMA Project Support",
-        "country": "Greece",
-        "website": null
+        "country": "Greece"
       },
       "issue": "Organization not found in Excel data"
     },
@@ -783,8 +461,7 @@
       "filename": "logo_hd - EMC SERVICES.png",
       "mapping": {
         "name": "EMC Services",
-        "country": "Romania",
-        "website": null
+        "country": "Romania"
       },
       "issue": "Organization not found in Excel data"
     },
@@ -792,8 +469,7 @@
       "filename": "logo_jpg - Nicola GIOIA.jpg",
       "mapping": {
         "name": "Nicola GIOIA Association",
-        "country": "Italy",
-        "website": null
+        "country": "Italy"
       },
       "issue": "Organization not found in Excel data"
     },
@@ -801,8 +477,7 @@
       "filename": "logotyp msk_2022 - Joanna Szczecinska.png",
       "mapping": {
         "name": "MSK Foundation",
-        "country": "Poland",
-        "website": null
+        "country": "Poland"
       },
       "issue": "Organization not found in Excel data"
     },
@@ -810,8 +485,7 @@
       "filename": "meb-logo - Zky Bkr.png",
       "mapping": {
         "name": "MEB Turkey",
-        "country": "Turkey",
-        "website": null
+        "country": "Turkey"
       },
       "issue": "Organization not found in Excel data"
     },
@@ -819,8 +493,7 @@
       "filename": "underdevelopmentlogo - Thomas Savvakis.jpg",
       "mapping": {
         "name": "Under Development",
-        "country": "Greece",
-        "website": null
+        "country": "Greece"
       },
       "issue": "Organization not found in Excel data"
     },
@@ -828,8 +501,7 @@
       "filename": "new logos/485112844_1144645754126569_1090105995087966129_n - Giuseppe Leotta.jpg",
       "mapping": {
         "name": "Giuseppe Leotta Foundation",
-        "country": "Italy",
-        "website": null
+        "country": "Italy"
       },
       "issue": "Organization not found in Excel data"
     },
@@ -837,8 +509,7 @@
       "filename": "new logos/IMG-20251124-WA0006 - Albert Ndeze.jpg",
       "mapping": {
         "name": "Albert Ndeze Organization",
-        "country": "Cameroon",
-        "website": null
+        "country": "Cameroon"
       },
       "issue": "Organization not found in Excel data"
     },
@@ -846,8 +517,7 @@
       "filename": "new logos/LOGO ASS A-SAFAA-09 - Ahmed MOUHIB.png",
       "mapping": {
         "name": "Association A-SAFAA",
-        "country": "Morocco",
-        "website": null
+        "country": "Morocco"
       },
       "issue": "Organization not found in Excel data"
     },
@@ -873,8 +543,7 @@
       "filename": "new logos/Logo - Milan Jankuloski.jpg",
       "mapping": {
         "name": "ATLAS Innovation Center",
-        "country": "North Macedonia",
-        "website": null
+        "country": "North Macedonia"
       },
       "issue": "Organization not found in Excel data"
     },
@@ -891,8 +560,7 @@
       "filename": "new logos/Purple on White - AY Institute.png",
       "mapping": {
         "name": "AY Institute",
-        "country": "Turkey",
-        "website": null
+        "country": "Turkey"
       },
       "issue": "Organization not found in Excel data"
     },
@@ -900,8 +568,7 @@
       "filename": "new logos/ROOTS LOGO - yunus Denizli.jpg",
       "mapping": {
         "name": "ROOTS Youth",
-        "country": "Turkey",
-        "website": null
+        "country": "Turkey"
       },
       "issue": "Organization not found in Excel data"
     },
@@ -927,8 +594,7 @@
       "filename": "new logos/Zenith Logo - Ciprian Sfirlogea.png",
       "mapping": {
         "name": "Zenith Organization",
-        "country": "Romania",
-        "website": null
+        "country": "Romania"
       },
       "issue": "Organization not found in Excel data"
     },
@@ -945,8 +611,7 @@
       "filename": "new logos/logo - project muwada.png",
       "mapping": {
         "name": "Project Muwada",
-        "country": "Palestine",
-        "website": null
+        "country": "Palestine"
       },
       "issue": "Organization not found in Excel data"
     },
