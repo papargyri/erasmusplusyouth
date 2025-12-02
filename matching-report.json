@@ -1,0 +1,1365 @@
+{
+  "summary": {
+    "totalLogos": 116,
+    "totalOrganizations": 124,
+    "matchedLogos": 20,
+    "matchedOrganizations": 19,
+    "unmatchedLogos": 96,
+    "unmatchedOrganizations": 105,
+    "successRate": "17.24%"
+  },
+  "matches": [
+    {
+      "filename": "20 - Square of Youth Association.png",
+      "submitter": "Square of Youth Association",
+      "description": "20",
+      "matched": {
+        "name": "Square of Youth Association",
+        "country": "Hungary",
+        "website": "squareofyouth.eu"
+      },
+      "confidence": "100.0%",
+      "reason": "Exact match: organization name === submitter name"
+    },
+    {
+      "filename": "AcrossLimits logo - Senfer Usman.png",
+      "submitter": "Senfer Usman",
+      "description": "AcrossLimits logo",
+      "matched": {
+        "name": "AcrossLimits",
+        "country": "Malta",
+        "website": null
+      },
+      "confidence": "85.0%",
+      "reason": "Description \"AcrossLimits logo\" contains org name \"AcrossLimits\""
+    },
+    {
+      "filename": "Cai_vermelho_Bola-05 - CAI - ONG.jpg",
+      "submitter": "05 - CAI - ONG",
+      "description": "Cai_vermelho_Bola",
+      "matched": {
+        "name": "Conversas Associação Internacional",
+        "country": "Portugal",
+        "website": null
+      },
+      "confidence": "75.0%",
+      "reason": "Description contains acronym of \"Conversas Associação Internacional\""
+    },
+    {
+      "filename": "EMBAIXADA (1) - Embaixada da Juventude.png",
+      "submitter": "Embaixada da Juventude",
+      "description": "EMBAIXADA (1)",
+      "matched": {
+        "name": "Embaixada da Juventude",
+        "country": "Spain",
+        "website": null
+      },
+      "confidence": "100.0%",
+      "reason": "Exact match: organization name === submitter name"
+    },
+    {
+      "filename": "GPP LOGO - Зорана Матићевић.png",
+      "submitter": "Зорана Матићевић",
+      "description": "GPP LOGO",
+      "matched": {
+        "name": "Gimnazija Patrijarh Pavle",
+        "country": "Serbia",
+        "website": null
+      },
+      "confidence": "75.0%",
+      "reason": "Description contains acronym of \"Gimnazija Patrijarh Pavle\""
+    },
+    {
+      "filename": "GoINNO Institute_png - Teja Bajt.png",
+      "submitter": "Teja Bajt",
+      "description": "GoINNO Institute_png",
+      "matched": {
+        "name": "GoINNO Institute",
+        "country": "Slovenia",
+        "website": "www.goinno.si"
+      },
+      "confidence": "85.0%",
+      "reason": "Description \"GoINNO Institute_png\" contains org name \"GoINNO Institute\""
+    },
+    {
+      "filename": "LOGO ONDAMIND con scritta - Ondamind.jpg",
+      "submitter": "Ondamind",
+      "description": "LOGO ONDAMIND con scritta",
+      "matched": {
+        "name": "Ondamind aps",
+        "country": "Italy",
+        "website": "www.ondamind.eu"
+      },
+      "confidence": "90.0%",
+      "reason": "Org name \"Ondamind aps\" contains submitter \"Ondamind\""
+    },
+    {
+      "filename": "Logo - Outreach Armenia.jpg",
+      "submitter": "Outreach Armenia",
+      "description": "Logo",
+      "matched": {
+        "name": "Outreach Armenia NGO",
+        "country": "Armenia",
+        "website": "https://www.facebook.com/profile.php?id=100068285236068"
+      },
+      "confidence": "90.0%",
+      "reason": "Org name \"Outreach Armenia NGO\" contains submitter \"Outreach Armenia\""
+    },
+    {
+      "filename": "SuperlikeDima - Дмитрий Журавель.png",
+      "submitter": "Дмитрий Журавель",
+      "description": "SuperlikeDima",
+      "matched": {
+        "name": "SUPERLIKE",
+        "country": "Moldova",
+        "website": "https://superlike.md/"
+      },
+      "confidence": "85.0%",
+      "reason": "Description \"SuperlikeDima\" contains org name \"SUPERLIKE\""
+    },
+    {
+      "filename": "TBG LOGO - Зорана Матићевић.png",
+      "submitter": "Зорана Матићевић",
+      "description": "TBG LOGO",
+      "matched": {
+        "name": "Third Belgrade gymnasium",
+        "country": "Serbia",
+        "website": null
+      },
+      "confidence": "75.0%",
+      "reason": "Description contains acronym of \"Third Belgrade gymnasium\""
+    },
+    {
+      "filename": "dideas - Lizandra Carvajal.png",
+      "submitter": "Lizandra Carvajal",
+      "description": "dideas",
+      "matched": {
+        "name": "Dideas",
+        "country": "Spain",
+        "website": null
+      },
+      "confidence": "85.0%",
+      "reason": "Description \"dideas\" contains org name \"Dideas\""
+    },
+    {
+      "filename": "ggd_logo2 - Mahmut Talha Serenli.jpg",
+      "submitter": "Mahmut Talha Serenli",
+      "description": "ggd_logo2",
+      "matched": {
+        "name": "Genç Gönüllüler Derneği",
+        "country": "Turkey",
+        "website": "https://gencgonulluler.org.tr/"
+      },
+      "confidence": "75.0%",
+      "reason": "Description contains acronym of \"Genç Gönüllüler Derneği\""
+    },
+    {
+      "filename": "logo_CP2U - Cristina Lemnaru.jpg",
+      "submitter": "Cristina Lemnaru",
+      "description": "logo_CP2U",
+      "matched": {
+        "name": "CONNECT PEOPLE 2U",
+        "country": "Romania",
+        "website": null
+      },
+      "confidence": "75.0%",
+      "reason": "Description contains acronym of \"CONNECT PEOPLE 2U\""
+    },
+    {
+      "filename": "logo_ema-300x94 - EMA Project Support.gif",
+      "submitter": "300x94 - EMA Project Support",
+      "description": "logo_ema",
+      "matched": {
+        "name": "Erasmus Mundus Association",
+        "country": "Belgium",
+        "website": "https://www.em-a.eu/"
+      },
+      "confidence": "75.0%",
+      "reason": "Description contains acronym of \"Erasmus Mundus Association\""
+    },
+    {
+      "filename": "logo_hd - EMC SERVICES.png",
+      "submitter": "EMC SERVICES",
+      "description": "logo_hd",
+      "matched": {
+        "name": "EMC SERVICES LTD",
+        "country": "Cyprus",
+        "website": "http://emcservicesweb.com/"
+      },
+      "confidence": "90.0%",
+      "reason": "Org name \"EMC SERVICES LTD\" contains submitter \"EMC SERVICES\""
+    },
+    {
+      "filename": "logo_walktogether - Association Walktogether.png",
+      "submitter": "Association Walktogether",
+      "description": "logo_walktogether",
+      "matched": {
+        "name": "Association WalkTogether",
+        "country": "Bulgaria",
+        "website": "https://www.facebook.com/pages/WalkTogether/1546632572269496?fref=ts"
+      },
+      "confidence": "100.0%",
+      "reason": "Exact match: organization name === submitter name"
+    },
+    {
+      "filename": "new logos/IG_IGNET_noEU - InformaGiovani IGNet.png",
+      "submitter": "InformaGiovani IGNet",
+      "description": "IG_IGNET_noEU",
+      "matched": {
+        "name": "InformaGiovani - IGNet",
+        "country": "Italy",
+        "website": "www.informa-giovani.net"
+      },
+      "confidence": "100.0%",
+      "reason": "Exact match: organization name === submitter name"
+    },
+    {
+      "filename": "new logos/LOGO ASS A-SAFAA-09 - Ahmed MOUHIB.png",
+      "submitter": "SAFAA-09 - Ahmed MOUHIB",
+      "description": "LOGO ASS A",
+      "matched": {
+        "name": "Asociația Scout Society",
+        "country": "Romania",
+        "website": "www.scoutsociety.ro"
+      },
+      "confidence": "75.0%",
+      "reason": "Description contains acronym of \"Asociația Scout Society\""
+    },
+    {
+      "filename": "new logos/PHOTO-2025-11-26-11-20-08 - Youth Rights & Citizenship Initiative.jpg",
+      "submitter": "2025-11-26-11-20-08 - Youth Rights & Citizenship Initiative",
+      "description": "PHOTO",
+      "matched": {
+        "name": "Youth Rights & Citizenship Initiative",
+        "country": "Albania",
+        "website": "https://yrcialbania.com/"
+      },
+      "confidence": "95.0%",
+      "reason": "Submitter \"2025-11-26-11-20-08 - Youth Rights & Citizenship Initiative\" contains org name \"Youth Rights & Citizenship Initiative\""
+    },
+    {
+      "filename": "new logos/logoartem (1) - ARTE.M Association.png",
+      "submitter": null,
+      "description": "logoartem (1) - ARTE.M Association",
+      "matched": {
+        "name": "Asociația Scout Society",
+        "country": "Romania",
+        "website": "www.scoutsociety.ro"
+      },
+      "confidence": "75.0%",
+      "reason": "Description contains acronym of \"Asociația Scout Society\""
+    }
+  ],
+  "unmatchedLogos": [
+    {
+      "filename": "1617046040133 - Arda Kırayoğlu.jpeg",
+      "submitter": "Arda Kırayoğlu",
+      "description": "1617046040133",
+      "possibleMatches": []
+    },
+    {
+      "filename": "2017-Montanhas-de-Investigação-Cor-EN - Alberto Teixeira.png",
+      "submitter": "Montanhas-de-Investigação-Cor-EN - Alberto Teixeira",
+      "description": "2017",
+      "possibleMatches": []
+    },
+    {
+      "filename": "624_bursa_buyuksehir_belediyesi_logo - Murat Bakan.jpg",
+      "submitter": "Murat Bakan",
+      "description": "624_bursa_buyuksehir_belediyesi_logo",
+      "possibleMatches": []
+    },
+    {
+      "filename": "8.2 - Feyza S..png",
+      "submitter": null,
+      "description": "8.2 - Feyza S.",
+      "possibleMatches": []
+    },
+    {
+      "filename": "ABCD Logo - Vahe Darbinyan.jpg",
+      "submitter": "Vahe Darbinyan",
+      "description": "ABCD Logo",
+      "possibleMatches": []
+    },
+    {
+      "filename": "ACT-LOGO-PNG - Act Center.png",
+      "submitter": "LOGO-PNG - Act Center",
+      "description": "ACT",
+      "possibleMatches": []
+    },
+    {
+      "filename": "Atlas Horizontal logo.png",
+      "submitter": null,
+      "description": "Atlas Horizontal logo",
+      "possibleMatches": []
+    },
+    {
+      "filename": "BKPLUS_LOGO-01 - Konstantinos Grigoriadis.jpg",
+      "submitter": "01 - Konstantinos Grigoriadis",
+      "description": "BKPLUS_LOGO",
+      "possibleMatches": []
+    },
+    {
+      "filename": "CS-6.k.logolar-01 - Mert Ates.jpg",
+      "submitter": "01 - Mert Ates",
+      "description": "CS-6.k.logolar",
+      "possibleMatches": []
+    },
+    {
+      "filename": "Ethnikos.jpg",
+      "submitter": null,
+      "description": "Ethnikos",
+      "possibleMatches": []
+    },
+    {
+      "filename": "Etsy Cover Photo - Nunzia Amirante.png",
+      "submitter": "Nunzia Amirante",
+      "description": "Etsy Cover Photo",
+      "possibleMatches": []
+    },
+    {
+      "filename": "FB_IMG_1685647150637 - Mostafa Badr Egypt.jpg",
+      "submitter": "Mostafa Badr Egypt",
+      "description": "FB_IMG_1685647150637",
+      "possibleMatches": []
+    },
+    {
+      "filename": "GLAFKA_rgb_Web_Online - GLAFKA.png",
+      "submitter": "GLAFKA",
+      "description": "GLAFKA_rgb_Web_Online",
+      "possibleMatches": []
+    },
+    {
+      "filename": "IAIS logo with website - Eilleen Attard Bason Esteban.jpg",
+      "submitter": "Eilleen Attard Bason Esteban",
+      "description": "IAIS logo with website",
+      "possibleMatches": []
+    },
+    {
+      "filename": "IMG-20230730-WA0000 - Murat ŞERAS.jpg",
+      "submitter": "20230730-WA0000 - Murat ŞERAS",
+      "description": "IMG",
+      "possibleMatches": []
+    },
+    {
+      "filename": "IMG-6753 (1) - Alishir Boyukhanli.PNG",
+      "submitter": "6753 (1) - Alishir Boyukhanli",
+      "description": "IMG",
+      "possibleMatches": []
+    },
+    {
+      "filename": "IMG_6231 - Simone Borsci.jpeg",
+      "submitter": "Simone Borsci",
+      "description": "IMG_6231",
+      "possibleMatches": []
+    },
+    {
+      "filename": "IMG_8132 - Mehmet Mağat.JPG",
+      "submitter": "Mehmet Mağat",
+      "description": "IMG_8132",
+      "possibleMatches": []
+    },
+    {
+      "filename": "Innoved Lietuva black - Žilvinas Speteliūnas.png",
+      "submitter": "Žilvinas Speteliūnas",
+      "description": "Innoved Lietuva black",
+      "possibleMatches": []
+    },
+    {
+      "filename": "LOGO - Vlad Rusu.png",
+      "submitter": "Vlad Rusu",
+      "description": "LOGO",
+      "possibleMatches": []
+    },
+    {
+      "filename": "LOGO ACT - Nevi Mazreku.jpg",
+      "submitter": "Nevi Mazreku",
+      "description": "LOGO ACT",
+      "possibleMatches": []
+    },
+    {
+      "filename": "LOGO ARTICOOOO - Loran Zmuncila.png",
+      "submitter": "Loran Zmuncila",
+      "description": "LOGO ARTICOOOO",
+      "possibleMatches": []
+    },
+    {
+      "filename": "LOGO SOCIAL MEDIA - Goran Nikolov.jpg",
+      "submitter": "Goran Nikolov",
+      "description": "LOGO SOCIAL MEDIA",
+      "possibleMatches": []
+    },
+    {
+      "filename": "LOGO bez burtiem - Diana K Krasnova.jpeg",
+      "submitter": "Diana K Krasnova",
+      "description": "LOGO bez burtiem",
+      "possibleMatches": []
+    },
+    {
+      "filename": "LOGO1-1-removebg-preview - Berkan Demiral.png",
+      "submitter": "1-removebg-preview - Berkan Demiral",
+      "description": "LOGO1",
+      "possibleMatches": []
+    },
+    {
+      "filename": "LOGO_ROMA_TEAM - Oancea Mihai.jpg",
+      "submitter": "Oancea Mihai",
+      "description": "LOGO_ROMA_TEAM",
+      "possibleMatches": []
+    },
+    {
+      "filename": "Logo - Robert Stefan.jpg",
+      "submitter": "Robert Stefan",
+      "description": "Logo",
+      "possibleMatches": []
+    },
+    {
+      "filename": "Logo 2 - Radina Dimitrov.png",
+      "submitter": "Radina Dimitrov",
+      "description": "Logo 2",
+      "possibleMatches": []
+    },
+    {
+      "filename": "Logo CPS - Michela Vottari.png",
+      "submitter": "Michela Vottari",
+      "description": "Logo CPS",
+      "possibleMatches": []
+    },
+    {
+      "filename": "Logo Daring Hub - Suha Ayyash.jpg",
+      "submitter": "Suha Ayyash",
+      "description": "Logo Daring Hub",
+      "possibleMatches": []
+    },
+    {
+      "filename": "Logo Dernek (1) - Vizyoner Kadınlar Derneği.png",
+      "submitter": "Vizyoner Kadınlar Derneği",
+      "description": "Logo Dernek (1)",
+      "possibleMatches": []
+    },
+    {
+      "filename": "Logo EuropoleWeb - Elena Milli.jpg",
+      "submitter": "Elena Milli",
+      "description": "Logo EuropoleWeb",
+      "possibleMatches": []
+    },
+    {
+      "filename": "Logo LAG PRESPA orginal - lag prespa Resen.png",
+      "submitter": "lag prespa Resen",
+      "description": "Logo LAG PRESPA orginal",
+      "possibleMatches": []
+    },
+    {
+      "filename": "Logo Psychocenter - Joanna Szczecinska.jpeg",
+      "submitter": "Joanna Szczecinska",
+      "description": "Logo Psychocenter",
+      "possibleMatches": []
+    },
+    {
+      "filename": "Logo Trevessu - Viola Fonnesu.png",
+      "submitter": "Viola Fonnesu",
+      "description": "Logo Trevessu",
+      "possibleMatches": []
+    },
+    {
+      "filename": "Logo vettoriale - Federica Mazzanti.png",
+      "submitter": "Federica Mazzanti",
+      "description": "Logo vettoriale",
+      "possibleMatches": []
+    },
+    {
+      "filename": "Logo za drustvene mreze-03 - Andrej Jankovic.jpg",
+      "submitter": "03 - Andrej Jankovic",
+      "description": "Logo za drustvene mreze",
+      "possibleMatches": []
+    },
+    {
+      "filename": "Logo-removebg-preview - VICTOR NYABUTI.png",
+      "submitter": "removebg-preview - VICTOR NYABUTI",
+      "description": "Logo",
+      "possibleMatches": []
+    },
+    {
+      "filename": "LogoAIT - Rînja Grigore.png",
+      "submitter": "Rînja Grigore",
+      "description": "LogoAIT",
+      "possibleMatches": []
+    },
+    {
+      "filename": "Logo_EI - Rui Baltazar.jpg",
+      "submitter": "Rui Baltazar",
+      "description": "Logo_EI",
+      "possibleMatches": []
+    },
+    {
+      "filename": "Logo_RCNE - Yoanna Ivanova.jpg",
+      "submitter": "Yoanna Ivanova",
+      "description": "Logo_RCNE",
+      "possibleMatches": []
+    },
+    {
+      "filename": "OEV logo - sizif sizif.png",
+      "submitter": "sizif sizif",
+      "description": "OEV logo",
+      "possibleMatches": []
+    },
+    {
+      "filename": "PI_LOGO_ORIZ_RGB_WEB (2) - Laura Bianconi.jpg",
+      "submitter": "Laura Bianconi",
+      "description": "PI_LOGO_ORIZ_RGB_WEB (2)",
+      "possibleMatches": []
+    },
+    {
+      "filename": "RRDA_logo - Aga Nędza.png",
+      "submitter": "Aga Nędza",
+      "description": "RRDA_logo",
+      "possibleMatches": []
+    },
+    {
+      "filename": "RURAL MOVE - LOGO - Mariana Costa.png",
+      "submitter": "LOGO - Mariana Costa",
+      "description": "RURAL MOVE",
+      "possibleMatches": []
+    },
+    {
+      "filename": "SESAT_LOGO_05MAR2020-1 - Pantelis Makris.png",
+      "submitter": "1 - Pantelis Makris",
+      "description": "SESAT_LOGO_05MAR2020",
+      "possibleMatches": []
+    },
+    {
+      "filename": "SUMA - logo - Leo Fel.jpg",
+      "submitter": "logo - Leo Fel",
+      "description": "SUMA",
+      "possibleMatches": []
+    },
+    {
+      "filename": "Screenshot 2023-08-12 161512.png",
+      "submitter": "08-12 161512",
+      "description": "Screenshot 2023",
+      "possibleMatches": []
+    },
+    {
+      "filename": "Screenshot 2023-08-12 161727.png",
+      "submitter": "08-12 161727",
+      "description": "Screenshot 2023",
+      "possibleMatches": []
+    },
+    {
+      "filename": "Screenshot 2023-08-12 161944.png",
+      "submitter": "08-12 161944",
+      "description": "Screenshot 2023",
+      "possibleMatches": []
+    },
+    {
+      "filename": "Tmelnik - Oana Buzera.jpg",
+      "submitter": "Oana Buzera",
+      "description": "Tmelnik",
+      "possibleMatches": []
+    },
+    {
+      "filename": "Udruga-srednjoškolaca-Hrvatske - Leo Fel.png",
+      "submitter": "srednjoškolaca-Hrvatske - Leo Fel",
+      "description": "Udruga",
+      "possibleMatches": []
+    },
+    {
+      "filename": "Verde Logo.png",
+      "submitter": null,
+      "description": "Verde Logo",
+      "possibleMatches": []
+    },
+    {
+      "filename": "WhatsApp Image 2024-02-11 at 23.26.20 - onur gultekin.jpeg",
+      "submitter": "onur gultekin",
+      "description": "WhatsApp Image 2024-02-11 at 23.26.20",
+      "possibleMatches": []
+    },
+    {
+      "filename": "bLACK LOGO - Anke Besseling.png",
+      "submitter": "Anke Besseling",
+      "description": "bLACK LOGO",
+      "possibleMatches": []
+    },
+    {
+      "filename": "bosev-logo-arkabeyazkare, - Ercan KÜÇÜKARSLAN.png",
+      "submitter": "logo-arkabeyazkare, - Ercan KÜÇÜKARSLAN",
+      "description": "bosev",
+      "possibleMatches": []
+    },
+    {
+      "filename": "dopetransp (1) - Federico Giordano Mederos.png",
+      "submitter": "Federico Giordano Mederos",
+      "description": "dopetransp (1)",
+      "possibleMatches": []
+    },
+    {
+      "filename": "images - Mehmet Göçmen.jpeg",
+      "submitter": "Mehmet Göçmen",
+      "description": "images",
+      "possibleMatches": []
+    },
+    {
+      "filename": "indir - özlem.jpg",
+      "submitter": "özlem",
+      "description": "indir",
+      "possibleMatches": []
+    },
+    {
+      "filename": "lag-vallis-colapis-logo - Petra Cule.png",
+      "submitter": "vallis-colapis-logo - Petra Cule",
+      "description": "lag",
+      "possibleMatches": []
+    },
+    {
+      "filename": "loesje-logo-png-transparent - Marina Trajkovska.png",
+      "submitter": "logo-png-transparent - Marina Trajkovska",
+      "description": "loesje",
+      "possibleMatches": []
+    },
+    {
+      "filename": "logo - Burcu Bilgic.jpg",
+      "submitter": "Burcu Bilgic",
+      "description": "logo",
+      "possibleMatches": []
+    },
+    {
+      "filename": "logo - Esra Yalçın.jpg",
+      "submitter": "Esra Yalçın",
+      "description": "logo",
+      "possibleMatches": []
+    },
+    {
+      "filename": "logo - Gulfem Boz.png",
+      "submitter": "Gulfem Boz",
+      "description": "logo",
+      "possibleMatches": []
+    },
+    {
+      "filename": "logo - Yağmur Süzer.png",
+      "submitter": "Yağmur Süzer",
+      "description": "logo",
+      "possibleMatches": []
+    },
+    {
+      "filename": "logo - Yasemin Özden.jpg",
+      "submitter": "Yasemin Özden",
+      "description": "logo",
+      "possibleMatches": []
+    },
+    {
+      "filename": "logo ADEL jpg - Lenka.jpg",
+      "submitter": "Lenka",
+      "description": "logo ADEL jpg",
+      "possibleMatches": []
+    },
+    {
+      "filename": "logo black - Tetiana Kalko.png",
+      "submitter": "Tetiana Kalko",
+      "description": "logo black",
+      "possibleMatches": []
+    },
+    {
+      "filename": "logo fb ig (1) - Donatas Verseckas.png",
+      "submitter": "Donatas Verseckas",
+      "description": "logo fb ig (1)",
+      "possibleMatches": []
+    },
+    {
+      "filename": "logo g5 - Las Mesas La Brújula - El Compás.jpg",
+      "submitter": "Las Mesas La Brújula - El Compás",
+      "description": "logo g5",
+      "possibleMatches": []
+    },
+    {
+      "filename": "logo muwada_page-0001 - project muwada.jpg",
+      "submitter": "0001 - project muwada",
+      "description": "logo muwada_page",
+      "possibleMatches": []
+    },
+    {
+      "filename": "logo-GoEasy - GoEasy Info.jpg",
+      "submitter": "GoEasy - GoEasy Info",
+      "description": "logo",
+      "possibleMatches": []
+    },
+    {
+      "filename": "logo-activhandi (1) - Florian Vallet.png",
+      "submitter": "activhandi (1) - Florian Vallet",
+      "description": "logo",
+      "possibleMatches": []
+    },
+    {
+      "filename": "logo_jpg - Nicola GIOIA.jpg",
+      "submitter": "Nicola GIOIA",
+      "description": "logo_jpg",
+      "possibleMatches": []
+    },
+    {
+      "filename": "logonew - Ayşe K..png",
+      "submitter": null,
+      "description": "logonew - Ayşe K.",
+      "possibleMatches": []
+    },
+    {
+      "filename": "logonew - Damla Keleş.png",
+      "submitter": "Damla Keleş",
+      "description": "logonew",
+      "possibleMatches": []
+    },
+    {
+      "filename": "logotyp msk_2022 - Joanna Szczecinska.png",
+      "submitter": "Joanna Szczecinska",
+      "description": "logotyp msk_2022",
+      "possibleMatches": []
+    },
+    {
+      "filename": "meb-logo - Zky Bkr.png",
+      "submitter": "logo - Zky Bkr",
+      "description": "meb",
+      "possibleMatches": []
+    },
+    {
+      "filename": "underdevelopmentlogo - Thomas Savvakis.jpg",
+      "submitter": "Thomas Savvakis",
+      "description": "underdevelopmentlogo",
+      "possibleMatches": []
+    },
+    {
+      "filename": "unnamed - Ismail hakkı YAVUZYİĞİT.png",
+      "submitter": "Ismail hakkı YAVUZYİĞİT",
+      "description": "unnamed",
+      "possibleMatches": []
+    },
+    {
+      "filename": "new logos/485112844_1144645754126569_1090105995087966129_n - Giuseppe Leotta.jpg",
+      "submitter": "Giuseppe Leotta",
+      "description": "485112844_1144645754126569_1090105995087966129_n",
+      "possibleMatches": []
+    },
+    {
+      "filename": "new logos/IMG-20251124-WA0006 - Albert Ndeze.jpg",
+      "submitter": "20251124-WA0006 - Albert Ndeze",
+      "description": "IMG",
+      "possibleMatches": []
+    },
+    {
+      "filename": "new logos/LOGO1 - Karolina Jedziniak.png",
+      "submitter": "Karolina Jedziniak",
+      "description": "LOGO1",
+      "possibleMatches": []
+    },
+    {
+      "filename": "new logos/LOGO_EUROBOX_Logo Eurobox sfondo blu - Mariangela Eurobox.jpg",
+      "submitter": "Mariangela Eurobox",
+      "description": "LOGO_EUROBOX_Logo Eurobox sfondo blu",
+      "possibleMatches": []
+    },
+    {
+      "filename": "new logos/Logo - Cemile ABDULGANİOĞLU.JPG",
+      "submitter": "Cemile ABDULGANİOĞLU",
+      "description": "Logo",
+      "possibleMatches": []
+    },
+    {
+      "filename": "new logos/Logo - Milan Jankuloski.jpg",
+      "submitter": "Milan Jankuloski",
+      "description": "Logo",
+      "possibleMatches": []
+    },
+    {
+      "filename": "new logos/Logo_Caravel - Gallery Caravel.png",
+      "submitter": "Gallery Caravel",
+      "description": "Logo_Caravel",
+      "possibleMatches": []
+    },
+    {
+      "filename": "new logos/Purple on White - AY Institute.png",
+      "submitter": "AY Institute",
+      "description": "Purple on White",
+      "possibleMatches": []
+    },
+    {
+      "filename": "new logos/ROOTS LOGO - yunus Denizli.jpg",
+      "submitter": "yunus Denizli",
+      "description": "ROOTS LOGO",
+      "possibleMatches": []
+    },
+    {
+      "filename": "new logos/ScoutSocietyLogo - Ciprian Sfirlogea.jpg",
+      "submitter": "Ciprian Sfirlogea",
+      "description": "ScoutSocietyLogo",
+      "possibleMatches": []
+    },
+    {
+      "filename": "new logos/UNTSPB_2025_logo - Taty Dina.png",
+      "submitter": "Taty Dina",
+      "description": "UNTSPB_2025_logo",
+      "possibleMatches": []
+    },
+    {
+      "filename": "new logos/WhatsApp Image 2025-11-27 at 14.44.48 - Onur Açıkgöz.jpeg",
+      "submitter": "Onur Açıkgöz",
+      "description": "WhatsApp Image 2025-11-27 at 14.44.48",
+      "possibleMatches": []
+    },
+    {
+      "filename": "new logos/Zenith Logo - Ciprian Sfirlogea.png",
+      "submitter": "Ciprian Sfirlogea",
+      "description": "Zenith Logo",
+      "possibleMatches": []
+    },
+    {
+      "filename": "new logos/klaster_Czarny - Karolina Jedziniak.png",
+      "submitter": "Karolina Jedziniak",
+      "description": "klaster_Czarny",
+      "possibleMatches": []
+    },
+    {
+      "filename": "new logos/logo - Associação Poiomar.png",
+      "submitter": "Associação Poiomar",
+      "description": "logo",
+      "possibleMatches": [
+        {
+          "name": "Associação Poiomar",
+          "country": "Portugal",
+          "confidence": "59.5%",
+          "reason": "High similarity (85.0%) between \"Associação Poiomar\" and submitter \"Associação Poiomar\""
+        }
+      ]
+    },
+    {
+      "filename": "new logos/logo - project muwada.png",
+      "submitter": "project muwada",
+      "description": "logo",
+      "possibleMatches": []
+    }
+  ],
+  "unmatchedOrganizations": [
+    {
+      "name": "Naciye Pehlivanlı Saran Anadolu Lisesi",
+      "country": "Turkey",
+      "website": null
+    },
+    {
+      "name": "E-UNITY",
+      "country": "Netherlands",
+      "website": null
+    },
+    {
+      "name": "leaders foundation for management science and development",
+      "country": "Egypt",
+      "website": null
+    },
+    {
+      "name": "International Alliance for Integration & Sustainability",
+      "country": "Malta",
+      "website": null
+    },
+    {
+      "name": "Rzeszowska Agencja Rozwoju Regionalnego Spółka Akcyjne (Rzeszow Regional Development Agency)",
+      "country": "Poland",
+      "website": null
+    },
+    {
+      "name": "ASSOCIATION FOR THE DEVELOPMENT OF THE PROINCLUSIVE, DIGITAL AND ENVIRONMENTAL EDUCATION",
+      "country": "North Macedonia",
+      "website": null
+    },
+    {
+      "name": "BK Plus Europe",
+      "country": "Cyprus",
+      "website": null
+    },
+    {
+      "name": "Bosphorus Youth Team",
+      "country": "Turkey",
+      "website": null
+    },
+    {
+      "name": "Dreaming OPEnly e.V.",
+      "country": "Germany",
+      "website": null
+    },
+    {
+      "name": "ADEL Slovakia",
+      "country": "Slovakia",
+      "website": null
+    },
+    {
+      "name": "ARD Local Action Group  PRESPA RESEN",
+      "country": "North Macedonia",
+      "website": null
+    },
+    {
+      "name": "KUCUKCEKMECE MUNICIPALITY",
+      "country": "Turkey",
+      "website": null
+    },
+    {
+      "name": "Modern Azerbaijan Youth",
+      "country": "Azerbaijan",
+      "website": null
+    },
+    {
+      "name": "Old School Green Association",
+      "country": "Turkey",
+      "website": null
+    },
+    {
+      "name": "ASOCIATIA TINERILOR ROMI, ENERGICI AMBITIOSI SI MOTIVATI",
+      "country": "Romania",
+      "website": null
+    },
+    {
+      "name": "III. gimnazija, Split",
+      "country": "Croatia",
+      "website": null
+    },
+    {
+      "name": "Tenzile Erdoğan Anadolu Lisesi",
+      "country": "Turkey",
+      "website": null
+    },
+    {
+      "name": "Forward for Future",
+      "country": "Ukraine",
+      "website": null
+    },
+    {
+      "name": "Arsin Yeşilce Özel Eğitim Mesleki Eğitim Merkezi",
+      "country": "Turkey",
+      "website": null
+    },
+    {
+      "name": "Albanian Center for Education Care and Training",
+      "country": "Albania",
+      "website": null
+    },
+    {
+      "name": "Rural Move: Rural Move - Associação para a Promoção do Investimento nos Territórios de Baixa Densidade",
+      "country": "Portugal",
+      "website": null
+    },
+    {
+      "name": "Iniciativi za grjdansko obchtestvo (Initiatives for Civil Society) - Bulgaria.",
+      "country": "Bulgaria",
+      "website": null
+    },
+    {
+      "name": "Open Educational Vibes",
+      "country": "Serbia",
+      "website": null
+    },
+    {
+      "name": "Easysustainability",
+      "country": "Italy",
+      "website": null
+    },
+    {
+      "name": "KUZEYİN YILDIZLARI Sosyal Yardımlaşma Kültür Sanat ve Spor Kulübü Derneği",
+      "country": "Turkey",
+      "website": null
+    },
+    {
+      "name": "Verde: Center for Research, Innovation and Sustainable Development",
+      "country": "Greece",
+      "website": null
+    },
+    {
+      "name": "DAR DEVELOPMENT ASSOCIATION",
+      "country": "Romania",
+      "website": "http://www.darassociation.org/contact.html"
+    },
+    {
+      "name": "Middle East Technical University",
+      "country": "Turkey",
+      "website": "https://www.metu.edu.tr/"
+    },
+    {
+      "name": "Miejska Strefa Kultury w Łodzi",
+      "country": "Poland",
+      "website": "https://msk.lodz.pl/"
+    },
+    {
+      "name": "Asset Based Community Development Innovation Center",
+      "country": "Armenia",
+      "website": "https://www.abcdinnovationcenter.com/"
+    },
+    {
+      "name": "MORE – Mountains of Research Collaborative Laboratory – Association",
+      "country": "Portugal",
+      "website": "https://morecolab.pt/"
+    },
+    {
+      "name": "Programma integra",
+      "country": "Italy",
+      "website": "https://www.programmaintegra.it/wp/"
+    },
+    {
+      "name": "Republican Center for Children and Youth ARTICO/Centrul Republican pentru Copii și Tineret Artico",
+      "country": "Moldova",
+      "website": "https://www.facebook.com/ArticoErasmus / https://www.facebook.com/artico.md"
+    },
+    {
+      "name": "Kültür Eğitim ve Proje Derneği",
+      "country": "Turkey",
+      "website": "www.kepder.org"
+    },
+    {
+      "name": "Asociatia Internationala a Tinerilor",
+      "country": "Moldova",
+      "website": null
+    },
+    {
+      "name": "Association for cultural, sport and educational development \"World of Change\"",
+      "country": "North Macedonia",
+      "website": null
+    },
+    {
+      "name": "Foundation \"Situational Center Open Doors\"",
+      "country": "Bulgaria",
+      "website": "https://opendoors.center"
+    },
+    {
+      "name": "Tavo Europa",
+      "country": "Lithuania",
+      "website": "tavoeuropa.eu"
+    },
+    {
+      "name": "Fundacja „PSYCHOCENTER”",
+      "country": "Poland",
+      "website": "Not applicable"
+    },
+    {
+      "name": "World Society Builders",
+      "country": "Germany",
+      "website": null
+    },
+    {
+      "name": "Comunità Progetto Sud - ONLUS",
+      "country": "Italy",
+      "website": "https://www.comunitaprogettosud.it/"
+    },
+    {
+      "name": "GLAFKA s.r.o.",
+      "country": "Czech Republic",
+      "website": "www.glafka.cz"
+    },
+    {
+      "name": "Stichting E-UNITY",
+      "country": "Netherlands",
+      "website": "E-unity.nl"
+    },
+    {
+      "name": "Eagle Intuition",
+      "country": "Portugal",
+      "website": "https://ei.edu.pt"
+    },
+    {
+      "name": "Albanian Center for Education Care and Training",
+      "country": "Albania",
+      "website": "https://actcenter-al.org/"
+    },
+    {
+      "name": "Trevessu APS",
+      "country": "Italy",
+      "website": "www.trevessu.com"
+    },
+    {
+      "name": "Mimma Dreams APS",
+      "country": "Italy",
+      "website": "https://instagram.com/mimma_dreams?igshid=NTc4MTIwNjQ2YQ=="
+    },
+    {
+      "name": "Bridge To Unity",
+      "country": "Romania",
+      "website": "https://instagram.com/btounity?igshid=MzNlNGNkZWQ4Mg=="
+    },
+    {
+      "name": "ROMA T.E.A.M ASSOCIATION",
+      "country": "Romania",
+      "website": "www.romateam.ro"
+    },
+    {
+      "name": "Association of Energetic, Ambitious and Motivated Roma Youth",
+      "country": "Romania",
+      "website": "www.romateam.ro"
+    },
+    {
+      "name": "BK Plus Europe",
+      "country": "Cyprus",
+      "website": "www.bkplus.eu"
+    },
+    {
+      "name": "Udruga srednjoškolaca Hrvatske (Croatian Pupils' Association)",
+      "country": "Croatia",
+      "website": "www.usred.hr"
+    },
+    {
+      "name": "Local Action Group (LAG) Vallis Colapis",
+      "country": "Croatia",
+      "website": "https://leader.vallis-colapis.hr/"
+    },
+    {
+      "name": "Jugendvision e.V.",
+      "country": "Germany",
+      "website": "Instagram.com/jugendvision.ev"
+    },
+    {
+      "name": "Asociación sociocultural Grupo Cinco",
+      "country": "Spain",
+      "website": "https://www.asociaciongrupocinco.com/"
+    },
+    {
+      "name": "SESAT Ltd",
+      "country": "Cyprus",
+      "website": "www.sesarab.com"
+    },
+    {
+      "name": "Bergama District Directorate of National Education",
+      "country": "Turkey",
+      "website": "https://bergama.meb.gov.tr/"
+    },
+    {
+      "name": "Regional Cluster \"North-East\"",
+      "country": "Ecuador",
+      "website": "https://www.facebook.com/p/Regional-Cluster-North-East-100083397127733/?paipv=0&eav=AfZYhmMfqhbpCLBIIJG4mmvCQlprM2hEO_Nl26pidHX3nlYitkhXiiveNoORkLyxDX4&_rdr"
+    },
+    {
+      "name": "Florelina",
+      "country": "France",
+      "website": "https://www.activhandi.fr/"
+    },
+    {
+      "name": "Polo Europeo della Conoscenza  - IC Bosco Chiesanuova",
+      "country": "Italy",
+      "website": "www.europole.org"
+    },
+    {
+      "name": "GLAFKA s.r.o.",
+      "country": "Czech Republic",
+      "website": "www.glafka.cz"
+    },
+    {
+      "name": "Global Organization for Development NGO",
+      "country": "Bulgaria",
+      "website": "youthtriumph.com"
+    },
+    {
+      "name": "Global Organization for Development",
+      "country": "Bulgaria",
+      "website": null
+    },
+    {
+      "name": "Loesje Bitola",
+      "country": "North Macedonia",
+      "website": "https://loesje.org/"
+    },
+    {
+      "name": "Karaman Youth Club NGO",
+      "country": "Turkey",
+      "website": "www.karamanyouth.org"
+    },
+    {
+      "name": "Some Alternatives Youth Association",
+      "country": "Turkey",
+      "website": "http://www.bazaltgenclik.com/"
+    },
+    {
+      "name": "BÜYÜK ORTADOĞU SAĞLIK VE EĞİTİM VAKFI",
+      "country": "Turkey",
+      "website": "http://bosev.org/"
+    },
+    {
+      "name": "WeEurope Srl SB",
+      "country": "Italy",
+      "website": "https://www.resolve-consulenza.it/servizi/future/europe/"
+    },
+    {
+      "name": "Bursa Metropolitan Municipality",
+      "country": "Turkey",
+      "website": "https://www.bursa.bel.tr/"
+    },
+    {
+      "name": "SALT GENCLİK DERNEGİ (SALT Youth Association)",
+      "country": "Turkey",
+      "website": "- (updating)"
+    },
+    {
+      "name": "Forma Mentis APS",
+      "country": "Italy",
+      "website": "www.assoformamentis.it"
+    },
+    {
+      "name": "Social Fund Enterprise",
+      "country": "Turkey",
+      "website": "https://www.instagram.com/socialfundenterprise0776/"
+    },
+    {
+      "name": "George",
+      "country": "Greece",
+      "website": "George"
+    },
+    {
+      "name": "The Daring Hub for Training and Development",
+      "country": "Jordan",
+      "website": "https://www.i-dare.org/daring-hub"
+    },
+    {
+      "name": "Tmelník z.s.",
+      "country": "Czech Republic",
+      "website": "http://www.tmelnik.cz/"
+    },
+    {
+      "name": "United Efforts Network for Progressive Development",
+      "country": "Latvia",
+      "website": "uenpd.org"
+    },
+    {
+      "name": "Open Educational Vibes",
+      "country": "Serbia",
+      "website": "www.openeducationalvibes.wordpress.com"
+    },
+    {
+      "name": "SUMA - Association for Sustainable Development",
+      "country": "Croatia",
+      "website": "www.udruga-suma.hr"
+    },
+    {
+      "name": "uMunthu NGO (part of Innoved mobility center)",
+      "country": "Lithuania",
+      "website": "https://www.instagram.com/innovedlietuva/"
+    },
+    {
+      "name": "Keçiören Bilim ve Sanat Merkezi",
+      "country": "Turkey",
+      "website": "https://keciorenbilsem.meb.k12.tr/"
+    },
+    {
+      "name": "Visionary Women's Association",
+      "country": "Turkey",
+      "website": "www.vikader.org.tr"
+    },
+    {
+      "name": "Go Easy",
+      "country": "North Macedonia",
+      "website": "goeasy.eu"
+    },
+    {
+      "name": "Muwanga Development Association",
+      "country": "Uganda",
+      "website": "https://www.muwada.org"
+    },
+    {
+      "name": "Cinegiovani aps",
+      "country": "Italy",
+      "website": "https://cinegiovaniaps.wordpress.com/"
+    },
+    {
+      "name": "ETİ Social Sciences High School",
+      "country": "Turkey",
+      "website": "https://esbl.meb.k12.tr/"
+    },
+    {
+      "name": "SERIK MUNICIPALITY",
+      "country": "Turkey",
+      "website": "https://serik.bel.tr/"
+    },
+    {
+      "name": "Tertiary Courses Nigeria and Tertiary Infotech Ventures Nigeria",
+      "country": "Nigeria",
+      "website": "www.tertiarycourses.com.ng"
+    },
+    {
+      "name": "MUWANGA DEVELOPMENT ASSOCIATION",
+      "country": "Uganda",
+      "website": "www.muwade.org"
+    },
+    {
+      "name": "Rainbow Innovative Youth Team",
+      "country": "Turkey",
+      "website": "https://www.instagram.com/rainyoteam/?hl=tr"
+    },
+    {
+      "name": "VšĮ AY Institutas",
+      "country": "Lithuania",
+      "website": "activeyouth.lt"
+    },
+    {
+      "name": "Zenith Industries Inc SRL",
+      "country": "Romania",
+      "website": "https://www.facebook.com/p/Zenith-Industries-INC-61572901357554/"
+    },
+    {
+      "name": "EUROBOX ETS",
+      "country": "Italy",
+      "website": "euroboxets.eu"
+    },
+    {
+      "name": "Roots Vlaanderen vzw",
+      "country": "Belgium",
+      "website": "https://www.roots-vlaanderen.be/"
+    },
+    {
+      "name": "Association Assafaa pour l'Environnement et le Développement",
+      "country": "Morocco",
+      "website": "https://www.instagram.com/ased.agadir/"
+    },
+    {
+      "name": "ARTE.M artistic and cultural association on Madeira island",
+      "country": "Portugal",
+      "website": "https://www.artmadeira.org/"
+    },
+    {
+      "name": "ArtCaravel Unipessoal, LDA",
+      "country": "Portugal",
+      "website": "https://www.artcaravel.com/"
+    },
+    {
+      "name": "Klaster Innowacji Społecznych",
+      "country": "Poland",
+      "website": "https://www.klaster.org.pl"
+    },
+    {
+      "name": "New Europe Foundation",
+      "country": "Poland",
+      "website": "https://neweurope.pl"
+    },
+    {
+      "name": "Universitatea Națională de Știință și Tehnologie POLITEHNICA  București",
+      "country": "Romania",
+      "website": "www.upb.ro/en"
+    },
+    {
+      "name": "SİVAS TEKNOLOJİ GELİŞTİRME BÖLGESİ KURUCU VE İŞLETİCİ A.Ş.",
+      "country": "Turkey",
+      "website": "https://www.cumhuriyetteknokent.com/"
+    },
+    {
+      "name": "A.S.D. Polisportiva P.O.R.TO. Don Bosco",
+      "country": "Italy",
+      "website": "https://www.facebook.com/portodonboscogiardininaxos"
+    },
+    {
+      "name": "Platform for Culture and Innovation IMPULSE CONNECT",
+      "country": "North Macedonia",
+      "website": "https://www.instagram.com/impulse.connect/"
+    },
+    {
+      "name": "Associação Poiomar",
+      "country": "Portugal",
+      "website": "poiomar.org"
+    },
+    {
+      "name": "Atlas International",
+      "country": "France",
+      "website": "atlasinternational.fr"
+    },
+    {
+      "name": "Ethnikos Kozanis",
+      "country": "Greece",
+      "website": null
+    }
+  ]
+}
