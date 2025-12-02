@@ -1,0 +1,3015 @@
+{
+  "summary": {
+    "totalLogos": 116,
+    "matchedLogos": 21,
+    "manualReviewNeeded": 95,
+    "successRate": "18.10%",
+    "perfectMatches": 13,
+    "highConfidence": 3,
+    "mediumConfidence": 5
+  },
+  "matches": [
+    {
+      "filename": "20 - Square of Youth Association.png",
+      "description": "20",
+      "submitter": "Square of Youth Association",
+      "matched": {
+        "name": "Square of Youth Association",
+        "country": "Hungary",
+        "website": "https://www.squareofyouth.eu"
+      },
+      "score": 295,
+      "confidence": "PERFECT",
+      "reasons": [
+        "Exact match in submitter",
+        "Submitter contains \"Square of Youth Association\"",
+        "\"Square of Youth Association\" contains submitter",
+        "3 keyword(s) matched",
+        "Confirmed by existing HTML mapping"
+      ]
+    },
+    {
+      "filename": "AcrossLimits logo - Senfer Usman.png",
+      "description": "AcrossLimits logo",
+      "submitter": "Senfer Usman",
+      "matched": {
+        "name": "AcrossLimits",
+        "country": "Malta",
+        "website": null
+      },
+      "score": 130,
+      "confidence": "PERFECT",
+      "reasons": [
+        "Description contains \"AcrossLimits\"",
+        "1 keyword(s) matched",
+        "Confirmed by existing HTML mapping",
+        "Country matches existing mapping"
+      ]
+    },
+    {
+      "filename": "Cai_vermelho_Bola-05 - CAI - ONG.jpg",
+      "description": "Cai_vermelho_Bola",
+      "submitter": "05 - CAI - ONG",
+      "matched": {
+        "name": "Conversas Associação Internacional",
+        "country": "Portugal",
+        "website": null
+      },
+      "score": 60,
+      "confidence": "MEDIUM",
+      "reasons": [
+        "Acronym matched",
+        "Country matches existing mapping"
+      ]
+    },
+    {
+      "filename": "EMBAIXADA (1) - Embaixada da Juventude.png",
+      "description": "EMBAIXADA (1)",
+      "submitter": "Embaixada da Juventude",
+      "matched": {
+        "name": "Embaixada da Juventude",
+        "country": "Spain",
+        "website": null
+      },
+      "score": 295,
+      "confidence": "PERFECT",
+      "reasons": [
+        "Exact match in submitter",
+        "Submitter contains \"Embaixada da Juventude\"",
+        "\"Embaixada da Juventude\" contains submitter",
+        "2 keyword(s) matched",
+        "Confirmed by existing HTML mapping",
+        "Country matches existing mapping"
+      ]
+    },
+    {
+      "filename": "Ethnikos.jpg",
+      "description": "Ethnikos",
+      "submitter": null,
+      "matched": {
+        "name": "Ethnikos Kozanis",
+        "country": "Greece",
+        "website": null
+      },
+      "score": 125,
+      "confidence": "PERFECT",
+      "reasons": [
+        "\"Ethnikos Kozanis\" contains description",
+        "1 keyword(s) matched",
+        "Confirmed by existing HTML mapping",
+        "Country matches existing mapping"
+      ]
+    },
+    {
+      "filename": "GLAFKA_rgb_Web_Online - GLAFKA.png",
+      "description": "GLAFKA_rgb_Web_Online",
+      "submitter": "GLAFKA",
+      "matched": {
+        "name": "GLAFKA s.r.o.",
+        "country": "Czech Republic",
+        "website": "https://www.glafka.cz"
+      },
+      "score": 115,
+      "confidence": "PERFECT",
+      "reasons": [
+        "\"GLAFKA s.r.o.\" contains submitter",
+        "1 keyword(s) matched",
+        "Confirmed by existing HTML mapping",
+        "Country matches existing mapping"
+      ]
+    },
+    {
+      "filename": "GPP LOGO - Зорана Матићевић.png",
+      "description": "GPP LOGO",
+      "submitter": "Зорана Матићевић",
+      "matched": {
+        "name": "Gimnazija Patrijarh Pavle",
+        "country": "Serbia",
+        "website": null
+      },
+      "score": 60,
+      "confidence": "MEDIUM",
+      "reasons": [
+        "Acronym matched",
+        "Country matches existing mapping"
+      ]
+    },
+    {
+      "filename": "GoINNO Institute_png - Teja Bajt.png",
+      "description": "GoINNO Institute_png",
+      "submitter": "Teja Bajt",
+      "matched": {
+        "name": "GoINNO Institute",
+        "country": "Slovenia",
+        "website": "https://www.goinno.si"
+      },
+      "score": 140,
+      "confidence": "PERFECT",
+      "reasons": [
+        "Description contains \"GoINNO Institute\"",
+        "2 keyword(s) matched",
+        "Confirmed by existing HTML mapping",
+        "Country matches existing mapping"
+      ]
+    },
+    {
+      "filename": "LOGO ONDAMIND con scritta - Ondamind.jpg",
+      "description": "LOGO ONDAMIND con scritta",
+      "submitter": "Ondamind",
+      "matched": {
+        "name": "Ondamind aps",
+        "country": "Italy",
+        "website": "https://www.ondamind.eu"
+      },
+      "score": 115,
+      "confidence": "PERFECT",
+      "reasons": [
+        "\"Ondamind aps\" contains submitter",
+        "1 keyword(s) matched",
+        "Confirmed by existing HTML mapping",
+        "Country matches existing mapping"
+      ]
+    },
+    {
+      "filename": "Logo - Outreach Armenia.jpg",
+      "description": "Logo",
+      "submitter": "Outreach Armenia",
+      "matched": {
+        "name": "Outreach Armenia NGO",
+        "country": "Armenia",
+        "website": "https://www.facebook.com/profile.php?id=100068285236068"
+      },
+      "score": 95,
+      "confidence": "HIGH",
+      "reasons": [
+        "\"Outreach Armenia NGO\" contains submitter",
+        "2 keyword(s) matched",
+        "Country matches existing mapping"
+      ]
+    },
+    {
+      "filename": "RURAL MOVE - LOGO - Mariana Costa.png",
+      "description": "RURAL MOVE",
+      "submitter": "LOGO - Mariana Costa",
+      "matched": {
+        "name": "Rural Move: Rural Move - Associação para a Promoção do Investimento nos Territórios de Baixa Densidade",
+        "country": "Portugal",
+        "website": null
+      },
+      "score": 125,
+      "confidence": "PERFECT",
+      "reasons": [
+        "\"Rural Move: Rural Move - Associação para a Promoção do Investimento nos Territórios de Baixa Densidade\" contains description",
+        "4 keyword(s) matched",
+        "Country matches existing mapping"
+      ]
+    },
+    {
+      "filename": "SuperlikeDima - Дмитрий Журавель.png",
+      "description": "SuperlikeDima",
+      "submitter": "Дмитрий Журавель",
+      "matched": {
+        "name": "SUPERLIKE",
+        "country": "Moldova",
+        "website": "https://www.superlike.md/"
+      },
+      "score": 90,
+      "confidence": "HIGH",
+      "reasons": [
+        "Description contains \"SUPERLIKE\"",
+        "1 keyword(s) matched"
+      ]
+    },
+    {
+      "filename": "TBG LOGO - Зорана Матићевић.png",
+      "description": "TBG LOGO",
+      "submitter": "Зорана Матићевић",
+      "matched": {
+        "name": "Third Belgrade gymnasium",
+        "country": "Serbia",
+        "website": null
+      },
+      "score": 60,
+      "confidence": "MEDIUM",
+      "reasons": [
+        "Acronym matched",
+        "Country matches existing mapping"
+      ]
+    },
+    {
+      "filename": "Udruga-srednjoškolaca-Hrvatske - Leo Fel.png",
+      "description": "Udruga",
+      "submitter": "srednjoškolaca-Hrvatske - Leo Fel",
+      "matched": {
+        "name": "Udruga srednjoškolaca Hrvatske (Croatian Pupils' Association)",
+        "country": "Croatia",
+        "website": "https://www.usred.hr"
+      },
+      "score": 115,
+      "confidence": "PERFECT",
+      "reasons": [
+        "\"Udruga srednjoškolaca Hrvatske (Croatian Pupils' Association)\" contains description",
+        "4 keyword(s) matched"
+      ]
+    },
+    {
+      "filename": "dideas - Lizandra Carvajal.png",
+      "description": "dideas",
+      "submitter": "Lizandra Carvajal",
+      "matched": {
+        "name": "Dideas",
+        "country": "Spain",
+        "website": null
+      },
+      "score": 275,
+      "confidence": "PERFECT",
+      "reasons": [
+        "Exact match in description",
+        "Description contains \"Dideas\"",
+        "\"Dideas\" contains description",
+        "1 keyword(s) matched",
+        "Country matches existing mapping"
+      ]
+    },
+    {
+      "filename": "loesje-logo-png-transparent - Marina Trajkovska.png",
+      "description": "loesje",
+      "submitter": "logo-png-transparent - Marina Trajkovska",
+      "matched": {
+        "name": "Loesje Bitola",
+        "country": "North Macedonia",
+        "website": "https://www.loesje.org/"
+      },
+      "score": 95,
+      "confidence": "HIGH",
+      "reasons": [
+        "\"Loesje Bitola\" contains description",
+        "1 keyword(s) matched",
+        "Country matches existing mapping"
+      ]
+    },
+    {
+      "filename": "logo_hd - EMC SERVICES.png",
+      "description": "logo_hd",
+      "submitter": "EMC SERVICES",
+      "matched": {
+        "name": "EMC SERVICES LTD",
+        "country": "Cyprus",
+        "website": "https://www.emcservicesweb.com/"
+      },
+      "score": 75,
+      "confidence": "MEDIUM",
+      "reasons": [
+        "\"EMC SERVICES LTD\" contains submitter",
+        "1 keyword(s) matched"
+      ]
+    },
+    {
+      "filename": "logo_walktogether - Association Walktogether.png",
+      "description": "logo_walktogether",
+      "submitter": "Association Walktogether",
+      "matched": {
+        "name": "Association WalkTogether",
+        "country": "Bulgaria",
+        "website": "https://www.facebook.com/pages/WalkTogether/1546632572269496?fref=ts"
+      },
+      "score": 285,
+      "confidence": "PERFECT",
+      "reasons": [
+        "Exact match in submitter",
+        "Submitter contains \"Association WalkTogether\"",
+        "\"Association WalkTogether\" contains submitter",
+        "2 keyword(s) matched",
+        "Confirmed by existing HTML mapping"
+      ]
+    },
+    {
+      "filename": "new logos/IG_IGNET_noEU - InformaGiovani IGNet.png",
+      "description": "IG_IGNET_noEU",
+      "submitter": "InformaGiovani IGNet",
+      "matched": {
+        "name": "InformaGiovani - IGNet",
+        "country": "Italy",
+        "website": "https://www.informa-giovani.net"
+      },
+      "score": 295,
+      "confidence": "PERFECT",
+      "reasons": [
+        "Exact match in submitter",
+        "Submitter contains \"InformaGiovani - IGNet\"",
+        "\"InformaGiovani - IGNet\" contains submitter",
+        "2 keyword(s) matched",
+        "Confirmed by existing HTML mapping",
+        "Country matches existing mapping"
+      ]
+    },
+    {
+      "filename": "new logos/PHOTO-2025-11-26-11-20-08 - Youth Rights & Citizenship Initiative.jpg",
+      "description": "PHOTO",
+      "submitter": "2025-11-26-11-20-08 - Youth Rights & Citizenship Initiative",
+      "matched": {
+        "name": "Youth Rights & Citizenship Initiative",
+        "country": "Albania",
+        "website": "https://www.yrcialbania.com/"
+      },
+      "score": 150,
+      "confidence": "PERFECT",
+      "reasons": [
+        "Submitter contains \"Youth Rights & Citizenship Initiative\"",
+        "4 keyword(s) matched",
+        "Confirmed by existing HTML mapping",
+        "Country matches existing mapping"
+      ]
+    },
+    {
+      "filename": "new logos/logoartem (1) - ARTE.M Association.png",
+      "description": "logoartem (1) - ARTE.M Association",
+      "submitter": null,
+      "matched": {
+        "name": "Asociația Scout Society",
+        "country": "Romania",
+        "website": "https://www.scoutsociety.ro"
+      },
+      "score": 60,
+      "confidence": "MEDIUM",
+      "reasons": [
+        "Acronym matched",
+        "Country matches existing mapping"
+      ]
+    }
+  ],
+  "needsReview": [
+    {
+      "filename": "1617046040133 - Arda Kırayoğlu.jpeg",
+      "description": "1617046040133",
+      "submitter": "Arda Kırayoğlu",
+      "reason": "No candidates found",
+      "existingMapping": null
+    },
+    {
+      "filename": "2017-Montanhas-de-Investigação-Cor-EN - Alberto Teixeira.png",
+      "description": "2017",
+      "submitter": "Montanhas-de-Investigação-Cor-EN - Alberto Teixeira",
+      "reason": "No candidates found",
+      "existingMapping": null
+    },
+    {
+      "filename": "624_bursa_buyuksehir_belediyesi_logo - Murat Bakan.jpg",
+      "description": "624_bursa_buyuksehir_belediyesi_logo",
+      "submitter": "Murat Bakan",
+      "reason": "Low confidence or multiple candidates",
+      "topCandidates": [
+        {
+          "name": "Bursa Metropolitan Municipality",
+          "country": "Turkey",
+          "score": 50,
+          "reasons": [
+            "1 keyword(s) matched",
+            "Confirmed by existing HTML mapping",
+            "Country matches existing mapping"
+          ]
+        },
+        {
+          "name": "Naciye Pehlivanlı Saran Anadolu Lisesi",
+          "country": "Turkey",
+          "score": 10,
+          "reasons": [
+            "Country matches existing mapping"
+          ]
+        },
+        {
+          "name": "Bosphorus Youth Team",
+          "country": "Turkey",
+          "score": 10,
+          "reasons": [
+            "Country matches existing mapping"
+          ]
+        }
+      ],
+      "existingMapping": {
+        "name": "Bursa Metropolitan Municipality",
+        "country": "Turkey",
+        "website": "https://www.bursa.bel.tr/"
+      }
+    },
+    {
+      "filename": "8.2 - Feyza S..png",
+      "description": "8.2 - Feyza S.",
+      "submitter": null,
+      "reason": "Low confidence or multiple candidates",
+      "topCandidates": [
+        {
+          "name": "Naciye Pehlivanlı Saran Anadolu Lisesi",
+          "country": "Turkey",
+          "score": 10,
+          "reasons": [
+            "Country matches existing mapping"
+          ]
+        },
+        {
+          "name": "Bosphorus Youth Team",
+          "country": "Turkey",
+          "score": 10,
+          "reasons": [
+            "Country matches existing mapping"
+          ]
+        },
+        {
+          "name": "KUCUKCEKMECE MUNICIPALITY",
+          "country": "Turkey",
+          "score": 10,
+          "reasons": [
+            "Country matches existing mapping"
+          ]
+        }
+      ],
+      "existingMapping": {
+        "name": "Feyza Ataturk Secondary School",
+        "country": "Turkey",
+        "website": null
+      }
+    },
+    {
+      "filename": "ABCD Logo - Vahe Darbinyan.jpg",
+      "description": "ABCD Logo",
+      "submitter": "Vahe Darbinyan",
+      "reason": "Low confidence or multiple candidates",
+      "topCandidates": [
+        {
+          "name": "Asset Based Community Development Innovation Center",
+          "country": "Armenia",
+          "score": 10,
+          "reasons": [
+            "Country matches existing mapping"
+          ]
+        },
+        {
+          "name": "Outreach Armenia NGO",
+          "country": "Armenia",
+          "score": 10,
+          "reasons": [
+            "Country matches existing mapping"
+          ]
+        }
+      ],
+      "existingMapping": {
+        "name": "ABCD NGO",
+        "country": "Armenia",
+        "website": null
+      }
+    },
+    {
+      "filename": "ACT-LOGO-PNG - Act Center.png",
+      "description": "ACT",
+      "submitter": "LOGO-PNG - Act Center",
+      "reason": "Low confidence or multiple candidates",
+      "topCandidates": [
+        {
+          "name": "Albanian Center for Education Care and Training",
+          "country": "Albania",
+          "score": 20,
+          "reasons": [
+            "1 keyword(s) matched",
+            "Country matches existing mapping"
+          ]
+        },
+        {
+          "name": "Albanian Center for Education Care and Training",
+          "country": "Albania",
+          "score": 20,
+          "reasons": [
+            "1 keyword(s) matched",
+            "Country matches existing mapping"
+          ]
+        },
+        {
+          "name": "Verde: Center for Research, Innovation and Sustainable Development",
+          "country": "Greece",
+          "score": 10,
+          "reasons": [
+            "1 keyword(s) matched"
+          ]
+        }
+      ],
+      "existingMapping": {
+        "name": "ACT Center",
+        "country": "Albania",
+        "website": null
+      }
+    },
+    {
+      "filename": "Atlas Horizontal logo.png",
+      "description": "Atlas Horizontal logo",
+      "submitter": null,
+      "reason": "Low confidence or multiple candidates",
+      "topCandidates": [
+        {
+          "name": "Atlas International",
+          "country": "France",
+          "score": 50,
+          "reasons": [
+            "1 keyword(s) matched",
+            "Confirmed by existing HTML mapping",
+            "Country matches existing mapping"
+          ]
+        },
+        {
+          "name": "Florelina",
+          "country": "France",
+          "score": 10,
+          "reasons": [
+            "Country matches existing mapping"
+          ]
+        }
+      ],
+      "existingMapping": {
+        "name": "Atlas International",
+        "country": "France",
+        "website": "atlasinternational.fr"
+      }
+    },
+    {
+      "filename": "BKPLUS_LOGO-01 - Konstantinos Grigoriadis.jpg",
+      "description": "BKPLUS_LOGO",
+      "submitter": "01 - Konstantinos Grigoriadis",
+      "reason": "Low confidence or multiple candidates",
+      "topCandidates": [
+        {
+          "name": "BK Plus Europe",
+          "country": "Cyprus",
+          "score": 50,
+          "reasons": [
+            "1 keyword(s) matched",
+            "Confirmed by existing HTML mapping",
+            "Country matches existing mapping"
+          ]
+        },
+        {
+          "name": "BK Plus Europe",
+          "country": "Cyprus",
+          "score": 50,
+          "reasons": [
+            "1 keyword(s) matched",
+            "Confirmed by existing HTML mapping",
+            "Country matches existing mapping"
+          ]
+        },
+        {
+          "name": "EMC SERVICES LTD",
+          "country": "Cyprus",
+          "score": 10,
+          "reasons": [
+            "Country matches existing mapping"
+          ]
+        }
+      ],
+      "existingMapping": {
+        "name": "BK Plus Europe",
+        "country": "Cyprus",
+        "website": "www.bkplus.eu"
+      }
+    },
+    {
+      "filename": "CS-6.k.logolar-01 - Mert Ates.jpg",
+      "description": "CS-6.k.logolar",
+      "submitter": "01 - Mert Ates",
+      "reason": "Low confidence or multiple candidates",
+      "topCandidates": [
+        {
+          "name": "Naciye Pehlivanlı Saran Anadolu Lisesi",
+          "country": "Turkey",
+          "score": 10,
+          "reasons": [
+            "Country matches existing mapping"
+          ]
+        },
+        {
+          "name": "Bosphorus Youth Team",
+          "country": "Turkey",
+          "score": 10,
+          "reasons": [
+            "Country matches existing mapping"
+          ]
+        },
+        {
+          "name": "KUCUKCEKMECE MUNICIPALITY",
+          "country": "Turkey",
+          "score": 10,
+          "reasons": [
+            "Country matches existing mapping"
+          ]
+        }
+      ],
+      "existingMapping": {
+        "name": "Creative Support Association",
+        "country": "Turkey",
+        "website": null
+      }
+    },
+    {
+      "filename": "Etsy Cover Photo - Nunzia Amirante.png",
+      "description": "Etsy Cover Photo",
+      "submitter": "Nunzia Amirante",
+      "reason": "Low confidence or multiple candidates",
+      "topCandidates": [
+        {
+          "name": "Easysustainability",
+          "country": "Italy",
+          "score": 10,
+          "reasons": [
+            "Country matches existing mapping"
+          ]
+        },
+        {
+          "name": "Programma integra",
+          "country": "Italy",
+          "score": 10,
+          "reasons": [
+            "Country matches existing mapping"
+          ]
+        },
+        {
+          "name": "Comunità Progetto Sud - ONLUS",
+          "country": "Italy",
+          "score": 10,
+          "reasons": [
+            "Country matches existing mapping"
+          ]
+        }
+      ],
+      "existingMapping": {
+        "name": "Nunzia Amirante Organization",
+        "country": "Italy",
+        "website": null
+      }
+    },
+    {
+      "filename": "FB_IMG_1685647150637 - Mostafa Badr Egypt.jpg",
+      "description": "FB_IMG_1685647150637",
+      "submitter": "Mostafa Badr Egypt",
+      "reason": "Low confidence or multiple candidates",
+      "topCandidates": [
+        {
+          "name": "leaders foundation for management science and development",
+          "country": "Egypt",
+          "score": 10,
+          "reasons": [
+            "Country matches existing mapping"
+          ]
+        }
+      ],
+      "existingMapping": {
+        "name": "Leaders Foundation",
+        "country": "Egypt",
+        "website": null
+      }
+    },
+    {
+      "filename": "IAIS logo with website - Eilleen Attard Bason Esteban.jpg",
+      "description": "IAIS logo with website",
+      "submitter": "Eilleen Attard Bason Esteban",
+      "reason": "Low confidence or multiple candidates",
+      "topCandidates": [
+        {
+          "name": "International Alliance for Integration & Sustainability",
+          "country": "Malta",
+          "score": 40,
+          "reasons": [
+            "Confirmed by existing HTML mapping",
+            "Country matches existing mapping"
+          ]
+        },
+        {
+          "name": "AcrossLimits",
+          "country": "Malta",
+          "score": 10,
+          "reasons": [
+            "Country matches existing mapping"
+          ]
+        }
+      ],
+      "existingMapping": {
+        "name": "International Alliance for Integration & Sustainability",
+        "country": "Malta",
+        "website": null
+      }
+    },
+    {
+      "filename": "IMG-20230730-WA0000 - Murat ŞERAS.jpg",
+      "description": "IMG",
+      "submitter": "20230730-WA0000 - Murat ŞERAS",
+      "reason": "No candidates found",
+      "existingMapping": null
+    },
+    {
+      "filename": "IMG-6753 (1) - Alishir Boyukhanli.PNG",
+      "description": "IMG",
+      "submitter": "6753 (1) - Alishir Boyukhanli",
+      "reason": "Low confidence or multiple candidates",
+      "topCandidates": [
+        {
+          "name": "Modern Azerbaijan Youth",
+          "country": "Azerbaijan",
+          "score": 10,
+          "reasons": [
+            "Country matches existing mapping"
+          ]
+        }
+      ],
+      "existingMapping": {
+        "name": "Azerbaijan Youth Organization",
+        "country": "Azerbaijan",
+        "website": null
+      }
+    },
+    {
+      "filename": "IMG_6231 - Simone Borsci.jpeg",
+      "description": "IMG_6231",
+      "submitter": "Simone Borsci",
+      "reason": "Low confidence or multiple candidates",
+      "topCandidates": [
+        {
+          "name": "Easysustainability",
+          "country": "Italy",
+          "score": 10,
+          "reasons": [
+            "Country matches existing mapping"
+          ]
+        },
+        {
+          "name": "Programma integra",
+          "country": "Italy",
+          "score": 10,
+          "reasons": [
+            "Country matches existing mapping"
+          ]
+        },
+        {
+          "name": "Comunità Progetto Sud - ONLUS",
+          "country": "Italy",
+          "score": 10,
+          "reasons": [
+            "Country matches existing mapping"
+          ]
+        }
+      ],
+      "existingMapping": {
+        "name": "Italian Youth Organization",
+        "country": "Italy",
+        "website": null
+      }
+    },
+    {
+      "filename": "IMG_8132 - Mehmet Mağat.JPG",
+      "description": "IMG_8132",
+      "submitter": "Mehmet Mağat",
+      "reason": "No candidates found",
+      "existingMapping": null
+    },
+    {
+      "filename": "Innoved Lietuva black - Žilvinas Speteliūnas.png",
+      "description": "Innoved Lietuva black",
+      "submitter": "Žilvinas Speteliūnas",
+      "reason": "Low confidence or multiple candidates",
+      "topCandidates": [
+        {
+          "name": "uMunthu NGO (part of Innoved mobility center)",
+          "country": "Lithuania",
+          "score": 10,
+          "reasons": [
+            "1 keyword(s) matched"
+          ]
+        }
+      ],
+      "existingMapping": null
+    },
+    {
+      "filename": "LOGO - Vlad Rusu.png",
+      "description": "LOGO",
+      "submitter": "Vlad Rusu",
+      "reason": "Low confidence or multiple candidates",
+      "topCandidates": [
+        {
+          "name": "Republican Center for Children and Youth ARTICO/Centrul Republican pentru Copii și Tineret Artico",
+          "country": "Moldova",
+          "score": 10,
+          "reasons": [
+            "Country matches existing mapping"
+          ]
+        },
+        {
+          "name": "Asociatia Internationala a Tinerilor",
+          "country": "Moldova",
+          "score": 10,
+          "reasons": [
+            "Country matches existing mapping"
+          ]
+        },
+        {
+          "name": "SUPERLIKE",
+          "country": "Moldova",
+          "score": 10,
+          "reasons": [
+            "Country matches existing mapping"
+          ]
+        }
+      ],
+      "existingMapping": {
+        "name": "Vlad Rusu Organization",
+        "country": "Moldova",
+        "website": null
+      }
+    },
+    {
+      "filename": "LOGO ACT - Nevi Mazreku.jpg",
+      "description": "LOGO ACT",
+      "submitter": "Nevi Mazreku",
+      "reason": "No candidates found",
+      "existingMapping": {
+        "name": "ACT Kosovo",
+        "country": "Kosovo",
+        "website": null
+      }
+    },
+    {
+      "filename": "LOGO ARTICOOOO - Loran Zmuncila.png",
+      "description": "LOGO ARTICOOOO",
+      "submitter": "Loran Zmuncila",
+      "reason": "Low confidence or multiple candidates",
+      "topCandidates": [
+        {
+          "name": "Republican Center for Children and Youth ARTICO/Centrul Republican pentru Copii și Tineret Artico",
+          "country": "Moldova",
+          "score": 30,
+          "reasons": [
+            "2 keyword(s) matched",
+            "Country matches existing mapping"
+          ]
+        },
+        {
+          "name": "Asociatia Internationala a Tinerilor",
+          "country": "Moldova",
+          "score": 10,
+          "reasons": [
+            "Country matches existing mapping"
+          ]
+        },
+        {
+          "name": "SUPERLIKE",
+          "country": "Moldova",
+          "score": 10,
+          "reasons": [
+            "Country matches existing mapping"
+          ]
+        }
+      ],
+      "existingMapping": {
+        "name": "ARTICO",
+        "country": "Moldova",
+        "website": "https://www.facebook.com/ArticoErasmus"
+      }
+    },
+    {
+      "filename": "LOGO SOCIAL MEDIA - Goran Nikolov.jpg",
+      "description": "LOGO SOCIAL MEDIA",
+      "submitter": "Goran Nikolov",
+      "reason": "Low confidence or multiple candidates",
+      "topCandidates": [
+        {
+          "name": "ASSOCIATION FOR THE DEVELOPMENT OF THE PROINCLUSIVE, DIGITAL AND ENVIRONMENTAL EDUCATION",
+          "country": "North Macedonia",
+          "score": 10,
+          "reasons": [
+            "Country matches existing mapping"
+          ]
+        },
+        {
+          "name": "ARD Local Action Group  PRESPA RESEN",
+          "country": "North Macedonia",
+          "score": 10,
+          "reasons": [
+            "Country matches existing mapping"
+          ]
+        },
+        {
+          "name": "Association for cultural, sport and educational development \"World of Change\"",
+          "country": "North Macedonia",
+          "score": 10,
+          "reasons": [
+            "Country matches existing mapping"
+          ]
+        }
+      ],
+      "existingMapping": {
+        "name": "Social Media Organization",
+        "country": "North Macedonia",
+        "website": null
+      }
+    },
+    {
+      "filename": "LOGO bez burtiem - Diana K Krasnova.jpeg",
+      "description": "LOGO bez burtiem",
+      "submitter": "Diana K Krasnova",
+      "reason": "Low confidence or multiple candidates",
+      "topCandidates": [
+        {
+          "name": "United Efforts Network for Progressive Development",
+          "country": "Latvia",
+          "score": 10,
+          "reasons": [
+            "Country matches existing mapping"
+          ]
+        }
+      ],
+      "existingMapping": {
+        "name": "Diana K Krasnova Foundation",
+        "country": "Latvia",
+        "website": null
+      }
+    },
+    {
+      "filename": "LOGO1-1-removebg-preview - Berkan Demiral.png",
+      "description": "LOGO1",
+      "submitter": "1-removebg-preview - Berkan Demiral",
+      "reason": "Low confidence or multiple candidates",
+      "topCandidates": [
+        {
+          "name": "Rural Move: Rural Move - Associação para a Promoção do Investimento nos Territórios de Baixa Densidade",
+          "country": "Portugal",
+          "score": 20,
+          "reasons": [
+            "2 keyword(s) matched"
+          ]
+        },
+        {
+          "name": "Naciye Pehlivanlı Saran Anadolu Lisesi",
+          "country": "Turkey",
+          "score": 10,
+          "reasons": [
+            "Country matches existing mapping"
+          ]
+        },
+        {
+          "name": "Bosphorus Youth Team",
+          "country": "Turkey",
+          "score": 10,
+          "reasons": [
+            "Country matches existing mapping"
+          ]
+        }
+      ],
+      "existingMapping": {
+        "name": "Berkan Demiral Association",
+        "country": "Turkey",
+        "website": null
+      }
+    },
+    {
+      "filename": "LOGO_ROMA_TEAM - Oancea Mihai.jpg",
+      "description": "LOGO_ROMA_TEAM",
+      "submitter": "Oancea Mihai",
+      "reason": "Low confidence or multiple candidates",
+      "topCandidates": [
+        {
+          "name": "ROMA T.E.A.M ASSOCIATION",
+          "country": "Romania",
+          "score": 20,
+          "reasons": [
+            "1 keyword(s) matched",
+            "Country matches existing mapping"
+          ]
+        },
+        {
+          "name": "Association of Energetic, Ambitious and Motivated Roma Youth",
+          "country": "Romania",
+          "score": 20,
+          "reasons": [
+            "1 keyword(s) matched",
+            "Country matches existing mapping"
+          ]
+        },
+        {
+          "name": "Bosphorus Youth Team",
+          "country": "Turkey",
+          "score": 10,
+          "reasons": [
+            "1 keyword(s) matched"
+          ]
+        }
+      ],
+      "existingMapping": {
+        "name": "Roma Team",
+        "country": "Romania",
+        "website": null
+      }
+    },
+    {
+      "filename": "Logo - Robert Stefan.jpg",
+      "description": "Logo",
+      "submitter": "Robert Stefan",
+      "reason": "Low confidence or multiple candidates",
+      "topCandidates": [
+        {
+          "name": "CONNECT PEOPLE 2U",
+          "country": "Romania",
+          "score": 10,
+          "reasons": [
+            "Country matches existing mapping"
+          ]
+        },
+        {
+          "name": "ASOCIATIA TINERILOR ROMI, ENERGICI AMBITIOSI SI MOTIVATI",
+          "country": "Romania",
+          "score": 10,
+          "reasons": [
+            "Country matches existing mapping"
+          ]
+        },
+        {
+          "name": "DAR DEVELOPMENT ASSOCIATION",
+          "country": "Romania",
+          "score": 10,
+          "reasons": [
+            "Country matches existing mapping"
+          ]
+        }
+      ],
+      "existingMapping": {
+        "name": "Robert Stefan Foundation",
+        "country": "Romania",
+        "website": null
+      }
+    },
+    {
+      "filename": "Logo 2 - Radina Dimitrov.png",
+      "description": "Logo 2",
+      "submitter": "Radina Dimitrov",
+      "reason": "Low confidence or multiple candidates",
+      "topCandidates": [
+        {
+          "name": "Iniciativi za grjdansko obchtestvo (Initiatives for Civil Society) - Bulgaria.",
+          "country": "Bulgaria",
+          "score": 10,
+          "reasons": [
+            "Country matches existing mapping"
+          ]
+        },
+        {
+          "name": "Association WalkTogether",
+          "country": "Bulgaria",
+          "score": 10,
+          "reasons": [
+            "Country matches existing mapping"
+          ]
+        },
+        {
+          "name": "Foundation \"Situational Center Open Doors\"",
+          "country": "Bulgaria",
+          "score": 10,
+          "reasons": [
+            "Country matches existing mapping"
+          ]
+        }
+      ],
+      "existingMapping": {
+        "name": "Bulgarian Youth Association",
+        "country": "Bulgaria",
+        "website": null
+      }
+    },
+    {
+      "filename": "Logo CPS - Michela Vottari.png",
+      "description": "Logo CPS",
+      "submitter": "Michela Vottari",
+      "reason": "Low confidence or multiple candidates",
+      "topCandidates": [
+        {
+          "name": "Easysustainability",
+          "country": "Italy",
+          "score": 10,
+          "reasons": [
+            "Country matches existing mapping"
+          ]
+        },
+        {
+          "name": "Programma integra",
+          "country": "Italy",
+          "score": 10,
+          "reasons": [
+            "Country matches existing mapping"
+          ]
+        },
+        {
+          "name": "Comunità Progetto Sud - ONLUS",
+          "country": "Italy",
+          "score": 10,
+          "reasons": [
+            "Country matches existing mapping"
+          ]
+        }
+      ],
+      "existingMapping": {
+        "name": "CPS - Community Psychological Services",
+        "country": "Italy",
+        "website": null
+      }
+    },
+    {
+      "filename": "Logo Daring Hub - Suha Ayyash.jpg",
+      "description": "Logo Daring Hub",
+      "submitter": "Suha Ayyash",
+      "reason": "Low confidence or multiple candidates",
+      "topCandidates": [
+        {
+          "name": "The Daring Hub for Training and Development",
+          "country": "Jordan",
+          "score": 50,
+          "reasons": [
+            "1 keyword(s) matched",
+            "Confirmed by existing HTML mapping",
+            "Country matches existing mapping"
+          ]
+        }
+      ],
+      "existingMapping": {
+        "name": "The Daring Hub for Training and Development",
+        "country": "Jordan",
+        "website": "https://www.i-dare.org/daring-hub"
+      }
+    },
+    {
+      "filename": "Logo Dernek (1) - Vizyoner Kadınlar Derneği.png",
+      "description": "Logo Dernek (1)",
+      "submitter": "Vizyoner Kadınlar Derneği",
+      "reason": "Low confidence or multiple candidates",
+      "topCandidates": [
+        {
+          "name": "KUZEYİN YILDIZLARI Sosyal Yardımlaşma Kültür Sanat ve Spor Kulübü Derneği",
+          "country": "Turkey",
+          "score": 10,
+          "reasons": [
+            "1 keyword(s) matched"
+          ]
+        },
+        {
+          "name": "Kültür Eğitim ve Proje Derneği",
+          "country": "Turkey",
+          "score": 10,
+          "reasons": [
+            "1 keyword(s) matched"
+          ]
+        },
+        {
+          "name": "Genç Gönüllüler Derneği",
+          "country": "Turkey",
+          "score": 10,
+          "reasons": [
+            "1 keyword(s) matched"
+          ]
+        }
+      ],
+      "existingMapping": null
+    },
+    {
+      "filename": "Logo EuropoleWeb - Elena Milli.jpg",
+      "description": "Logo EuropoleWeb",
+      "submitter": "Elena Milli",
+      "reason": "Low confidence or multiple candidates",
+      "topCandidates": [
+        {
+          "name": "Easysustainability",
+          "country": "Italy",
+          "score": 10,
+          "reasons": [
+            "Country matches existing mapping"
+          ]
+        },
+        {
+          "name": "Programma integra",
+          "country": "Italy",
+          "score": 10,
+          "reasons": [
+            "Country matches existing mapping"
+          ]
+        },
+        {
+          "name": "Comunità Progetto Sud - ONLUS",
+          "country": "Italy",
+          "score": 10,
+          "reasons": [
+            "Country matches existing mapping"
+          ]
+        }
+      ],
+      "existingMapping": {
+        "name": "Europole Web",
+        "country": "Italy",
+        "website": null
+      }
+    },
+    {
+      "filename": "Logo LAG PRESPA orginal - lag prespa Resen.png",
+      "description": "Logo LAG PRESPA orginal",
+      "submitter": "lag prespa Resen",
+      "reason": "Low confidence or multiple candidates",
+      "topCandidates": [
+        {
+          "name": "ARD Local Action Group  PRESPA RESEN",
+          "country": "North Macedonia",
+          "score": 30,
+          "reasons": [
+            "2 keyword(s) matched",
+            "Country matches existing mapping"
+          ]
+        },
+        {
+          "name": "ASSOCIATION FOR THE DEVELOPMENT OF THE PROINCLUSIVE, DIGITAL AND ENVIRONMENTAL EDUCATION",
+          "country": "North Macedonia",
+          "score": 10,
+          "reasons": [
+            "Country matches existing mapping"
+          ]
+        },
+        {
+          "name": "Association for cultural, sport and educational development \"World of Change\"",
+          "country": "North Macedonia",
+          "score": 10,
+          "reasons": [
+            "Country matches existing mapping"
+          ]
+        }
+      ],
+      "existingMapping": {
+        "name": "LAG PRESPA Resen",
+        "country": "North Macedonia",
+        "website": null
+      }
+    },
+    {
+      "filename": "Logo Psychocenter - Joanna Szczecinska.jpeg",
+      "description": "Logo Psychocenter",
+      "submitter": "Joanna Szczecinska",
+      "reason": "Low confidence or multiple candidates",
+      "topCandidates": [
+        {
+          "name": "Fundacja „PSYCHOCENTER”",
+          "country": "Poland",
+          "score": 20,
+          "reasons": [
+            "1 keyword(s) matched",
+            "Country matches existing mapping"
+          ]
+        },
+        {
+          "name": "Rzeszowska Agencja Rozwoju Regionalnego Spółka Akcyjne (Rzeszow Regional Development Agency)",
+          "country": "Poland",
+          "score": 10,
+          "reasons": [
+            "Country matches existing mapping"
+          ]
+        },
+        {
+          "name": "Albanian Center for Education Care and Training",
+          "country": "Albania",
+          "score": 10,
+          "reasons": [
+            "1 keyword(s) matched"
+          ]
+        }
+      ],
+      "existingMapping": {
+        "name": "Psychocenter Foundation",
+        "country": "Poland",
+        "website": null
+      }
+    },
+    {
+      "filename": "Logo Trevessu - Viola Fonnesu.png",
+      "description": "Logo Trevessu",
+      "submitter": "Viola Fonnesu",
+      "reason": "Low confidence or multiple candidates",
+      "topCandidates": [
+        {
+          "name": "Trevessu APS",
+          "country": "Italy",
+          "score": 20,
+          "reasons": [
+            "1 keyword(s) matched",
+            "Country matches existing mapping"
+          ]
+        },
+        {
+          "name": "Easysustainability",
+          "country": "Italy",
+          "score": 10,
+          "reasons": [
+            "Country matches existing mapping"
+          ]
+        },
+        {
+          "name": "Programma integra",
+          "country": "Italy",
+          "score": 10,
+          "reasons": [
+            "Country matches existing mapping"
+          ]
+        }
+      ],
+      "existingMapping": {
+        "name": "Trevessu Association",
+        "country": "Italy",
+        "website": null
+      }
+    },
+    {
+      "filename": "Logo vettoriale - Federica Mazzanti.png",
+      "description": "Logo vettoriale",
+      "submitter": "Federica Mazzanti",
+      "reason": "Low confidence or multiple candidates",
+      "topCandidates": [
+        {
+          "name": "Easysustainability",
+          "country": "Italy",
+          "score": 10,
+          "reasons": [
+            "Country matches existing mapping"
+          ]
+        },
+        {
+          "name": "Programma integra",
+          "country": "Italy",
+          "score": 10,
+          "reasons": [
+            "Country matches existing mapping"
+          ]
+        },
+        {
+          "name": "Comunità Progetto Sud - ONLUS",
+          "country": "Italy",
+          "score": 10,
+          "reasons": [
+            "Country matches existing mapping"
+          ]
+        }
+      ],
+      "existingMapping": {
+        "name": "Italian Youth Federation",
+        "country": "Italy",
+        "website": null
+      }
+    },
+    {
+      "filename": "Logo za drustvene mreze-03 - Andrej Jankovic.jpg",
+      "description": "Logo za drustvene mreze",
+      "submitter": "03 - Andrej Jankovic",
+      "reason": "Low confidence or multiple candidates",
+      "topCandidates": [
+        {
+          "name": "Platform for Culture and Innovation IMPULSE CONNECT",
+          "country": "North Macedonia",
+          "score": 40,
+          "reasons": [
+            "Confirmed by existing HTML mapping",
+            "Country matches existing mapping"
+          ]
+        },
+        {
+          "name": "ASSOCIATION FOR THE DEVELOPMENT OF THE PROINCLUSIVE, DIGITAL AND ENVIRONMENTAL EDUCATION",
+          "country": "North Macedonia",
+          "score": 10,
+          "reasons": [
+            "Country matches existing mapping"
+          ]
+        },
+        {
+          "name": "ARD Local Action Group  PRESPA RESEN",
+          "country": "North Macedonia",
+          "score": 10,
+          "reasons": [
+            "Country matches existing mapping"
+          ]
+        }
+      ],
+      "existingMapping": {
+        "name": "Platform for Culture and Innovation IMPULSE CONNECT",
+        "country": "North Macedonia",
+        "website": "https://www.instagram.com/impulse.connect/"
+      }
+    },
+    {
+      "filename": "Logo-removebg-preview - VICTOR NYABUTI.png",
+      "description": "Logo",
+      "submitter": "removebg-preview - VICTOR NYABUTI",
+      "reason": "Low confidence or multiple candidates",
+      "topCandidates": [
+        {
+          "name": "Rural Move: Rural Move - Associação para a Promoção do Investimento nos Territórios de Baixa Densidade",
+          "country": "Portugal",
+          "score": 20,
+          "reasons": [
+            "2 keyword(s) matched"
+          ]
+        }
+      ],
+      "existingMapping": {
+        "name": "VICTOR NYABUTI Foundation",
+        "country": "Kenya",
+        "website": null
+      }
+    },
+    {
+      "filename": "LogoAIT - Rînja Grigore.png",
+      "description": "LogoAIT",
+      "submitter": "Rînja Grigore",
+      "reason": "Low confidence or multiple candidates",
+      "topCandidates": [
+        {
+          "name": "Asociatia Internationala a Tinerilor",
+          "country": "Moldova",
+          "score": 50,
+          "reasons": [
+            "Acronym matched"
+          ]
+        }
+      ],
+      "existingMapping": null
+    },
+    {
+      "filename": "Logo_EI - Rui Baltazar.jpg",
+      "description": "Logo_EI",
+      "submitter": "Rui Baltazar",
+      "reason": "Low confidence or multiple candidates",
+      "topCandidates": [
+        {
+          "name": "Rural Move: Rural Move - Associação para a Promoção do Investimento nos Territórios de Baixa Densidade",
+          "country": "Portugal",
+          "score": 10,
+          "reasons": [
+            "Country matches existing mapping"
+          ]
+        },
+        {
+          "name": "MORE – Mountains of Research Collaborative Laboratory – Association",
+          "country": "Portugal",
+          "score": 10,
+          "reasons": [
+            "Country matches existing mapping"
+          ]
+        },
+        {
+          "name": "Eagle Intuition",
+          "country": "Portugal",
+          "score": 10,
+          "reasons": [
+            "Country matches existing mapping"
+          ]
+        }
+      ],
+      "existingMapping": {
+        "name": "EI - Educational Initiative",
+        "country": "Portugal",
+        "website": null
+      }
+    },
+    {
+      "filename": "Logo_RCNE - Yoanna Ivanova.jpg",
+      "description": "Logo_RCNE",
+      "submitter": "Yoanna Ivanova",
+      "reason": "Low confidence or multiple candidates",
+      "topCandidates": [
+        {
+          "name": "Regional Cluster \"North-East\"",
+          "country": "Ecuador",
+          "score": 50,
+          "reasons": [
+            "Acronym matched"
+          ]
+        },
+        {
+          "name": "Iniciativi za grjdansko obchtestvo (Initiatives for Civil Society) - Bulgaria.",
+          "country": "Bulgaria",
+          "score": 10,
+          "reasons": [
+            "Country matches existing mapping"
+          ]
+        },
+        {
+          "name": "Association WalkTogether",
+          "country": "Bulgaria",
+          "score": 10,
+          "reasons": [
+            "Country matches existing mapping"
+          ]
+        }
+      ],
+      "existingMapping": {
+        "name": "RCNE - Romanian Center for New Education",
+        "country": "Bulgaria",
+        "website": null
+      }
+    },
+    {
+      "filename": "OEV logo - sizif sizif.png",
+      "description": "OEV logo",
+      "submitter": "sizif sizif",
+      "reason": "Low confidence or multiple candidates",
+      "topCandidates": [
+        {
+          "name": "Open Educational Vibes",
+          "country": "Serbia",
+          "score": 50,
+          "reasons": [
+            "Acronym matched"
+          ]
+        },
+        {
+          "name": "Open Educational Vibes",
+          "country": "Serbia",
+          "score": 50,
+          "reasons": [
+            "Acronym matched"
+          ]
+        },
+        {
+          "name": "ASSOCIATION FOR THE DEVELOPMENT OF THE PROINCLUSIVE, DIGITAL AND ENVIRONMENTAL EDUCATION",
+          "country": "North Macedonia",
+          "score": 10,
+          "reasons": [
+            "Country matches existing mapping"
+          ]
+        }
+      ],
+      "existingMapping": {
+        "name": "OEV Youth Center",
+        "country": "North Macedonia",
+        "website": "https://www.facebook.com/oevyouthcenterskopje"
+      }
+    },
+    {
+      "filename": "PI_LOGO_ORIZ_RGB_WEB (2) - Laura Bianconi.jpg",
+      "description": "PI_LOGO_ORIZ_RGB_WEB (2)",
+      "submitter": "Laura Bianconi",
+      "reason": "Low confidence or multiple candidates",
+      "topCandidates": [
+        {
+          "name": "Easysustainability",
+          "country": "Italy",
+          "score": 10,
+          "reasons": [
+            "Country matches existing mapping"
+          ]
+        },
+        {
+          "name": "Programma integra",
+          "country": "Italy",
+          "score": 10,
+          "reasons": [
+            "Country matches existing mapping"
+          ]
+        },
+        {
+          "name": "Comunità Progetto Sud - ONLUS",
+          "country": "Italy",
+          "score": 10,
+          "reasons": [
+            "Country matches existing mapping"
+          ]
+        }
+      ],
+      "existingMapping": {
+        "name": "PI - Project Initiative",
+        "country": "Italy",
+        "website": null
+      }
+    },
+    {
+      "filename": "RRDA_logo - Aga Nędza.png",
+      "description": "RRDA_logo",
+      "submitter": "Aga Nędza",
+      "reason": "No candidates found",
+      "existingMapping": null
+    },
+    {
+      "filename": "SESAT_LOGO_05MAR2020-1 - Pantelis Makris.png",
+      "description": "SESAT_LOGO_05MAR2020",
+      "submitter": "1 - Pantelis Makris",
+      "reason": "Low confidence or multiple candidates",
+      "topCandidates": [
+        {
+          "name": "Verde: Center for Research, Innovation and Sustainable Development",
+          "country": "Greece",
+          "score": 10,
+          "reasons": [
+            "Country matches existing mapping"
+          ]
+        },
+        {
+          "name": "SESAT Ltd",
+          "country": "Cyprus",
+          "score": 10,
+          "reasons": [
+            "1 keyword(s) matched"
+          ]
+        },
+        {
+          "name": "George",
+          "country": "Greece",
+          "score": 10,
+          "reasons": [
+            "Country matches existing mapping"
+          ]
+        }
+      ],
+      "existingMapping": {
+        "name": "SESAT",
+        "country": "Greece",
+        "website": null
+      }
+    },
+    {
+      "filename": "SUMA - logo - Leo Fel.jpg",
+      "description": "SUMA",
+      "submitter": "logo - Leo Fel",
+      "reason": "Low confidence or multiple candidates",
+      "topCandidates": [
+        {
+          "name": "SUMA - Association for Sustainable Development",
+          "country": "Croatia",
+          "score": 20,
+          "reasons": [
+            "1 keyword(s) matched",
+            "Country matches existing mapping"
+          ]
+        },
+        {
+          "name": "III. gimnazija, Split",
+          "country": "Croatia",
+          "score": 10,
+          "reasons": [
+            "Country matches existing mapping"
+          ]
+        },
+        {
+          "name": "Udruga srednjoškolaca Hrvatske (Croatian Pupils' Association)",
+          "country": "Croatia",
+          "score": 10,
+          "reasons": [
+            "Country matches existing mapping"
+          ]
+        }
+      ],
+      "existingMapping": {
+        "name": "SUMA",
+        "country": "Croatia",
+        "website": null
+      }
+    },
+    {
+      "filename": "Screenshot 2023-08-12 161512.png",
+      "description": "Screenshot 2023",
+      "submitter": "08-12 161512",
+      "reason": "No candidates found",
+      "existingMapping": {
+        "name": "Youth Organization",
+        "country": "International",
+        "website": null
+      }
+    },
+    {
+      "filename": "Screenshot 2023-08-12 161727.png",
+      "description": "Screenshot 2023",
+      "submitter": "08-12 161727",
+      "reason": "No candidates found",
+      "existingMapping": {
+        "name": "Youth Organization",
+        "country": "International",
+        "website": null
+      }
+    },
+    {
+      "filename": "Screenshot 2023-08-12 161944.png",
+      "description": "Screenshot 2023",
+      "submitter": "08-12 161944",
+      "reason": "No candidates found",
+      "existingMapping": {
+        "name": "Youth Organization",
+        "country": "International",
+        "website": null
+      }
+    },
+    {
+      "filename": "Tmelnik - Oana Buzera.jpg",
+      "description": "Tmelnik",
+      "submitter": "Oana Buzera",
+      "reason": "Low confidence or multiple candidates",
+      "topCandidates": [
+        {
+          "name": "CONNECT PEOPLE 2U",
+          "country": "Romania",
+          "score": 10,
+          "reasons": [
+            "Country matches existing mapping"
+          ]
+        },
+        {
+          "name": "ASOCIATIA TINERILOR ROMI, ENERGICI AMBITIOSI SI MOTIVATI",
+          "country": "Romania",
+          "score": 10,
+          "reasons": [
+            "Country matches existing mapping"
+          ]
+        },
+        {
+          "name": "DAR DEVELOPMENT ASSOCIATION",
+          "country": "Romania",
+          "score": 10,
+          "reasons": [
+            "Country matches existing mapping"
+          ]
+        }
+      ],
+      "existingMapping": {
+        "name": "Tmelnik Association",
+        "country": "Romania",
+        "website": null
+      }
+    },
+    {
+      "filename": "Verde Logo.png",
+      "description": "Verde Logo",
+      "submitter": null,
+      "reason": "Low confidence or multiple candidates",
+      "topCandidates": [
+        {
+          "name": "Easysustainability",
+          "country": "Italy",
+          "score": 10,
+          "reasons": [
+            "Country matches existing mapping"
+          ]
+        },
+        {
+          "name": "Verde: Center for Research, Innovation and Sustainable Development",
+          "country": "Greece",
+          "score": 10,
+          "reasons": [
+            "1 keyword(s) matched"
+          ]
+        },
+        {
+          "name": "Programma integra",
+          "country": "Italy",
+          "score": 10,
+          "reasons": [
+            "Country matches existing mapping"
+          ]
+        }
+      ],
+      "existingMapping": {
+        "name": "VERDE",
+        "country": "Italy",
+        "website": "https://www.associazioneverde.it/"
+      }
+    },
+    {
+      "filename": "WhatsApp Image 2024-02-11 at 23.26.20 - onur gultekin.jpeg",
+      "description": "WhatsApp Image 2024-02-11 at 23.26.20",
+      "submitter": "onur gultekin",
+      "reason": "Low confidence or multiple candidates",
+      "topCandidates": [
+        {
+          "name": "Naciye Pehlivanlı Saran Anadolu Lisesi",
+          "country": "Turkey",
+          "score": 10,
+          "reasons": [
+            "Country matches existing mapping"
+          ]
+        },
+        {
+          "name": "Bosphorus Youth Team",
+          "country": "Turkey",
+          "score": 10,
+          "reasons": [
+            "Country matches existing mapping"
+          ]
+        },
+        {
+          "name": "KUCUKCEKMECE MUNICIPALITY",
+          "country": "Turkey",
+          "score": 10,
+          "reasons": [
+            "Country matches existing mapping"
+          ]
+        }
+      ],
+      "existingMapping": {
+        "name": "Onur Gultekin Foundation",
+        "country": "Turkey",
+        "website": null
+      }
+    },
+    {
+      "filename": "bLACK LOGO - Anke Besseling.png",
+      "description": "bLACK LOGO",
+      "submitter": "Anke Besseling",
+      "reason": "Low confidence or multiple candidates",
+      "topCandidates": [
+        {
+          "name": "E-UNITY",
+          "country": "Netherlands",
+          "score": 40,
+          "reasons": [
+            "Confirmed by existing HTML mapping",
+            "Country matches existing mapping"
+          ]
+        },
+        {
+          "name": "Stichting E-UNITY",
+          "country": "Netherlands",
+          "score": 10,
+          "reasons": [
+            "Country matches existing mapping"
+          ]
+        }
+      ],
+      "existingMapping": {
+        "name": "E-Unity",
+        "country": "Netherlands",
+        "website": null
+      }
+    },
+    {
+      "filename": "bosev-logo-arkabeyazkare, - Ercan KÜÇÜKARSLAN.png",
+      "description": "bosev",
+      "submitter": "logo-arkabeyazkare, - Ercan KÜÇÜKARSLAN",
+      "reason": "No candidates found",
+      "existingMapping": null
+    },
+    {
+      "filename": "dopetransp (1) - Federico Giordano Mederos.png",
+      "description": "dopetransp (1)",
+      "submitter": "Federico Giordano Mederos",
+      "reason": "Low confidence or multiple candidates",
+      "topCandidates": [
+        {
+          "name": "Easysustainability",
+          "country": "Italy",
+          "score": 10,
+          "reasons": [
+            "Country matches existing mapping"
+          ]
+        },
+        {
+          "name": "Programma integra",
+          "country": "Italy",
+          "score": 10,
+          "reasons": [
+            "Country matches existing mapping"
+          ]
+        },
+        {
+          "name": "Comunità Progetto Sud - ONLUS",
+          "country": "Italy",
+          "score": 10,
+          "reasons": [
+            "Country matches existing mapping"
+          ]
+        }
+      ],
+      "existingMapping": {
+        "name": "Dope Association",
+        "country": "Italy",
+        "website": null
+      }
+    },
+    {
+      "filename": "ggd_logo2 - Mahmut Talha Serenli.jpg",
+      "description": "ggd_logo2",
+      "submitter": "Mahmut Talha Serenli",
+      "reason": "Low confidence or multiple candidates",
+      "topCandidates": [
+        {
+          "name": "Naciye Pehlivanlı Saran Anadolu Lisesi",
+          "country": "Turkey",
+          "score": 10,
+          "reasons": [
+            "Country matches existing mapping"
+          ]
+        },
+        {
+          "name": "Bosphorus Youth Team",
+          "country": "Turkey",
+          "score": 10,
+          "reasons": [
+            "Country matches existing mapping"
+          ]
+        },
+        {
+          "name": "KUCUKCEKMECE MUNICIPALITY",
+          "country": "Turkey",
+          "score": 10,
+          "reasons": [
+            "Country matches existing mapping"
+          ]
+        }
+      ],
+      "existingMapping": {
+        "name": "GGD Youth",
+        "country": "Turkey",
+        "website": null
+      }
+    },
+    {
+      "filename": "images - Mehmet Göçmen.jpeg",
+      "description": "images",
+      "submitter": "Mehmet Göçmen",
+      "reason": "No candidates found",
+      "existingMapping": null
+    },
+    {
+      "filename": "indir - özlem.jpg",
+      "description": "indir",
+      "submitter": "özlem",
+      "reason": "No candidates found",
+      "existingMapping": null
+    },
+    {
+      "filename": "lag-vallis-colapis-logo - Petra Cule.png",
+      "description": "lag",
+      "submitter": "vallis-colapis-logo - Petra Cule",
+      "reason": "Low confidence or multiple candidates",
+      "topCandidates": [
+        {
+          "name": "Local Action Group (LAG) Vallis Colapis",
+          "country": "Croatia",
+          "score": 30,
+          "reasons": [
+            "2 keyword(s) matched",
+            "Country matches existing mapping"
+          ]
+        },
+        {
+          "name": "III. gimnazija, Split",
+          "country": "Croatia",
+          "score": 10,
+          "reasons": [
+            "Country matches existing mapping"
+          ]
+        },
+        {
+          "name": "Udruga srednjoškolaca Hrvatske (Croatian Pupils' Association)",
+          "country": "Croatia",
+          "score": 10,
+          "reasons": [
+            "Country matches existing mapping"
+          ]
+        }
+      ],
+      "existingMapping": {
+        "name": "LAG Vallis Colapis",
+        "country": "Croatia",
+        "website": null
+      }
+    },
+    {
+      "filename": "logo - Burcu Bilgic.jpg",
+      "description": "logo",
+      "submitter": "Burcu Bilgic",
+      "reason": "Low confidence or multiple candidates",
+      "topCandidates": [
+        {
+          "name": "Naciye Pehlivanlı Saran Anadolu Lisesi",
+          "country": "Turkey",
+          "score": 10,
+          "reasons": [
+            "Country matches existing mapping"
+          ]
+        },
+        {
+          "name": "Bosphorus Youth Team",
+          "country": "Turkey",
+          "score": 10,
+          "reasons": [
+            "Country matches existing mapping"
+          ]
+        },
+        {
+          "name": "KUCUKCEKMECE MUNICIPALITY",
+          "country": "Turkey",
+          "score": 10,
+          "reasons": [
+            "Country matches existing mapping"
+          ]
+        }
+      ],
+      "existingMapping": {
+        "name": "Burcu Bilgic Association",
+        "country": "Turkey",
+        "website": null
+      }
+    },
+    {
+      "filename": "logo - Esra Yalçın.jpg",
+      "description": "logo",
+      "submitter": "Esra Yalçın",
+      "reason": "No candidates found",
+      "existingMapping": null
+    },
+    {
+      "filename": "logo - Gulfem Boz.png",
+      "description": "logo",
+      "submitter": "Gulfem Boz",
+      "reason": "Low confidence or multiple candidates",
+      "topCandidates": [
+        {
+          "name": "Naciye Pehlivanlı Saran Anadolu Lisesi",
+          "country": "Turkey",
+          "score": 10,
+          "reasons": [
+            "Country matches existing mapping"
+          ]
+        },
+        {
+          "name": "Bosphorus Youth Team",
+          "country": "Turkey",
+          "score": 10,
+          "reasons": [
+            "Country matches existing mapping"
+          ]
+        },
+        {
+          "name": "KUCUKCEKMECE MUNICIPALITY",
+          "country": "Turkey",
+          "score": 10,
+          "reasons": [
+            "Country matches existing mapping"
+          ]
+        }
+      ],
+      "existingMapping": {
+        "name": "Vizyon Insani Yardim Dernegi",
+        "country": "Turkey",
+        "website": null
+      }
+    },
+    {
+      "filename": "logo - Yağmur Süzer.png",
+      "description": "logo",
+      "submitter": "Yağmur Süzer",
+      "reason": "No candidates found",
+      "existingMapping": null
+    },
+    {
+      "filename": "logo - Yasemin Özden.jpg",
+      "description": "logo",
+      "submitter": "Yasemin Özden",
+      "reason": "No candidates found",
+      "existingMapping": null
+    },
+    {
+      "filename": "logo ADEL jpg - Lenka.jpg",
+      "description": "logo ADEL jpg",
+      "submitter": "Lenka",
+      "reason": "Low confidence or multiple candidates",
+      "topCandidates": [
+        {
+          "name": "ADEL Slovakia",
+          "country": "Slovakia",
+          "score": 50,
+          "reasons": [
+            "1 keyword(s) matched",
+            "Confirmed by existing HTML mapping",
+            "Country matches existing mapping"
+          ]
+        }
+      ],
+      "existingMapping": {
+        "name": "ADEL Slovakia",
+        "country": "Slovakia",
+        "website": null
+      }
+    },
+    {
+      "filename": "logo black - Tetiana Kalko.png",
+      "description": "logo black",
+      "submitter": "Tetiana Kalko",
+      "reason": "Low confidence or multiple candidates",
+      "topCandidates": [
+        {
+          "name": "Forward for Future",
+          "country": "Ukraine",
+          "score": 10,
+          "reasons": [
+            "Country matches existing mapping"
+          ]
+        }
+      ],
+      "existingMapping": {
+        "name": "Tetiana Kalko Foundation",
+        "country": "Ukraine",
+        "website": null
+      }
+    },
+    {
+      "filename": "logo fb ig (1) - Donatas Verseckas.png",
+      "description": "logo fb ig (1)",
+      "submitter": "Donatas Verseckas",
+      "reason": "Low confidence or multiple candidates",
+      "topCandidates": [
+        {
+          "name": "Tavo Europa",
+          "country": "Lithuania",
+          "score": 10,
+          "reasons": [
+            "Country matches existing mapping"
+          ]
+        },
+        {
+          "name": "uMunthu NGO (part of Innoved mobility center)",
+          "country": "Lithuania",
+          "score": 10,
+          "reasons": [
+            "Country matches existing mapping"
+          ]
+        },
+        {
+          "name": "VšĮ AY Institutas",
+          "country": "Lithuania",
+          "score": 10,
+          "reasons": [
+            "Country matches existing mapping"
+          ]
+        }
+      ],
+      "existingMapping": {
+        "name": "Lithuanian Youth Organization",
+        "country": "Lithuania",
+        "website": null
+      }
+    },
+    {
+      "filename": "logo g5 - Las Mesas La Brújula - El Compás.jpg",
+      "description": "logo g5",
+      "submitter": "Las Mesas La Brújula - El Compás",
+      "reason": "No candidates found",
+      "existingMapping": null
+    },
+    {
+      "filename": "logo muwada_page-0001 - project muwada.jpg",
+      "description": "logo muwada_page",
+      "submitter": "0001 - project muwada",
+      "reason": "Low confidence or multiple candidates",
+      "topCandidates": [
+        {
+          "name": "Kültür Eğitim ve Proje Derneği",
+          "country": "Turkey",
+          "score": 10,
+          "reasons": [
+            "1 keyword(s) matched"
+          ]
+        }
+      ],
+      "existingMapping": {
+        "name": "Project Muwada",
+        "country": "Palestine",
+        "website": null
+      }
+    },
+    {
+      "filename": "logo-GoEasy - GoEasy Info.jpg",
+      "description": "logo",
+      "submitter": "GoEasy - GoEasy Info",
+      "reason": "Low confidence or multiple candidates",
+      "topCandidates": [
+        {
+          "name": "Go Easy",
+          "country": "North Macedonia",
+          "score": 20,
+          "reasons": [
+            "1 keyword(s) matched",
+            "Country matches existing mapping"
+          ]
+        },
+        {
+          "name": "ASSOCIATION FOR THE DEVELOPMENT OF THE PROINCLUSIVE, DIGITAL AND ENVIRONMENTAL EDUCATION",
+          "country": "North Macedonia",
+          "score": 10,
+          "reasons": [
+            "Country matches existing mapping"
+          ]
+        },
+        {
+          "name": "ARD Local Action Group  PRESPA RESEN",
+          "country": "North Macedonia",
+          "score": 10,
+          "reasons": [
+            "Country matches existing mapping"
+          ]
+        }
+      ],
+      "existingMapping": {
+        "name": "GoEasy",
+        "country": "North Macedonia",
+        "website": null
+      }
+    },
+    {
+      "filename": "logo-activhandi (1) - Florian Vallet.png",
+      "description": "logo",
+      "submitter": "activhandi (1) - Florian Vallet",
+      "reason": "Low confidence or multiple candidates",
+      "topCandidates": [
+        {
+          "name": "Florelina",
+          "country": "France",
+          "score": 10,
+          "reasons": [
+            "Country matches existing mapping"
+          ]
+        },
+        {
+          "name": "Atlas International",
+          "country": "France",
+          "score": 10,
+          "reasons": [
+            "Country matches existing mapping"
+          ]
+        }
+      ],
+      "existingMapping": {
+        "name": "Activhandi",
+        "country": "France",
+        "website": null
+      }
+    },
+    {
+      "filename": "logo_CP2U - Cristina Lemnaru.jpg",
+      "description": "logo_CP2U",
+      "submitter": "Cristina Lemnaru",
+      "reason": "Low confidence or multiple candidates",
+      "topCandidates": [
+        {
+          "name": "CONNECT PEOPLE 2U",
+          "country": "Romania",
+          "score": 10,
+          "reasons": [
+            "Country matches existing mapping"
+          ]
+        },
+        {
+          "name": "ASOCIATIA TINERILOR ROMI, ENERGICI AMBITIOSI SI MOTIVATI",
+          "country": "Romania",
+          "score": 10,
+          "reasons": [
+            "Country matches existing mapping"
+          ]
+        },
+        {
+          "name": "DAR DEVELOPMENT ASSOCIATION",
+          "country": "Romania",
+          "score": 10,
+          "reasons": [
+            "Country matches existing mapping"
+          ]
+        }
+      ],
+      "existingMapping": {
+        "name": "CP2U",
+        "country": "Romania",
+        "website": null
+      }
+    },
+    {
+      "filename": "logo_ema-300x94 - EMA Project Support.gif",
+      "description": "logo_ema",
+      "submitter": "300x94 - EMA Project Support",
+      "reason": "Low confidence or multiple candidates",
+      "topCandidates": [
+        {
+          "name": "Erasmus Mundus Association",
+          "country": "Belgium",
+          "score": 50,
+          "reasons": [
+            "Acronym matched"
+          ]
+        },
+        {
+          "name": "Verde: Center for Research, Innovation and Sustainable Development",
+          "country": "Greece",
+          "score": 10,
+          "reasons": [
+            "Country matches existing mapping"
+          ]
+        },
+        {
+          "name": "Kültür Eğitim ve Proje Derneği",
+          "country": "Turkey",
+          "score": 10,
+          "reasons": [
+            "1 keyword(s) matched"
+          ]
+        }
+      ],
+      "existingMapping": {
+        "name": "EMA Project Support",
+        "country": "Greece",
+        "website": null
+      }
+    },
+    {
+      "filename": "logo_jpg - Nicola GIOIA.jpg",
+      "description": "logo_jpg",
+      "submitter": "Nicola GIOIA",
+      "reason": "Low confidence or multiple candidates",
+      "topCandidates": [
+        {
+          "name": "Easysustainability",
+          "country": "Italy",
+          "score": 10,
+          "reasons": [
+            "Country matches existing mapping"
+          ]
+        },
+        {
+          "name": "Programma integra",
+          "country": "Italy",
+          "score": 10,
+          "reasons": [
+            "Country matches existing mapping"
+          ]
+        },
+        {
+          "name": "Comunità Progetto Sud - ONLUS",
+          "country": "Italy",
+          "score": 10,
+          "reasons": [
+            "Country matches existing mapping"
+          ]
+        }
+      ],
+      "existingMapping": {
+        "name": "Nicola GIOIA Association",
+        "country": "Italy",
+        "website": null
+      }
+    },
+    {
+      "filename": "logonew - Ayşe K..png",
+      "description": "logonew - Ayşe K.",
+      "submitter": null,
+      "reason": "No candidates found",
+      "existingMapping": null
+    },
+    {
+      "filename": "logonew - Damla Keleş.png",
+      "description": "logonew",
+      "submitter": "Damla Keleş",
+      "reason": "No candidates found",
+      "existingMapping": null
+    },
+    {
+      "filename": "logotyp msk_2022 - Joanna Szczecinska.png",
+      "description": "logotyp msk_2022",
+      "submitter": "Joanna Szczecinska",
+      "reason": "Low confidence or multiple candidates",
+      "topCandidates": [
+        {
+          "name": "Rzeszowska Agencja Rozwoju Regionalnego Spółka Akcyjne (Rzeszow Regional Development Agency)",
+          "country": "Poland",
+          "score": 10,
+          "reasons": [
+            "Country matches existing mapping"
+          ]
+        },
+        {
+          "name": "Miejska Strefa Kultury w Łodzi",
+          "country": "Poland",
+          "score": 10,
+          "reasons": [
+            "Country matches existing mapping"
+          ]
+        },
+        {
+          "name": "Fundacja „PSYCHOCENTER”",
+          "country": "Poland",
+          "score": 10,
+          "reasons": [
+            "Country matches existing mapping"
+          ]
+        }
+      ],
+      "existingMapping": {
+        "name": "MSK Foundation",
+        "country": "Poland",
+        "website": null
+      }
+    },
+    {
+      "filename": "meb-logo - Zky Bkr.png",
+      "description": "meb",
+      "submitter": "logo - Zky Bkr",
+      "reason": "Low confidence or multiple candidates",
+      "topCandidates": [
+        {
+          "name": "Naciye Pehlivanlı Saran Anadolu Lisesi",
+          "country": "Turkey",
+          "score": 10,
+          "reasons": [
+            "Country matches existing mapping"
+          ]
+        },
+        {
+          "name": "Bosphorus Youth Team",
+          "country": "Turkey",
+          "score": 10,
+          "reasons": [
+            "Country matches existing mapping"
+          ]
+        },
+        {
+          "name": "KUCUKCEKMECE MUNICIPALITY",
+          "country": "Turkey",
+          "score": 10,
+          "reasons": [
+            "Country matches existing mapping"
+          ]
+        }
+      ],
+      "existingMapping": {
+        "name": "MEB Turkey",
+        "country": "Turkey",
+        "website": null
+      }
+    },
+    {
+      "filename": "underdevelopmentlogo - Thomas Savvakis.jpg",
+      "description": "underdevelopmentlogo",
+      "submitter": "Thomas Savvakis",
+      "reason": "Low confidence or multiple candidates",
+      "topCandidates": [
+        {
+          "name": "Verde: Center for Research, Innovation and Sustainable Development",
+          "country": "Greece",
+          "score": 20,
+          "reasons": [
+            "1 keyword(s) matched",
+            "Country matches existing mapping"
+          ]
+        },
+        {
+          "name": "leaders foundation for management science and development",
+          "country": "Egypt",
+          "score": 10,
+          "reasons": [
+            "1 keyword(s) matched"
+          ]
+        },
+        {
+          "name": "Rzeszowska Agencja Rozwoju Regionalnego Spółka Akcyjne (Rzeszow Regional Development Agency)",
+          "country": "Poland",
+          "score": 10,
+          "reasons": [
+            "1 keyword(s) matched"
+          ]
+        }
+      ],
+      "existingMapping": {
+        "name": "Under Development",
+        "country": "Greece",
+        "website": null
+      }
+    },
+    {
+      "filename": "unnamed - Ismail hakkı YAVUZYİĞİT.png",
+      "description": "unnamed",
+      "submitter": "Ismail hakkı YAVUZYİĞİT",
+      "reason": "No candidates found",
+      "existingMapping": null
+    },
+    {
+      "filename": "new logos/485112844_1144645754126569_1090105995087966129_n - Giuseppe Leotta.jpg",
+      "description": "485112844_1144645754126569_1090105995087966129_n",
+      "submitter": "Giuseppe Leotta",
+      "reason": "Low confidence or multiple candidates",
+      "topCandidates": [
+        {
+          "name": "Easysustainability",
+          "country": "Italy",
+          "score": 10,
+          "reasons": [
+            "Country matches existing mapping"
+          ]
+        },
+        {
+          "name": "Programma integra",
+          "country": "Italy",
+          "score": 10,
+          "reasons": [
+            "Country matches existing mapping"
+          ]
+        },
+        {
+          "name": "Comunità Progetto Sud - ONLUS",
+          "country": "Italy",
+          "score": 10,
+          "reasons": [
+            "Country matches existing mapping"
+          ]
+        }
+      ],
+      "existingMapping": {
+        "name": "Giuseppe Leotta Foundation",
+        "country": "Italy",
+        "website": null
+      }
+    },
+    {
+      "filename": "new logos/IMG-20251124-WA0006 - Albert Ndeze.jpg",
+      "description": "IMG",
+      "submitter": "20251124-WA0006 - Albert Ndeze",
+      "reason": "No candidates found",
+      "existingMapping": {
+        "name": "Albert Ndeze Organization",
+        "country": "Cameroon",
+        "website": null
+      }
+    },
+    {
+      "filename": "new logos/LOGO ASS A-SAFAA-09 - Ahmed MOUHIB.png",
+      "description": "LOGO ASS A",
+      "submitter": "SAFAA-09 - Ahmed MOUHIB",
+      "reason": "Low confidence or multiple candidates",
+      "topCandidates": [
+        {
+          "name": "Asociația Scout Society",
+          "country": "Romania",
+          "score": 50,
+          "reasons": [
+            "Acronym matched"
+          ]
+        },
+        {
+          "name": "Association Assafaa pour l'Environnement et le Développement",
+          "country": "Morocco",
+          "score": 10,
+          "reasons": [
+            "Country matches existing mapping"
+          ]
+        }
+      ],
+      "existingMapping": {
+        "name": "Association A-SAFAA",
+        "country": "Morocco",
+        "website": null
+      }
+    },
+    {
+      "filename": "new logos/LOGO1 - Karolina Jedziniak.png",
+      "description": "LOGO1",
+      "submitter": "Karolina Jedziniak",
+      "reason": "Low confidence or multiple candidates",
+      "topCandidates": [
+        {
+          "name": "Rzeszowska Agencja Rozwoju Regionalnego Spółka Akcyjne (Rzeszow Regional Development Agency)",
+          "country": "Poland",
+          "score": 10,
+          "reasons": [
+            "Country matches existing mapping"
+          ]
+        },
+        {
+          "name": "Miejska Strefa Kultury w Łodzi",
+          "country": "Poland",
+          "score": 10,
+          "reasons": [
+            "Country matches existing mapping"
+          ]
+        },
+        {
+          "name": "Fundacja „PSYCHOCENTER”",
+          "country": "Poland",
+          "score": 10,
+          "reasons": [
+            "Country matches existing mapping"
+          ]
+        }
+      ],
+      "existingMapping": {
+        "name": "Cluster Spotkania Kultur",
+        "country": "Poland",
+        "website": "http://www.spotkanikultur.com"
+      }
+    },
+    {
+      "filename": "new logos/LOGO_EUROBOX_Logo Eurobox sfondo blu - Mariangela Eurobox.jpg",
+      "description": "LOGO_EUROBOX_Logo Eurobox sfondo blu",
+      "submitter": "Mariangela Eurobox",
+      "reason": "Low confidence or multiple candidates",
+      "topCandidates": [
+        {
+          "name": "EUROBOX ETS",
+          "country": "Italy",
+          "score": 20,
+          "reasons": [
+            "1 keyword(s) matched",
+            "Country matches existing mapping"
+          ]
+        },
+        {
+          "name": "Easysustainability",
+          "country": "Italy",
+          "score": 10,
+          "reasons": [
+            "Country matches existing mapping"
+          ]
+        },
+        {
+          "name": "Programma integra",
+          "country": "Italy",
+          "score": 10,
+          "reasons": [
+            "Country matches existing mapping"
+          ]
+        }
+      ],
+      "existingMapping": {
+        "name": "EUROBOX SRL",
+        "country": "Italy",
+        "website": "https://www.eurobox.it/"
+      }
+    },
+    {
+      "filename": "new logos/Logo - Cemile ABDULGANİOĞLU.JPG",
+      "description": "Logo",
+      "submitter": "Cemile ABDULGANİOĞLU",
+      "reason": "No candidates found",
+      "existingMapping": null
+    },
+    {
+      "filename": "new logos/Logo - Milan Jankuloski.jpg",
+      "description": "Logo",
+      "submitter": "Milan Jankuloski",
+      "reason": "Low confidence or multiple candidates",
+      "topCandidates": [
+        {
+          "name": "ASSOCIATION FOR THE DEVELOPMENT OF THE PROINCLUSIVE, DIGITAL AND ENVIRONMENTAL EDUCATION",
+          "country": "North Macedonia",
+          "score": 10,
+          "reasons": [
+            "Country matches existing mapping"
+          ]
+        },
+        {
+          "name": "ARD Local Action Group  PRESPA RESEN",
+          "country": "North Macedonia",
+          "score": 10,
+          "reasons": [
+            "Country matches existing mapping"
+          ]
+        },
+        {
+          "name": "Association for cultural, sport and educational development \"World of Change\"",
+          "country": "North Macedonia",
+          "score": 10,
+          "reasons": [
+            "Country matches existing mapping"
+          ]
+        }
+      ],
+      "existingMapping": {
+        "name": "ATLAS Innovation Center",
+        "country": "North Macedonia",
+        "website": null
+      }
+    },
+    {
+      "filename": "new logos/Logo_Caravel - Gallery Caravel.png",
+      "description": "Logo_Caravel",
+      "submitter": "Gallery Caravel",
+      "reason": "Low confidence or multiple candidates",
+      "topCandidates": [
+        {
+          "name": "AcrossLimits",
+          "country": "Malta",
+          "score": 10,
+          "reasons": [
+            "Country matches existing mapping"
+          ]
+        },
+        {
+          "name": "International Alliance for Integration & Sustainability",
+          "country": "Malta",
+          "score": 10,
+          "reasons": [
+            "Country matches existing mapping"
+          ]
+        }
+      ],
+      "existingMapping": {
+        "name": "Gallery Caravel",
+        "country": "Malta",
+        "website": "https://www.facebook.com/gallerycaravel/"
+      }
+    },
+    {
+      "filename": "new logos/Purple on White - AY Institute.png",
+      "description": "Purple on White",
+      "submitter": "AY Institute",
+      "reason": "Low confidence or multiple candidates",
+      "topCandidates": [
+        {
+          "name": "Naciye Pehlivanlı Saran Anadolu Lisesi",
+          "country": "Turkey",
+          "score": 10,
+          "reasons": [
+            "Country matches existing mapping"
+          ]
+        },
+        {
+          "name": "Bosphorus Youth Team",
+          "country": "Turkey",
+          "score": 10,
+          "reasons": [
+            "Country matches existing mapping"
+          ]
+        },
+        {
+          "name": "KUCUKCEKMECE MUNICIPALITY",
+          "country": "Turkey",
+          "score": 10,
+          "reasons": [
+            "Country matches existing mapping"
+          ]
+        }
+      ],
+      "existingMapping": {
+        "name": "AY Institute",
+        "country": "Turkey",
+        "website": null
+      }
+    },
+    {
+      "filename": "new logos/ROOTS LOGO - yunus Denizli.jpg",
+      "description": "ROOTS LOGO",
+      "submitter": "yunus Denizli",
+      "reason": "Low confidence or multiple candidates",
+      "topCandidates": [
+        {
+          "name": "Naciye Pehlivanlı Saran Anadolu Lisesi",
+          "country": "Turkey",
+          "score": 10,
+          "reasons": [
+            "Country matches existing mapping"
+          ]
+        },
+        {
+          "name": "Bosphorus Youth Team",
+          "country": "Turkey",
+          "score": 10,
+          "reasons": [
+            "Country matches existing mapping"
+          ]
+        },
+        {
+          "name": "KUCUKCEKMECE MUNICIPALITY",
+          "country": "Turkey",
+          "score": 10,
+          "reasons": [
+            "Country matches existing mapping"
+          ]
+        }
+      ],
+      "existingMapping": {
+        "name": "ROOTS Youth",
+        "country": "Turkey",
+        "website": null
+      }
+    },
+    {
+      "filename": "new logos/ScoutSocietyLogo - Ciprian Sfirlogea.jpg",
+      "description": "ScoutSocietyLogo",
+      "submitter": "Ciprian Sfirlogea",
+      "reason": "Low confidence or multiple candidates",
+      "topCandidates": [
+        {
+          "name": "Asociația Scout Society",
+          "country": "Romania",
+          "score": 30,
+          "reasons": [
+            "2 keyword(s) matched",
+            "Country matches existing mapping"
+          ]
+        },
+        {
+          "name": "CONNECT PEOPLE 2U",
+          "country": "Romania",
+          "score": 10,
+          "reasons": [
+            "Country matches existing mapping"
+          ]
+        },
+        {
+          "name": "ASOCIATIA TINERILOR ROMI, ENERGICI AMBITIOSI SI MOTIVATI",
+          "country": "Romania",
+          "score": 10,
+          "reasons": [
+            "Country matches existing mapping"
+          ]
+        }
+      ],
+      "existingMapping": {
+        "name": "Scout Society",
+        "country": "Romania",
+        "website": "www.scoutsociety.org"
+      }
+    },
+    {
+      "filename": "new logos/UNTSPB_2025_logo - Taty Dina.png",
+      "description": "UNTSPB_2025_logo",
+      "submitter": "Taty Dina",
+      "reason": "No candidates found",
+      "existingMapping": {
+        "name": "Union of Neuroscience and Technology of Saint Petersburg",
+        "country": "Russia",
+        "website": "https://vk.com/untspb"
+      }
+    },
+    {
+      "filename": "new logos/WhatsApp Image 2025-11-27 at 14.44.48 - Onur Açıkgöz.jpeg",
+      "description": "WhatsApp Image 2025-11-27 at 14.44.48",
+      "submitter": "Onur Açıkgöz",
+      "reason": "No candidates found",
+      "existingMapping": null
+    },
+    {
+      "filename": "new logos/Zenith Logo - Ciprian Sfirlogea.png",
+      "description": "Zenith Logo",
+      "submitter": "Ciprian Sfirlogea",
+      "reason": "Low confidence or multiple candidates",
+      "topCandidates": [
+        {
+          "name": "Zenith Industries Inc SRL",
+          "country": "Romania",
+          "score": 20,
+          "reasons": [
+            "1 keyword(s) matched",
+            "Country matches existing mapping"
+          ]
+        },
+        {
+          "name": "CONNECT PEOPLE 2U",
+          "country": "Romania",
+          "score": 10,
+          "reasons": [
+            "Country matches existing mapping"
+          ]
+        },
+        {
+          "name": "ASOCIATIA TINERILOR ROMI, ENERGICI AMBITIOSI SI MOTIVATI",
+          "country": "Romania",
+          "score": 10,
+          "reasons": [
+            "Country matches existing mapping"
+          ]
+        }
+      ],
+      "existingMapping": {
+        "name": "Zenith Organization",
+        "country": "Romania",
+        "website": null
+      }
+    },
+    {
+      "filename": "new logos/klaster_Czarny - Karolina Jedziniak.png",
+      "description": "klaster_Czarny",
+      "submitter": "Karolina Jedziniak",
+      "reason": "Low confidence or multiple candidates",
+      "topCandidates": [
+        {
+          "name": "Klaster Innowacji Społecznych",
+          "country": "Poland",
+          "score": 20,
+          "reasons": [
+            "1 keyword(s) matched",
+            "Country matches existing mapping"
+          ]
+        },
+        {
+          "name": "Rzeszowska Agencja Rozwoju Regionalnego Spółka Akcyjne (Rzeszow Regional Development Agency)",
+          "country": "Poland",
+          "score": 10,
+          "reasons": [
+            "Country matches existing mapping"
+          ]
+        },
+        {
+          "name": "Miejska Strefa Kultury w Łodzi",
+          "country": "Poland",
+          "score": 10,
+          "reasons": [
+            "Country matches existing mapping"
+          ]
+        }
+      ],
+      "existingMapping": {
+        "name": "Cluster Spotkania Kultur",
+        "country": "Poland",
+        "website": "http://www.spotkanikultur.com"
+      }
+    },
+    {
+      "filename": "new logos/logo - Associação Poiomar.png",
+      "description": "logo",
+      "submitter": "Associação Poiomar",
+      "reason": "Low confidence or multiple candidates",
+      "topCandidates": [
+        {
+          "name": "Associação Poiomar",
+          "country": "Portugal",
+          "score": 20,
+          "reasons": [
+            "2 keyword(s) matched"
+          ]
+        },
+        {
+          "name": "Rural Move: Rural Move - Associação para a Promoção do Investimento nos Territórios de Baixa Densidade",
+          "country": "Portugal",
+          "score": 10,
+          "reasons": [
+            "1 keyword(s) matched"
+          ]
+        },
+        {
+          "name": "Conversas Associação Internacional",
+          "country": "Portugal",
+          "score": 10,
+          "reasons": [
+            "1 keyword(s) matched"
+          ]
+        }
+      ],
+      "existingMapping": null
+    },
+    {
+      "filename": "new logos/logo - project muwada.png",
+      "description": "logo",
+      "submitter": "project muwada",
+      "reason": "Low confidence or multiple candidates",
+      "topCandidates": [
+        {
+          "name": "Kültür Eğitim ve Proje Derneği",
+          "country": "Turkey",
+          "score": 10,
+          "reasons": [
+            "1 keyword(s) matched"
+          ]
+        }
+      ],
+      "existingMapping": {
+        "name": "Project Muwada",
+        "country": "Palestine",
+        "website": null
+      }
+    }
+  ]
+}
