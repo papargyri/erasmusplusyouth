@@ -2,7 +2,7 @@
 
 ##  CORRECTIONS APPLIED SUCCESSFULLY
 
-### 📊 Before & After Stats
+###  Before & After Stats
 
 | Metric | Before | After | Change |
 |--------|--------|-------|--------|
